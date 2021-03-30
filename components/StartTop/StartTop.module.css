@@ -1,0 +1,32 @@
+.mainDiv {
+    width: auto;
+}
+
+.mainDiv h1 {
+    position: absolute;
+    font-size: 50px;
+    top: 25%;
+    color: aliceblue;
+    width: 98.7vw;
+    display: flex;
+    justify-content: center;
+}
+
+.mainDiv img {
+    object-fit: fill;
+    height: 70vh;
+    width: 98.7vw;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .mainDiv h1 {
+        top: 20%;
+        font-size: 40px;
+        width: 100vw;
+    }
+    .mainDiv img {
+        width: 100vw;
+        height: 50vh;
+    }
+}

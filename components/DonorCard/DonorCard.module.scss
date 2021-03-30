@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:700,400&display=swap");
+
+// * {
+//     box-sizing: border-box;
+//     margin: 0;
+//     padding: 0;
+// }
+.appWrap {
+    grid-column-start: 2;
+    width: 100%;
+}
+
+.appContainer {
+    background: conic-gradient(from -90deg at 50% 105%, white, orchid);
+    border-radius: 10px;
+    margin: 45px auto;
+    max-width: 350px;
+    padding: 95px 15px 55px 15px;
+    box-shadow: 0 19px 38px rgba(126, 55, 158, 0.017),
+        0 15px 12px rgba(43, 17, 46, 0.19);
+    position: relative;
+    overflow: hidden;
+}
+
+.headerImg {
+    width: 100%;
+    height: 175px;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    right: -10%;
+    margin: 0 auto;
+    z-index: 1;
+    overflow: hidden;
+
+    img {
+        height: 140%;
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+.overlayElm {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #e359a7, #643d80);
+    background-size: cover;
+    opacity: 0.65;
+    z-index: 2;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profileImg {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 2px 22px 0px rgba(45, 41, 54, 0.55),
+        0px 0px 0px 4px rgba(45, 41, 54, 0.19);
+    z-index: 3;
+    img {
+        width: 100%;
+    }
+}
+
+.contentContainer {
+    margin: 0 auto;
+    text-align: center;
+    color: #55415d;
+    h3 {
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 3px;
+            background-color: #cc88cc;
+            margin: 0 auto;
+            position: relative;
+            top: 12px;
+        }
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    a {
+        color: #55415d;
+        font-size: 2rem;
+    }
+}

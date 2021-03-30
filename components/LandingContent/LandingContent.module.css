@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500;700&display=swap');
+
+.topDiv {
+    margin-top: 6vh;
+    text-align: center;
+    width: 98.7vw;
+    margin-bottom: 4vh;
+}
+
+.topDiv h2 {
+    font-size: 2rem !important;
+}
+
+.topDiv div {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    border-top: 5px solid black;
+}
+
+.topDiv p {
+    width: 80.7vw;
+    margin-left: 9vw;
+}
+
+.midDiv {
+    background: #152f4f;
+    padding-top: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.midDiv h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+    font-size: 7rem;
+    position: absolute;
+    color: azure;
+    top: 10%;
+    left: 10%;
+}
+
+.midDiv span > div {
+    margin-right: 10%;
+}
+
+.midDiv span > div:nth-child(2) {
+    margin-left: 75%;
+}
+
+.midDiv span > div:nth-child(3) button {
+    color: aliceblue;
+}
+
+.bottomDiv {
+    background: #ef6603;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bottomDiv h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+    font-size: 5rem;
+    /* position: absolute; */
+    top: 10%;
+    right: 10%;
+    color: #152f4f;
+    text-align: center;
+}
+
+.bottomDiv div {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    border-top: 5px solid #152f4f;
+}
+
+.bottomDiv p {
+    width: 80.7vw;
+    margin-left: 9vw;
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+.bottomDiv a, .bottomDiv a:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* .bottomDiv span > div {
+    margin-left: 10%;
+}
+
+.bottomDiv span > div:nth-child(2) {
+    margin-left: 25%;
+}
+
+.bottomDiv span > div:nth-child(2) span {
+    background: #152f4f;
+}
+
+.bottomDiv span > div:nth-child(3) {
+    justify-content: flex-start;
+    margin-left: 35%;
+} */
+
+@media (max-width: 1300px) {
+    .bottomDiv h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .midDiv h2, .bottomDiv h2 {
+        position: relative;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100vw;
+        text-align: center;
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,82 @@
+#header {
+    height: auto;
+    transition: all 0.5s;
+    z-index: 950;
+    transition: all 0.5s;
+    background: rgba(42, 44, 57, 0.9);
+}
+
+#header.headertransparent {
+    background: transparent;
+}
+
+#header.headerscrolled {
+    background: rgba(42, 44, 57, 0.9);
+}
+
+@media (max-width: 992px) {
+    #header.headertransparent {
+        background: rgba(42, 44, 57, 0.9);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1054px) {
+    #header img {
+        height: 80px;
+        width: 80px;
+    }
+    #header span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 606px) {
+    #header img {
+        height: 80px;
+        width: 80px;
+    }
+    #header span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 516px) {
+    #header img {
+        height: 70px;
+        width: 70px;
+    }
+    #header span {
+        font-size: .9rem;
+    }
+}
+
+.dropd > a {
+    padding-left: 1.0rem!important;
+    color: white!important;
+}
+
+.dropd a {
+    border-radius: 50px;
+}
+
+.nesdrop > a {
+    color: black!important;
+    padding-left: 1.0rem!important;
+}
+
+.singlink {
+    border-radius: 50px;
+    color: white!important;
+    padding-left: 1.0rem!important;
+    padding-right: 1.0rem!important;
+} 
+
+
+.singlink:hover {
+    background: #ef6603;
+} 
+
+.dropd a:hover {
+    color: white!important;
+    background: #ef6603;
+}

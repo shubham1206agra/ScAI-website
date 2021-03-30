@@ -1,0 +1,29 @@
+.main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+    font-size: 20px;
+    line-height: 1.618;
+}
+
+.main a:hover {
+    text-decoration: none;
+}
+
+.main strong {
+    font-style: italic;
+}
+
+.main p, .main li {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
