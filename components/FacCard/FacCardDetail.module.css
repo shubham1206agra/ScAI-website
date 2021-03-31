@@ -20,7 +20,8 @@
     letter-spacing: 1px;
     width: calc(90% - 100px);
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 0px auto;
+    margin-bottom: 20px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     display: grid;

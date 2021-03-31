@@ -187,10 +187,9 @@ export default class Grid extends React.Component {
                                                             ? "100vh"
                                                             : height,
                                                     zIndex:
-                                                        lastOpen === c.key ||
                                                         open === c.key
                                                             ? 1000
-                                                            : i,
+                                                            : 10,
                                                     transform: interpolate(
                                                         [x, y],
                                                         (x, y) =>
@@ -201,6 +200,7 @@ export default class Grid extends React.Component {
                                                     c.object,
                                                     open === c.key,
                                                     () => {
+                                                        // console.log(lastOpen,  open);
                                                         this.toggle(c.key);
                                                         this.innerRef.scrollIntoView();
                                                     }

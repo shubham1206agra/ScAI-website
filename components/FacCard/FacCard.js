@@ -2,7 +2,7 @@ import styles from "./FacCard.module.css";
 
 const FacCard = (props) => {
     return (
-        <article className={`${styles.card} ${styles.cardxhsm}`}>
+        <article style={{zIndex: 1}} className={`${styles.card} ${styles.cardxhsm}`}>
             <img
                 src={props.data.image}
                 className={styles.cardimgtop}
