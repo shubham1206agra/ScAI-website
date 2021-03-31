@@ -35,10 +35,7 @@ const Data = () => {
                         process that leverage full strength of archived sensor
                         data. However, a key technical challenge here is the
                         variety of the data, which may be discrete, continuous,
-                        sequential. A key feature that we propose here is that
-                        components and subcomponents can be modeled as graph
-                        with distinct dynamics. Online adaptation models are
-                        carried out to make these models timely.
+                        sequential.
                     </p>
                     <li>Intelligent and Sustainable Operation</li>
                     <p>
@@ -49,10 +46,7 @@ const Data = () => {
                         factored in accounting for less wastage (lean
                         production), less emissions (green production). To
                         achieve this we envisage to solve a multi-objective
-                        optimization problem honouring various constraints. One
-                        of the targeted application is optimal and sustainable
-                        operation of power generation system in response to
-                        demands while minimizing the environmental effects.
+                        optimization problem honouring various constraints.
                     </p>
                     <li>Anomaly Detection</li>
                     <p>
@@ -64,9 +58,7 @@ const Data = () => {
                         sub-components. Causal inference between multiple
                         sub-units will also be evaluated. This step will aid in
                         the sensor network design or retrofitting for efficient
-                        information processing. A key application that is
-                        currently understudy includes water system networks for
-                        leakage detection.
+                        information processing.
                     </p>
                 </ol>
                 <h4>Impact Areas</h4>
@@ -120,9 +112,9 @@ const Data = () => {
                         Discovery and Data Mining (pp. 1415-1424).
                     </li>
                     <li>
-                        Arnob Ghosh, Vaneet Aggarwal, and Hong Wan,
-                        "Strategic Prosumers: How to set prices in the Tiered
-                        Electric Market?", in IEEE Transactions on Industrial
+                        Arnob Ghosh, Vaneet Aggarwal, and Hong Wan, "Strategic
+                        Prosumers: How to set prices in the Tiered Electric
+                        Market?", in IEEE Transactions on Industrial
                         Informatics, August 2019, vol. 15, no. 8, pp.4469–4480
                     </li>
                 </ol>

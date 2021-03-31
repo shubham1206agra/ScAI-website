@@ -91,6 +91,7 @@
 }
 .cardimgtop {
     width: 100%;
+    height: 300px;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
 }
