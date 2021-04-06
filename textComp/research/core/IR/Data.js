@@ -27,7 +27,6 @@ const Data = () => {
                     subareas of Social media analysis, Information extraction,
                     Graph data management, Knowledge graph reasoning,
                     Representation learning for structured data among others.
-                    Our current projects focus on applications in
                 </p>
                 <p>
                     Our group has developed and continues to develop highly
@@ -81,11 +80,11 @@ const Data = () => {
                 </ul>
                 <h4>Faculty Members Currently Involved</h4>
                 <ul>
-                    <li>Dr. Amitabha Bagchi</li>
-                    <li>Dr. Srikanta Bedathur</li>
-                    <li>Dr. Abhijnan Chakraborty</li>
-                    <li>Dr. Maya Ramanath</li>
-                    <li>Dr. Sayan Ranu</li>
+                    <li>Amitabha Bagchi</li>
+                    <li>Srikanta Bedathur</li>
+                    <li>Abhijnan Chakraborty</li>
+                    <li>Maya Ramanath</li>
+                    <li>Sayan Ranu</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>

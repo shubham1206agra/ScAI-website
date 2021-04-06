@@ -37,11 +37,11 @@ const Data = () => {
                 </ul>
                 <h4>Faculty Members Currently Involved</h4>
                 <ul>
-                    <li>Dr. Sitikantha Roy</li>
-                    <li>Dr. Souvik Chakraborty</li>
-                    <li>Dr. Shaurya Shriyam</li>
-                    <li>Dr. Chetan Arora</li>
-                    <li>Dr. Rohan Paul </li>
+                    <li>Sitikantha Roy</li>
+                    <li>Souvik Chakraborty</li>
+                    <li>Shaurya Shriyam</li>
+                    <li>Chetan Arora</li>
+                    <li>Rohan Paul </li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>

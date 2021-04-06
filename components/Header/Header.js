@@ -4,9 +4,9 @@ import styles from "./Header.module.css";
 import Link from "next/link";
 import { Navbar, Nav, NavDropdown, Row, Col, Container } from "react-bootstrap";
 
-const Header = () => {
+const Header = (props) => {
     const [scY, updatescY] = useState(0);
-    const scrollEvent = () => updatescY(window.scrollY); 
+    const scrollEvent = () => updatescY(window.scrollY);
     useEffect(() => {
         updatescY(window.scrollY);
         document.addEventListener("scroll", (e) => scrollEvent());
@@ -21,9 +21,9 @@ const Header = () => {
             fixed="top"
             collapseOnSelect
             expand="lg"
-            className={`d-flex align-items-center ${styles.headertransparent} ${
-                scY < 100 ? "" : styles.headerscrolled
-            }`}
+            className={`d-flex align-items-center ${
+                props.alwcol ? styles.headerscrolled : styles.headertransparent
+            } ${scY < 100 ? "" : styles.headerscrolled}`}
         >
             <Link href="/">
                 <Navbar.Brand href="/">
@@ -178,10 +178,7 @@ const Header = () => {
                         </Link>
                     </NavDropdown> */}
                     <Link href="/support">
-                        <Nav.Link
-                            className={styles.singlink}
-                            href="/support"
-                        >
+                        <Nav.Link className={styles.singlink} href="/support">
                             Support Us
                         </Nav.Link>
                     </Link>

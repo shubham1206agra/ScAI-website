@@ -1,4 +1,5 @@
 import styles from "./FacCard.module.css";
+import React from 'react'
 
 const FacCard = (props) => {
     return (
@@ -10,7 +11,7 @@ const FacCard = (props) => {
             <div className={styles.cardbody}>
                 <h5 className={styles.cardtitle}>{props.data.name}</h5>
                 <h6 className={styles.cardsubtitle}>{props.data.position}</h6>
-                <p className={styles.cardtext} style={{ fontSize: ".8rem" }}>
+                <p className={styles.cardtext} style={{ fontSize: ".8rem", textTransform: 'capitalize' }}>
                     <strong>Research areas</strong>:{" "}
                     {props.data.research_areas.join(", ")}
                 </p>

@@ -5,7 +5,7 @@ const StartTop = (props) => {
         <div className={styles.mainDiv}>
             <img
                 src={props.image}
-                alt="rand"
+                alt="Top Bg Image"
             />
             <h1>{props.text}</h1>
         </div>

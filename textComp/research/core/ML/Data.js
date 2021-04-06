@@ -81,18 +81,13 @@ const Data = () => {
                 </ul> */}
                 <h4>Faculty Members Currently Involved</h4>
                 <ul>
-                    <li>Dr. Sayan Ranu</li>
-                    <li>Dr. Sandeep Kumar</li>
-                    <li>Dr. Jayadeva</li>
-                    <li>Dr. Parag Singla</li>
+                    <li>Sayan Ranu</li>
+                    <li>Sandeep Kumar</li>
+                    <li>Jayadeva</li>
+                    <li>Parag Singla</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>
-                    <li>
-                        D. D. Johnson, H. Larochelle, and D. Tarlow., Learning
-                        graph structure with a finite-state automaton layer
-                        (2020). arXiv:2007.04929.
-                    </li>
                     <li>
                         Sarisht Wadhwa, Anagh Prasad, Sayan Ranu, Amitabha
                         Bagchi and Srikanta Bedathur, "Efficiently Answering

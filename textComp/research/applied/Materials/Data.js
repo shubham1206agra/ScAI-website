@@ -43,13 +43,13 @@ const Data = () => {
                 </ul>
                 <h4>Faculty Members Currently Involved</h4>
                 <ul>
-                    <li>Dr. Debanjan Bhowmik</li>
-                    <li>Dr. Jayadeva</li>
-                    <li>Dr. Mausam</li>
-                    <li>Dr. N. M. Anoop Krishnan</li>
-                    <li>Dr. Nitya Nand Gosvami</li>
-                    <li>Dr. Sayan Ranu</li>
-                    <li>Dr. Souvik Chakraborty</li>
+                    <li>Debanjan Bhowmik</li>
+                    <li>Jayadeva</li>
+                    <li>Mausam</li>
+                    <li>N. M. Anoop Krishnan</li>
+                    <li>Nitya Nand Gosvami</li>
+                    <li>Sayan Ranu</li>
+                    <li>Souvik Chakraborty</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>

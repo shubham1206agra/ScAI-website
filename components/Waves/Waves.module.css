@@ -3,7 +3,7 @@
     text-align: center;
     background: inherit;
     color: orange;
-    bottom: 27.5vh;
+    bottom: 51vh;
 }
 
 .waves {
@@ -47,7 +47,7 @@
 /*Shrinking for mobile*/
 @media (max-width: 800px) {
     .waves {
-        bottom: 20vh;
+        bottom: 10vh;
         height: 40px;
         min-height: 40px;
     }

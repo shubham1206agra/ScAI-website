@@ -17,7 +17,7 @@ const col = [
 
 const data = [
     {
-        name: "Dr. Mausam",
+        name: "Mausam",
         position: "Head",
         research_areas: [
             "Artificial Intelligence",
@@ -35,7 +35,7 @@ const data = [
         image: "/mausam.jpg",
     },
     {
-        name: "Dr. Sumeet Agarwal",
+        name: "Sumeet Agarwal",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning",
@@ -56,7 +56,7 @@ const data = [
         image: "/sumeet.jpg",
     },
     {
-        name: "Dr. Ankush Agrawal",
+        name: "Ankush Agrawal",
         // position: "Associate Professor",
         research_areas: [
             "Applied Econometrics",
@@ -74,7 +74,7 @@ const data = [
         image: "/ankush.jpg",
     },
     {
-        name: "Dr. Prathosh A.P.",
+        name: "Prathosh A.P.",
         // position: "Assistant Professor",
         research_areas: [
             "Vision and image processing",
@@ -91,7 +91,7 @@ const data = [
         image: "/prathosh.jpg",
     },
     {
-        name: "Dr. Chetan Arora",
+        name: "Chetan Arora",
         // position: "Associate Professor",
         research_areas: ["Computer Vision", "Machine Learning"],
         address: [
@@ -105,7 +105,7 @@ const data = [
         image: "/chetan.jpg",
     },
     {
-        name: "Dr. Amitabha Bagchi",
+        name: "Amitabha Bagchi",
         // position: "Professor",
         research_areas: [
             "Structural Properties of Networks",
@@ -123,7 +123,7 @@ const data = [
         image: "/amitabha.jpg",
     },
     {
-        name: "Dr. Sorav Bansal",
+        name: "Sorav Bansal",
         // position: "Associate Professor",
         research_areas: ["Compilers", "Operating Systems"],
         address: [
@@ -137,7 +137,7 @@ const data = [
         image: "/sorav.jpg",
     },
     {
-        name: "Dr. Srikanta Bedathur",
+        name: "Srikanta Bedathur",
         // position: "Associate Professor",
         research_areas: [
             "Data Management",
@@ -152,7 +152,7 @@ const data = [
         image: "/srikanta.png",
     },
     {
-        name: "Dr. Debanjan Bhowmik",
+        name: "Debanjan Bhowmik",
         // position: "Assistant Professor",
         research_areas: [
             "Artificial Intelligence at the Edge",
@@ -169,7 +169,7 @@ const data = [
         image: "/debanjan.png",
     },
     {
-        name: "Dr. Souvik Chakraborty",
+        name: "Souvik Chakraborty",
         // position: "Assistant Professor",
         research_areas: [
             "Deep learning",
@@ -191,7 +191,7 @@ const data = [
         image: "/souvik.png",
     },
     {
-        name: "Dr. Niladri Chatterjee",
+        name: "Niladri Chatterjee",
         // position: "Professor",
         research_areas: [
             "Machine Translation",
@@ -211,7 +211,7 @@ const data = [
         image: "/niladri.png",
     },
     {
-        name: "Dr. Arpan Chattopadhyay",
+        name: "Arpan Chattopadhyay",
         // position: "Assistant Professor",
         research_areas: [
             "IoT",
@@ -233,7 +233,7 @@ const data = [
         image: "/arpanc.png",
     },
     {
-        name: "Dr. Arnob Ghosh",
+        name: "Arnob Ghosh",
         // position: "Assistant Professor",
         research_areas: [
             "Reinforcement Learning",
@@ -253,7 +253,7 @@ const data = [
         image: "/arnob.jpg",
     },
     {
-        name: "Dr. Nitya Nand Gosvami",
+        name: "Nitya Nand Gosvami",
         // position: "Assistant Professor",
         research_areas: [
             "Fundamental Mechanisms of Friction and Wear of Materials",
@@ -275,7 +275,7 @@ const data = [
         image: "/nitya.jpg",
     },
     {
-        name: "Dr. Arpan Kumar Kar",
+        name: "Arpan Kumar Kar",
         // position: "Associate Professor",
         research_areas: ["Data Science", "Digital Transformation"],
         address: [
@@ -289,7 +289,7 @@ const data = [
         image: "/arpan.jpg",
     },
     {
-        name: "Dr. Hariprasad Kodamana",
+        name: "Hariprasad Kodamana",
         // position: "Assistant Professor",
         research_areas: [
             "Graphs",
@@ -309,7 +309,7 @@ const data = [
         image: "/hariprasad.jpg",
     },
     {
-        name: "Dr. N. M. Anoop Krishnan",
+        name: "N. M. Anoop Krishnan",
         // position: "Assistant Professor",
         research_areas: [
             "Materials Modelling",
@@ -327,7 +327,7 @@ const data = [
         image: "/anoop.jpg",
     },
     {
-        name: "Dr. Sandeep Kumar",
+        name: "Sandeep Kumar",
         // position: "Assistant Professor",
         research_areas: [
             "Optimization",
@@ -346,7 +346,7 @@ const data = [
         image: "/sandeep.png",
     },
     {
-        name: "Dr. Aparna Mehra",
+        name: "Aparna Mehra",
         // position: "Professor",
         research_areas: ["Optimization Theory"],
         address: [
@@ -360,7 +360,7 @@ const data = [
         image: "/aparna.png",
     },
     {
-        name: "Dr. Rohan Paul",
+        name: "Rohan Paul",
         // position: "Assistant Professor",
         research_areas: [
             "Robot Intelligence",
@@ -378,7 +378,7 @@ const data = [
         image: "/rohan.jpg",
     },
     {
-        name: "Dr. Maya Ramanath",
+        name: "Maya Ramanath",
         // position: "Associate Professor",
         research_areas: [
             "Database Systems and Information Retrieval",
@@ -396,7 +396,7 @@ const data = [
         image: "/maya.jpg",
     },
     {
-        name: "Dr. Sayan Ranu",
+        name: "Sayan Ranu",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning and Data Mining for Graphs",
@@ -411,7 +411,7 @@ const data = [
         image: "/sayan.jpg",
     },
     {
-        name: "Dr. Sitikantha Roy",
+        name: "Sitikantha Roy",
         // position: "Associate Professor",
         research_areas: [
             "Biomechanics of tissue damage",
@@ -433,7 +433,7 @@ const data = [
         image: "/sitikantha.png",
     },
     {
-        name: "Dr. Smruti R. Sarangi",
+        name: "Smruti R. Sarangi",
         // position: "Associate Professor",
         research_areas: [
             "Use of ML algorithms for temperature estimation and on-chip traffic prediction",
@@ -452,7 +452,7 @@ const data = [
         image: "/smruti.jpg",
     },
     {
-        name: "Dr. Rijurekha Sen",
+        name: "Rijurekha Sen",
         // position: "Assistant Professor",
         research_areas: [
             "Mobile and Embedded Systems (Hardware Architecture, OS, Sensing, Efficient Processing, Security)",
@@ -466,7 +466,7 @@ const data = [
         image: "/rijurekha.jpg",
     },
     {
-        name: "Dr. Shaurya Shriyam",
+        name: "Shaurya Shriyam",
         // position: "Assistant Professor",
         research_areas: [
             "Simulation Modelling",
@@ -484,7 +484,7 @@ const data = [
         image: "/shaurya.jpg",
     },
     {
-        name: "Dr. Parag Singla",
+        name: "Parag Singla",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning",
@@ -502,7 +502,7 @@ const data = [
         image: "/parag.jpg",
     },
     {
-        name: "Dr. D. Sundar",
+        name: "D. Sundar",
         // position: "Professor",
         research_areas: ["AI in Healthcare and Life Sciences"],
         address: ["XXXXXX", "IIT Delhi, Hauz Khas, New Delhi- 110016"],
@@ -513,7 +513,7 @@ const data = [
         image: "/sundar.png",
     },
     {
-        name: "Dr. Manan Suri",
+        name: "Manan Suri",
         // position: "Associate Professor",
         research_areas: [
             "Specialized Hardware for Edge and Enterprise AI",
@@ -533,7 +533,7 @@ const data = [
         image: "/manan.png",
     },
     {
-        name: "Dr. Ashwini Vaidya",
+        name: "Ashwini Vaidya",
         // position: "Assistant Professor",
         research_areas: ["Computational linguistics", "Cognitive Science"],
         address: [

@@ -7,6 +7,14 @@ body {
     height: 100%;
 }
 
+/* body {
+    filter: blur(.0px);
+    backface-visibility: hidden;
+    transform: perspective(1px) translateZ(0);
+    -webkit-text-stroke: 0px!important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+} */
+
 a {
     color: inherit;
     text-decoration: none;
@@ -14,4 +22,16 @@ a {
 
 * {
     box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+    .card-columns {
+        column-count: 2!important;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1!important;
+    }
 }

@@ -84,10 +84,10 @@ const Data = () => {
                 </ul>
                 <h4>Faculty Members Currently Involved</h4>
                 <ul>
-                    <li>Dr. Chetan Arora</li>
-                    <li>Dr. Jayadeva</li>
-                    <li>Dr. Rijurekha Sen</li>
-                    <li>Dr. Rohan Paul</li>
+                    <li>Chetan Arora</li>
+                    <li>Jayadeva</li>
+                    <li>Rijurekha Sen</li>
+                    <li>Rohan Paul</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>

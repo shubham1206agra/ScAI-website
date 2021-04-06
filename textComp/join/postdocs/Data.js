@@ -4,10 +4,13 @@ const Data = () => {
     return (
         <>
             <div className={styles.main}>
-                ScAI invites faculty applications in all areas of artificial
-                intelligence, where AI is interpreted broadly to include all of
-                traditional AI, machine learning and data science. Subareas of
-                interest include (but are not limited to):
+                <p>
+                    ScAI invites postdocs applications in all areas of
+                    artificial intelligence, where AI is interpreted broadly to
+                    include all of traditional AI, machine learning and data
+                    science. Subareas of interest include (but are not limited
+                    to):
+                </p>
                 <ul>
                     <li>
                         <strong>Mathematical Foundations of AI</strong>{" "}
@@ -49,9 +52,11 @@ const Data = () => {
                         applications of AI).
                     </li>
                 </ul>
-                ScAI strongly encourages applicants with demonstrated
-                track-record of working at the intersection of an application
-                area and the AI fields.
+                <p>
+                    ScAI strongly encourages applicants with demonstrated
+                    track-record of working at the intersection of an
+                    application area and the AI fields.
+                </p>
                 <p>
                     ScAI post-doctoral fellows may have done a PhD in any
                     relevant area such as computer science, electrical

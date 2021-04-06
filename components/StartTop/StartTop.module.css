@@ -13,8 +13,9 @@
 }
 
 .mainDiv img {
-    object-fit: fill;
-    height: 70vh;
+    object-fit: cover;
+    object-position: top;
+    height: 50vh;
     width: 98.7vw;
     margin: auto;
 }
@@ -24,9 +25,10 @@
         top: 20%;
         font-size: 40px;
         width: 100vw;
+        text-align: center;
     }
     .mainDiv img {
         width: 100vw;
-        height: 50vh;
+        height: 40vh;
     }
 }

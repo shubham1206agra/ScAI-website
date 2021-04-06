@@ -71,11 +71,11 @@ const Data = () => {
                 </ul>
                 <h4>Faculty Members Currently Involved</h4>
                 <ul>
-                    <li>Dr. Hariprasad Kodamana</li>
-                    <li>Dr. Sayan Ranu</li>
-                    <li>Dr. Souvik Chakraborty</li>
-                    <li>Dr. Shaurya Shriyam</li>
-                    <li>Dr. Arnob Ghosh</li>
+                    <li>Hariprasad Kodamana</li>
+                    <li>Sayan Ranu</li>
+                    <li>Souvik Chakraborty</li>
+                    <li>Shaurya Shriyam</li>
+                    <li>Arnob Ghosh</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>

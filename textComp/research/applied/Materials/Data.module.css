@@ -19,6 +19,10 @@
     padding-bottom: .5rem;
 }
 
+.main p {
+    text-align: justify;
+}
+
 .main img {
     display: block;
     margin-left: auto;

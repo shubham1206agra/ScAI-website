@@ -14,25 +14,19 @@ const Donors = () => {
                 image="https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80"
             />
             <Waves r={255} g={255} b={255} />
-            <DonorCard
-                img="https://media-exp1.licdn.com/dms/image/C5603AQEc2rec9vdnEg/profile-displayphoto-shrink_200_200/0/1591161678504?e=1622073600&v=beta&t=6jGPv4vbG7IYgyVaT4KqY21zdEoLP2BrLBOg-lF0ZpE"
-                name="Arun Duggal"
-                pos="Co-Founder"
-                desc="Chairman at ICRA Limited"
-                linkedin="https://www.linkedin.com/in/arun-duggal-38124331/"
-            />
             <p
                 style={{
+                    paddingTop: '5vh',
                     paddingRight: "10vw",
                     paddingLeft: "10vw",
                     fontSize: "20px",
-                    textAlign: "center",
+                    textAlign: "justify",
                 }}
             >
                 IIT Delhi sees alumni as important stakeholders, who have played
                 a critical role in the progress of the Institute. Alumni have
                 contributed to the growth of the Institute through their
-                financial and non- financial resources. The Institute sees the
+                financial and non-financial resources. The Institute sees the
                 establishment of ScAI as a bold step which will not only
                 strengthen IIT Delhi's academic and research credentials but
                 also enable the nation in its journey in scientific and
@@ -44,15 +38,28 @@ const Donors = () => {
                 scholarships to ambitious students, enabling the school to
                 attract the best faculty in AI, enabling the faculty and
                 students to attend global and domestic conferences, setting up
-                chair professorships, and strengthening research.{" "}
-                <p style={{paddingTop: '.8rem'}}>
-                    If you are interested in this endeavour, please write to{" "}
-                    <a href="mailto:hodscai@admin.iitd.ac.in">
-                        hodscai@admin.iitd.ac.in
-                    </a>{" "}
-                    for more details.
-                </p>
+                chair professorships, and strengthening research.
             </p>
+            <p style={{
+                    paddingRight: "10vw",
+                    paddingLeft: "10vw",
+                    fontSize: "20px",
+                    textAlign: "center",
+                }}>
+                If you are interested in this endeavour, please write to{" "}
+                <a href="mailto:hodscai@admin.iitd.ac.in">
+                    hodscai@admin.iitd.ac.in
+                </a>{" "}
+                for more details.
+            </p>
+            <DonorCard
+                img="https://media-exp1.licdn.com/dms/image/C5603AQEc2rec9vdnEg/profile-displayphoto-shrink_200_200/0/1591161678504?e=1622073600&v=beta&t=6jGPv4vbG7IYgyVaT4KqY21zdEoLP2BrLBOg-lF0ZpE"
+                name="Arun Duggal"
+                pos="Co-Founder"
+                desc="Chairman at ICRA Limited"
+                linkedin="https://www.linkedin.com/in/arun-duggal-38124331/"
+            />
+            
             <ScrollToTop />
             <Footer />
         </>
