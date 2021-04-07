@@ -1,6 +1,7 @@
 import styles from "./Footer.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
     faFacebookSquare,
@@ -40,22 +41,22 @@ const Footer = () => {
                         </h4>
                         <ul className={`${styles.m0} ${styles.p0}`}>
                             <li>
-                                - <a href="#">Lorem ipsum</a>
+                                - <Link href="/"><a href="/">Home</a></Link>
                             </li>
                             <li>
-                                - <a href="#">Nam mauris velit</a>
+                                - <Link href="/people/faculty"><a href="/people/faculty">People -&gt; Faculty</a></Link>
                             </li>
                             <li>
-                                - <a href="#">Etiam vitae mauris</a>
+                                - <Link href="/join/faculty"><a href="/join/faculty">Join -&gt; Faculty</a></Link>
                             </li>
                             <li>
-                                - <a href="#">Fusce scelerisque</a>
+                                - <Link href="/join/postdocs"><a href="/join/postdocs">Join -&gt; PostDocs</a></Link>
                             </li>
                             <li>
-                                - <a href="#">Sed faucibus</a>
+                                - <Link href="/join/students"><a href="/join/students">Join -&gt; Students</a></Link>
                             </li>
                             <li>
-                                - <a href="#">Mauris efficitur nulla</a>
+                                - <Link href="/support"><a href="/support">Support Us</a></Link>
                             </li>
                         </ul>
                     </div>

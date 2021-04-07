@@ -70,7 +70,7 @@ const Header = (props) => {
                         id="people"
                     >
                         <Link href="/people/students">
-                            <NavDropdown.Item href="/people/students">
+                            <NavDropdown.Item disabled href="/people/students">
                                 Students
                             </NavDropdown.Item>
                         </Link>

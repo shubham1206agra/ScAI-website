@@ -2,13 +2,13 @@ const col = [
     "linear-gradient(to top, #a8edea 0%, #fed6e3 100%)",
     "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
     "linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)",
-    "linear-gradient(120deg, #f093fb 0%, #f5576c 100%)",
+    // "linear-gradient(120deg, #f093fb 0%, #f5576c 100%)",
     "linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%)",
-    "linear-gradient(to top, #5ee7df 0%, #b490ca 100%)",
+    // "linear-gradient(to top, #5ee7df 0%, #b490ca 100%)",
     "linear-gradient(to top, #d299c2 0%, #fef9d7 100%)",
     "linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%)",
-    "linear-gradient(120deg, #f6d365 0%, #fda085 100%)",
-    "linear-gradient(to top, #96fbc4 0%, #f9f586 100%)",
+    // "linear-gradient(120deg, #f6d365 0%, #fda085 100%)",
+    // "linear-gradient(to top, #96fbc4 0%, #f9f586 100%)",
     "linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%)",
     "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)",
     "linear-gradient(to top, #c1dfc4 0%, #deecdd 100%)",
@@ -207,7 +207,7 @@ const data = [
         email: "niladri@maths.iitd.ac.in",
         phone: "+91-11-2659-1490",
         page: "https://web.iitd.ac.in/~niladri/",
-        css: col[10],
+        css: col[0],
         image: "/niladri.png",
     },
     {
@@ -229,7 +229,7 @@ const data = [
         email: "arpanc@ee.iitd.ac.in",
         phone: "+91-11-2659-1137",
         page: "https://sites.google.com/site/arpanchattop/home",
-        css: col[11],
+        css: col[1],
         image: "/arpanc.png",
     },
     {
@@ -249,7 +249,7 @@ const data = [
         email: "aghosh@iitd.ac.in",
         phone: "+91-11-2659-8428",
         page: "https://sites.google.com/site/arnob008/",
-        css: col[12],
+        css: col[2],
         image: "/arnob.jpg",
     },
     {
@@ -271,7 +271,7 @@ const data = [
         email: "ngosvami@iitd.ac.in",
         phone: "+91-11-2659-6414",
         page: "https://mse.iitd.ac.in/faculty-nitya.php",
-        css: col[13],
+        css: col[3],
         image: "/nitya.jpg",
     },
     {
@@ -285,7 +285,7 @@ const data = [
         email: "arpankar@iitd.ac.in",
         phone: "+91-11-2659-7320",
         page: "https://arpankar.com",
-        css: col[0],
+        css: col[4],
         image: "/arpan.jpg",
     },
     {
@@ -305,7 +305,7 @@ const data = [
         email: "kodamana@iitd.ac.in",
         phone: "+91-11-2659-1024",
         page: "https://web.iitd.ac.in/~kodamana/",
-        css: col[1],
+        css: col[5],
         image: "/hariprasad.jpg",
     },
     {
@@ -323,7 +323,7 @@ const data = [
         email: "krishnan@iitd.ac.in",
         phone: "+91-11-2659-1223",
         page: "https://sites.google.com/site/nmakrishnaniitd/home/",
-        css: col[2],
+        css: col[6],
         image: "/anoop.jpg",
     },
     {
@@ -342,7 +342,7 @@ const data = [
         email: "ksandeep@iitd.ac.in",
         phone: "+91-11-2659-5490",
         page: "https://sites.google.com/view/sandeepkr/home",
-        css: col[3],
+        css: col[7],
         image: "/sandeep.png",
     },
     {
@@ -356,7 +356,7 @@ const data = [
         email: "apmehra@maths.iitd.ac.in",
         phone: "+91-11-2659-7106",
         page: "https://web.iitd.ac.in/~apmehra/",
-        css: col[4],
+        css: col[8],
         image: "/aparna.png",
     },
     {
@@ -374,7 +374,7 @@ const data = [
         email: "rohan@cse.iitd.ac.in",
         phone: "+91-11-2659-8435",
         page: "https://www.cse.iitd.ac.in/~rohanpaul",
-        css: col[5],
+        css: col[9],
         image: "/rohan.jpg",
     },
     {
@@ -392,7 +392,7 @@ const data = [
         email: "ramanath@cse.iitd.ac.in",
         phone: "+91-11-2659-6022",
         page: "https://www.cse.iitd.ac.in/~ramanath/",
-        css: col[6],
+        css: col[0],
         image: "/maya.jpg",
     },
     {
@@ -407,7 +407,7 @@ const data = [
         email: "sayanranu@cse.iitd.ac.in",
         phone: "+91-11-2659-6383",
         page: "https://www.cse.iitd.ac.in/~sayan/",
-        css: col[7],
+        css: col[1],
         image: "/sayan.jpg",
     },
     {
@@ -429,7 +429,7 @@ const data = [
         email: "sroy@am.iitd.ac.in",
         phone: "+91-11-2659-1220",
         page: "https://sites.google.com/view/sitilab-iitd/",
-        css: col[8],
+        css: col[2],
         image: "/sitikantha.png",
     },
     {
@@ -448,7 +448,7 @@ const data = [
         email: "srsarangi@cse.iitd.ac.in",
         phone: "+91-11-2659-7065",
         page: "https://www.cse.iitd.ac.in/~srsarangi/",
-        css: col[9],
+        css: col[3],
         image: "/smruti.jpg",
     },
     {
@@ -462,7 +462,7 @@ const data = [
         email: "riju@cse.iitd.ac.in",
         phone: "+91-11-2659-7385",
         page: "https://www.cse.iitd.ac.in/~rijurekha/",
-        css: col[10],
+        css: col[4],
         image: "/rijurekha.jpg",
     },
     {
@@ -480,7 +480,7 @@ const data = [
         email: "shriyam@iitd.ac.in",
         phone: "+91-11-2659-8428",
         page: "https://web.iitd.ac.in/~shriyam/index.html",
-        css: col[11],
+        css: col[5],
         image: "/shaurya.jpg",
     },
     {
@@ -498,7 +498,7 @@ const data = [
         email: "parags@cse.iitd.ac.in",
         phone: "+91-11-2659-6064",
         page: "https://www.cse.iitd.ac.in/~parags/index.html",
-        css: col[12],
+        css: col[6],
         image: "/parag.jpg",
     },
     {
@@ -509,7 +509,7 @@ const data = [
         email: "sundar@dbeb.iitd.ac.in",
         phone: "+91-11-2659-1066",
         page: "https://web.iitd.ac.in/~sundar/",
-        css: col[13],
+        css: col[7],
         image: "/sundar.png",
     },
     {
@@ -529,7 +529,7 @@ const data = [
         email: "manansuri@ee.iitd.ac.in",
         phone: "+91-11-2659-1146",
         page: "https://web.iitd.ac.in/~manansuri/",
-        css: col[0],
+        css: col[8],
         image: "/manan.png",
     },
     {
@@ -543,7 +543,7 @@ const data = [
         email: "avaidya@hss.iitd.ac.in",
         phone: "+91-11-2659-8405",
         page: "https://web.iitd.ac.in/~avaidya",
-        css: col[1],
+        css: col[9],
         image: "/ashwini.jpg",
     },
 ];

@@ -10,8 +10,9 @@ const Donors = () => {
         <>
             <Header />
             <StartTop
-                text="Founding Donors"
-                image="https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80"
+                text="Support Us"
+                image="/bg-top1.jpg"
+                // image="https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80"
             />
             <Waves r={255} g={255} b={255} />
             <p

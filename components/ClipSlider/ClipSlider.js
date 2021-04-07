@@ -11,7 +11,8 @@ const ClipSlider = () => {
                 <Slide
                     active
                     heading="Welcome!"
-                    subText="Greetings, AI Enthusiast!"
+                    subText=""
+                    // subText="Greetings, AI Enthusiast!"
                     backImg="https://wallpaperaccess.com/full/30100.jpg"
                 >
                     <div
@@ -22,7 +23,8 @@ const ClipSlider = () => {
                         }}
                     >
                         <NewsCardPlain
-                            category="Establishment"
+                            // category="Establishment"
+                            category=" "
                             title="IIT Delhi establishes School of AI"
                             link="https://home.iitd.ac.in/news-ai.php"
                             description="Indian Institute of Technology (IIT) Delhi has established an independent 'School of Artificial Intelligence (ScAI)' on its campus. The institute is already a leader in the country and Asia for research and educational activity in AI. As per CSRankings.org, IIT Delhi is No.1 in India based on the number of high quality publications in the area of AI in the last ten years. The School of Artificial Intelligence (ScAI) aims to cement IIT Delhi’s leadership position in India and considerably improve its global standing."
@@ -30,9 +32,11 @@ const ClipSlider = () => {
                     </div>
                 </Slide>
                 <Slide
-                    heading="Establishment Articles"
-                    subText="Some news articles upon establishment."
-                    backImg="/bg2.jpg"
+                    // heading="Establishment Articles"
+                    heading="Some Recent News Articles"
+                    subText=""
+                    // subText="Some news articles upon establishment."
+                    backImg="/DJ_Pic.jpg"
                 >
                     <div
                         style={{
@@ -66,35 +70,63 @@ const ClipSlider = () => {
                 </Slide>
                 <Slide
                     heading="Video Article on YouTube!"
-                    subText="Video looks cool, isn't it?"
+                    // subText="Video looks cool, isn't it?"
+                    subText=""
                     backImg="/bg3.jpg"
                 >
-                    <div className="embed-responsive embed-responsive-16by9"
+                    <div
+                        className="embed-responsive embed-responsive-16by9"
                         style={{
                             position: "absolute",
                             top: "30vh",
                             right: "11vw",
                             height: "349px",
-                            width: "620px"
+                            width: "620px",
                         }}
                     >
-                        <iframe className="embed-responsive-item hide_iframe"
+                        <iframe
+                            className="embed-responsive-item hide_iframe"
                             src="https://www.youtube.com/embed/NlgCHlA0EQ0?autoplay=0"
                             allowFullScreen
                         />
                     </div>
                 </Slide>
                 <Slide
-                    heading="Limited browser support"
-                    subText="Forget about IE/Edge and FF"
-                    backImg="/7T9364v.gif"
-                />
-                <Slide
+                    heading="Announcements!"
+                    subText="Please read carefully!"
+                    backImg="/bg2.jpg"
                     prev
-                    heading="Check my other stuff!"
-                    subText="Other Demos and Twitter"
-                    backImg="/landimg.jpeg"
-                />
+                >
+                    <div
+                        style={{
+                            position: "absolute",
+                            top: "30vh",
+                            right: "10vw",
+                        }}
+                    >
+                        <NewsCardPlain
+                            // category="Establishment"
+                            category="Announcement"
+                            title=" "
+                            // link="https://home.iitd.ac.in/news-ai.php"
+                            description={
+                                <span style={{fontSize: '1.3rem', color: 'black'}}>
+                                    ScAI welcomes applications from strongly
+                                    motivated students who want to pursue their
+                                    Ph.D. in the areas of both core AI and
+                                    applied AI.
+                                    <br /> ScAI welcomes applications for post
+                                    doctoral and faculty positions in the areas
+                                    of both core AI and applied AI. For details
+                                    please contact{" "}
+                                    <a href="mailto:hodscai@admin.iitd.ac.in">
+                                        hodscai@admin.iitd.ac.in
+                                    </a>
+                                </span>
+                            }
+                        />
+                    </div>
+                </Slide>
                 {/* <div className="slide s--prev">
                     <div className="slide__inner">
                         <div className="slide__content">

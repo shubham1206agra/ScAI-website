@@ -67,137 +67,89 @@ const Data = () => {
                         description="September 2, 2020"
                     />
                 </div>
-                <h2 style={{ marginTop: "1rem" }}>
+                <h2 style={{ marginTop: "2rem", marginBottom: '1.5rem' }}>
                     News reports on the launch of School of AI
                 </h2>
-                <ol>
-                    <li>
-                        <a
-                            href="https://www.youtube.com/watch?v=NlgCHlA0EQ0"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            YouTube Video English
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.youtube.com/watch?v=TpikDstFkF4"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            YouTube Video Hindi
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.youtube.com/watch?v=TpikDstFkF4"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            YouTube Video Hindi
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.jagranjosh.com/news/iit-delhi-establishes-school-of-artificial-intelligence-scai-to-offer-phd-and-pg-degrees-get-details-here-155667"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT Delhi establishes School of Artificial Intelligence (ScAI) To Offer PhD and PG Degrees -- Jagranjosh
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.moneycontrol.com/news/india/iit-delhi-to-establish-school-of-artificial-intelligence-phd-admissions-from-january-2021-5830271.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT-Delhi to establish School of Artificial Intelligence -- MoneyControl
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.eastmojo.com/news/2020/09/04/iit-delhis-school-of-artificial-intelligence-to-offer-multiple-post-graduate-courses/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT Delhi's School of Artificial Intelligence to offer multiple post-graduate courses -- EastMojo
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.amarujala.com/education/school-of-artificial-intelligence-starts-at-iit-delhi"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            आईआईटी दिल्ली में स्कूल ऑफ आर्टिफिशियल इंटेलीजेंस शुरू, बहुविषयक विभाग मिलकर करेंगे काम -- अमर उजाला
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://timesofindia.indiatimes.com/city/delhi/iit-delhi-launches-ai-school-to-begin-course-from-january/articleshow/77902846.cms"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT-Delhi launches AI school -- The Times Of India
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.businesstoday.in/technology/news/iit-delhi-launches-school-of-artificial-intelligence-course-to-begin-from-jan-2021/story/415054.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT-Delhi launches School of Artificial Intelligence -- Business Today
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.businesstoday.in/technology/news/iit-delhi-launches-school-of-artificial-intelligence-course-to-begin-from-jan-2021/story/415054.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT-Delhi launches School of Artificial Intelligence -- Business Today
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.lokmatnews.in/india/iit-delhi-opens-artificial-intelligence-school-b394/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT दिल्ली में खुला आर्टिफिशियल इंटेलिजेंस स्कूल, शिक्षा के क्षेत्र में मिलेगा बढ़ावा -- लोकमत हिंदी
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.dqindia.com/iit-delhi-launches-new-school-artificial-intelligence-phd-pg-level-courses-offered/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT Delhi Launches New School of Artificial Intelligence, PhD and PG Level Courses to be Offered -- DataQuest
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://news.careers360.com/iit-delhi-establishes-school-of-artificial-intelligence"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT Delhi establishes School of Artificial Intelligence -- Careers360
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.financialexpress.com/education-2/iit-delhi-sets-up-ai-school-will-offer-degree-professional-courses/2072698/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            IIT Delhi sets up AI school; will offer degree, professional courses -- Financial Express
-                        </a>
-                    </li>
-                </ol>
+                <div className="card-columns">
+                    <NewsCardPlain
+                        link="https://www.youtube.com/watch?v=NlgCHlA0EQ0"
+                        title="YouTube Video English"
+                        category="YouTube"
+                        description="September 14, 2020"
+                    />
+                    <NewsCardPlain
+                        link="https://www.youtube.com/watch?v=TpikDstFkF4"
+                        title="YouTube Video Hindi"
+                        category="YouTube"
+                        description="September 14, 2020"
+                    />
+                    <NewsCard
+                        image="https://www.jagranjosh.com/imported/images/E/Articles/iit-delhi-establishes-school-of-artificial-intelligence.jpg"
+                        link="https://www.jagranjosh.com/news/iit-delhi-establishes-school-of-artificial-intelligence-scai-to-offer-phd-and-pg-degrees-get-details-here-155667"
+                        title="IIT Delhi establishes School of Artificial Intelligence (ScAI) To Offer PhD and PG Degrees"
+                        category="Jagranjosh"
+                        description="September 12, 2020"
+                    />
+                    <NewsCard
+                        image="https://images.moneycontrol.com/static-mcnews/2020/09/IIT-Delhi-campus-Source-IIT-Delhi-770x433.jpg?impolicy=website&width=500&height=350"
+                        link="https://www.moneycontrol.com/news/india/iit-delhi-to-establish-school-of-artificial-intelligence-phd-admissions-from-january-2021-5830271.html"
+                        title="IIT-Delhi to establish School of Artificial Intelligence"
+                        category="MoneyControl"
+                        description="September 12, 2020"
+                    />
+                    <NewsCard
+                        image="https://i1.wp.com/www.eastmojo.com/wp-content/uploads/2020/09/Pexels_Artifical_Intelligence.jpg?w=500&ssl=1"
+                        link="https://www.eastmojo.com/news/2020/09/04/iit-delhis-school-of-artificial-intelligence-to-offer-multiple-post-graduate-courses/"
+                        title="IIT Delhi's School of Artificial Intelligence to offer multiple post-graduate courses"
+                        category="EastMojo"
+                        description="September 4, 2020"
+                    />
+                    <NewsCardPlain
+                        link="https://www.amarujala.com/education/school-of-artificial-intelligence-starts-at-iit-delhi"
+                        title="आईआईटी दिल्ली में स्कूल ऑफ आर्टिफिशियल इंटेलीजेंस शुरू, बहुविषयक विभाग मिलकर करेंगे काम"
+                        category="अमर उजाला"
+                        description="September 3, 2020"
+                    />
+                    <NewsCardPlain
+                        link="https://timesofindia.indiatimes.com/city/delhi/iit-delhi-launches-ai-school-to-begin-course-from-january/articleshow/77902846.cms"
+                        title="IIT-Delhi launches AI school"
+                        category="The Times Of India"
+                        description="September 3, 2020"
+                    />
+                    <NewsCardPlain
+                        link="https://www.businesstoday.in/technology/news/iit-delhi-launches-school-of-artificial-intelligence-course-to-begin-from-jan-2021/story/415054.html"
+                        title="IIT-Delhi launches School of Artificial Intelligence"
+                        category="Business Today"
+                        description="September 3, 2020"
+                    />
+                    <NewsCard
+                        image="https://d3pc1xvrcw35tl.cloudfront.net/sm/images/686x514/iit-delhi_202003148130.png"
+                        link="https://www.lokmatnews.in/india/iit-delhi-opens-artificial-intelligence-school-b394/"
+                        title="IIT दिल्ली में खुला आर्टिफिशियल इंटेलिजेंस स्कूल, शिक्षा के क्षेत्र में मिलेगा बढ़ावा"
+                        category="लोकमत हिंदी"
+                        description="September 2, 2020"
+                    />
+                    <NewsCard
+                        image="https://www.dqindia.com/wp-content/uploads/2020/03/futuristic-3862179_1280.jpg"
+                        link="https://www.dqindia.com/iit-delhi-launches-new-school-artificial-intelligence-phd-pg-level-courses-offered/"
+                        title="IIT Delhi Launches New School of Artificial Intelligence, PhD and PG Level Courses to be Offered"
+                        category="DataQuest"
+                        description="September 2, 2020"
+                    />
+                    <NewsCardPlain
+                        link="https://news.careers360.com/iit-delhi-establishes-school-of-artificial-intelligence"
+                        title="IIT Delhi establishes School of Artificial Intelligence"
+                        category="Careers360"
+                        description="September 2, 2020"
+                    />
+                    <NewsCard
+                        image="https://images.financialexpress.com/2020/09/iit660.jpg"
+                        link="https://www.financialexpress.com/education-2/iit-delhi-sets-up-ai-school-will-offer-degree-professional-courses/2072698/"
+                        title="IIT Delhi sets up AI school; will offer degree, professional courses"
+                        category="Financial Express"
+                        description="September 2, 2020"
+                    />
+                </div>
             </div>
         </>
     );
