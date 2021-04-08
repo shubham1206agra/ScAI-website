@@ -111,11 +111,11 @@ const ClipSlider = () => {
                             // link="https://home.iitd.ac.in/news-ai.php"
                             description={
                                 <span style={{fontSize: '1.3rem', color: 'black'}}>
-                                    ScAI welcomes applications from strongly
+                                    1. ScAI welcomes applications from strongly
                                     motivated students who want to pursue their
                                     Ph.D. in the areas of both core AI and
                                     applied AI.
-                                    <br /> ScAI welcomes applications for post
+                                    <br />2. ScAI welcomes applications for post
                                     doctoral and faculty positions in the areas
                                     of both core AI and applied AI. For details
                                     please contact{" "}

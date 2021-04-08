@@ -54,7 +54,7 @@ const Data = () => {
                         be welcome to join Masters in MINDS.<span style={{color: 'red'}}> Please check back
                         this space later for any updates.</span>
                     </p>
-                    <p style={{color: 'green'}}>
+                    <p style={{color: 'red'}}>
                         In the long run, ScAI also envisions starting an
                         Executive Masters programme taught primarily via evening
                         and weekend classes. This programme will cater to the
