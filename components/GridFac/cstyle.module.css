@@ -5,7 +5,8 @@
     height: 100%;
     overflow: hidden;
     /* color: #777777; */
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
     display: flex;
     align-items: center;
     justify-content: center;

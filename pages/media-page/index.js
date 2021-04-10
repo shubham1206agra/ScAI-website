@@ -11,7 +11,7 @@ const MediaPage = () => {
         <React.Fragment>
             <Header />
             <StartTop
-                text="Media Page"
+                text="News"
                 image="/bg-top.jpg"
                 // image="/204c420e096e4706ee89dd37031dc33e.jpg"
                 // image="https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80"

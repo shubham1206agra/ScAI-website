@@ -30,7 +30,7 @@ export default function Home() {
                                 zIndex: "10",
                             }}
                         >
-                            <a href="/join/faculty" style={{ color: "white!important" }}>
+                            <a href="/join/faculty" className="spLink">
                                 We are Hiring!
                             </a>
                         </Col>
@@ -48,7 +48,7 @@ export default function Home() {
                                 zIndex: "10",
                             }}
                         >
-                            <a href="/support" style={{ color: "white!important" }}>
+                            <a href="/support" className="spLink">
                                 Support Us by becoming a Founding Donor.
                             </a>
                         </Col>

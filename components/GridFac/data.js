@@ -36,11 +36,12 @@ const data = [
     },
     {
         name: "Sumeet Agarwal",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning",
             "Cognitive Science",
-            "Systems Biology",
+            // "Systems Biology",
             "Complex Networks",
             "Computational Linguistics",
             "Computational Social Science",
@@ -57,6 +58,7 @@ const data = [
     },
     {
         name: "Ankush Agrawal",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Applied Econometrics",
@@ -75,10 +77,11 @@ const data = [
     },
     {
         name: "Prathosh A.P.",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Vision and image processing",
-            "audio, speech and music analytics and learning (deep learning, sequential modelling and transfer learning)",
+            "Audio, speech and music analytics and learning (deep learning, sequential modelling and transfer learning)",
         ],
         address: [
             "Room II-114 (Block -II, Ground floor),",
@@ -92,6 +95,7 @@ const data = [
     },
     {
         name: "Chetan Arora",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: ["Computer Vision", "Machine Learning"],
         address: [
@@ -106,6 +110,7 @@ const data = [
     },
     {
         name: "Amitabha Bagchi",
+        position: "Associate Faculty",
         // position: "Professor",
         research_areas: [
             "Structural Properties of Networks",
@@ -124,6 +129,7 @@ const data = [
     },
     {
         name: "Sorav Bansal",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: ["Compilers", "Operating Systems"],
         address: [
@@ -138,6 +144,7 @@ const data = [
     },
     {
         name: "Srikanta Bedathur",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Data Management",
@@ -153,6 +160,7 @@ const data = [
     },
     {
         name: "Debanjan Bhowmik",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Artificial Intelligence at the Edge",
@@ -170,15 +178,16 @@ const data = [
     },
     {
         name: "Souvik Chakraborty",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Deep learning",
             "Digital twin",
-            "Stochastic mechanics/dynamics",
+            // "Stochastic mechanics/dynamics",
             "Reliability analysis",
             "Design under uncertainty",
             "multi-scale systems",
-            "inverse problems",
+            // "inverse problems",
         ],
         address: [
             "Room 342C, Block IV,",
@@ -192,6 +201,8 @@ const data = [
     },
     {
         name: "Niladri Chatterjee",
+        imgPos: 'top',
+        position: "Associate Faculty",
         // position: "Professor",
         research_areas: [
             "Machine Translation",
@@ -212,14 +223,15 @@ const data = [
     },
     {
         name: "Arpan Chattopadhyay",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "IoT",
-            "Cyber-physical systems",
+            // "Cyber-physical systems",
             "Next-generation wireless communication and networking",
             "Machine learning",
             "Reinforcement learning",
-            "Radar",
+            // "Radar",
             "Statistical signal processing",
         ],
         address: [
@@ -234,6 +246,7 @@ const data = [
     },
     {
         name: "Arnob Ghosh",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Reinforcement Learning",
@@ -254,11 +267,13 @@ const data = [
     },
     {
         name: "Nitya Nand Gosvami",
+        imgPos: 'top',
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Fundamental Mechanisms of Friction and Wear of Materials",
-            "Nanotribology of Engineering Materials and Industrial Lubricant Additives",
-            "Nanoscale in Situ Methods in Tribology, Surface Science & Engineering",
+            // "Nanotribology of Engineering Materials and Industrial Lubricant Additives",
+            // "Nanoscale in Situ Methods in Tribology, Surface Science & Engineering",
             "Failure Analysis of Materials",
             "Development of Novel Scanning Probe Microscopy Technique",
             "Nanoscience and Nanotechnology",
@@ -276,6 +291,7 @@ const data = [
     },
     {
         name: "Arpan Kumar Kar",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: ["Data Science", "Digital Transformation"],
         address: [
@@ -290,6 +306,7 @@ const data = [
     },
     {
         name: "Hariprasad Kodamana",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Graphs",
@@ -310,6 +327,7 @@ const data = [
     },
     {
         name: "N. M. Anoop Krishnan",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Materials Modelling",
@@ -328,6 +346,7 @@ const data = [
     },
     {
         name: "Sandeep Kumar",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Optimization",
@@ -347,6 +366,7 @@ const data = [
     },
     {
         name: "Aparna Mehra",
+        position: "Associate Faculty",
         // position: "Professor",
         research_areas: ["Optimization Theory"],
         address: [
@@ -361,6 +381,7 @@ const data = [
     },
     {
         name: "Rohan Paul",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Robot Intelligence",
@@ -379,6 +400,7 @@ const data = [
     },
     {
         name: "Maya Ramanath",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Database Systems and Information Retrieval",
@@ -397,6 +419,7 @@ const data = [
     },
     {
         name: "Sayan Ranu",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning and Data Mining for Graphs",
@@ -412,15 +435,16 @@ const data = [
     },
     {
         name: "Sitikantha Roy",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Biomechanics of tissue damage",
             "Musculoskeletal Biomechanics",
             "Soft Robotics",
-            "Bioinspired Engineering",
+            // "Bioinspired Engineering",
             "Mechanics of soft active material",
             "Smart structures and control",
-            "Composite structures",
+            // "Composite structures",
         ],
         address: [
             "Room 243, Block IV,",
@@ -434,6 +458,8 @@ const data = [
     },
     {
         name: "Smruti R. Sarangi",
+        imgPos: 'top',
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Use of ML algorithms for temperature estimation and on-chip traffic prediction",
@@ -453,6 +479,7 @@ const data = [
     },
     {
         name: "Rijurekha Sen",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Mobile and Embedded Systems (Hardware Architecture, OS, Sensing, Efficient Processing, Security)",
@@ -467,6 +494,7 @@ const data = [
     },
     {
         name: "Shaurya Shriyam",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Simulation Modelling",
@@ -485,6 +513,7 @@ const data = [
     },
     {
         name: "Parag Singla",
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning",
@@ -503,6 +532,7 @@ const data = [
     },
     {
         name: "D. Sundar",
+        position: "Associate Faculty",
         // position: "Professor",
         research_areas: ["AI in Healthcare and Life Sciences"],
         address: ["XXXXXX", "IIT Delhi, Hauz Khas, New Delhi- 110016"],
@@ -514,6 +544,8 @@ const data = [
     },
     {
         name: "Manan Suri",
+        imgPos: 'top',
+        position: "Associate Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Specialized Hardware for Edge and Enterprise AI",
@@ -534,6 +566,7 @@ const data = [
     },
     {
         name: "Ashwini Vaidya",
+        position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: ["Computational linguistics", "Cognitive Science"],
         address: [

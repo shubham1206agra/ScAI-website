@@ -14,8 +14,8 @@ const Data = () => {
                         category="The Times Of India"
                         description="March 17, 2021"
                     />
-                    <NewsCard
-                        image="https://images.hindustantimes.com/img/2021/03/14/550x309/facc358a-84f2-11eb-a12f-8b2f13f9e637_1615746587703.jpeg"
+                    <NewsCardPlain
+                        // image="https://images.hindustantimes.com/img/2021/03/14/550x309/facc358a-84f2-11eb-a12f-8b2f13f9e637_1615746587703.jpeg"
                         link="https://www.hindustantimes.com/cities/mumbai-news/iits-set-up-schools-centres-to-foster-research-in-ai-101615746588661.html"
                         title="ScAI mentioned in new centers that foster research in AI"
                         category="Hindustan Times"
@@ -41,19 +41,22 @@ const Data = () => {
                         category="CiOL"
                         description="November 19, 2020"
                     />
-                    <NewsCardPlain
+                    <NewsCard
+                        image="https://img.youtube.com/vi/u_TvoMkk-y0/0.jpg"
                         link="https://www.youtube.com/watch?v=u_TvoMkk-y0"
                         title="Professor Mausam discussing AI and roadmap for a Doordarshan panel"
                         category="YouTube"
                         description="October 13, 2020"
                     />
-                    <NewsCardPlain
+                    <NewsCard
+                        image="https://img.youtube.com/vi/ghV9bi_oPxk/0.jpg"
                         link="https://www.youtube.com/watch?v=ghV9bi_oPxk"
                         title="Detailed interview on the importance of School of AI in Hindi"
                         category="YouTube"
                         description="September 3, 2020"
                     />
-                    <NewsCardPlain
+                    <NewsCard
+                        image="https://media-exp1.licdn.com/dms/image/C5603AQEc2rec9vdnEg/profile-displayphoto-shrink_200_200/0/1591161678504?e=1622073600&v=beta&t=6jGPv4vbG7IYgyVaT4KqY21zdEoLP2BrLBOg-lF0ZpE"
                         // link="https://www.youtube.com/watch?v=ghV9bi_oPxk"
                         title="Mr. Arun Duggal becomes the first co-founder of School of AI"
                         category="Co-Founder"
@@ -71,7 +74,8 @@ const Data = () => {
                     News reports on the launch of School of AI
                 </h2>
                 <div className="card-columns">
-                    <NewsCardPlain
+                    <NewsCard
+                        image="https://img.youtube.com/vi/NlgCHlA0EQ0/0.jpg"
                         link="https://www.youtube.com/watch?v=NlgCHlA0EQ0"
                         title="YouTube Video English"
                         category="YouTube"

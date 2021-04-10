@@ -8,7 +8,8 @@
 } */
 
 .postrow {
-    --white: rgba(245, 244, 240, 1); /*F5F4F0*/
+    /* --white: rgba(245, 244, 240, 1); F5F4F0 */
+    --white: rgba(235, 234, 230, 1);
     --beige: rgba(231, 228, 218, 1); /*E7E4DA*/
     --gray: #5b5348; /*5B5348*/
     --mauve: rgba(96, 77, 83, 1); /* 604D53 */
@@ -96,6 +97,7 @@
 }
 .postrow .minip .name {
     width: 200px;
+    /* margin: 0px auto 10px auto; */
     margin: 0px auto 20px auto;
     font: 700 18px/18px var(--sans);
     text-transform: uppercase;
@@ -109,7 +111,7 @@
 }
 .postrow .minip .group {
     font: 300 var(--sans);
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 3px;
     color: var(--mauve);
     margin-bottom: 20px;
@@ -122,7 +124,7 @@
 .postrow .minip .details {
     padding: 0px 15px;
     font: 300 8px/12px var(--sans);
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
     display: flex;
     flex-flow: row nowrap;
@@ -158,6 +160,15 @@
 }
 
 .post a:hover {
+    color: #5b5348;
+}
+
+.group a {
+    color: #5b5348;
+    padding-left: .4rem;
+}
+
+.group a:hover {
     color: #5b5348;
 }
 
@@ -209,4 +220,8 @@
     max-width: 400px;
     margin: 0px auto;
     text-align: justify;
+}
+
+.temp li {
+    font-size: 1rem;
 }

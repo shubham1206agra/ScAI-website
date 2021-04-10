@@ -17,7 +17,13 @@ const Data = () => {
                         All engineering students irrespective of their
                         Bachelors/Masters discipline are welcome to join a Ph.D.
                         in ScAI. For more information, please refer to the{" "}
-                        <a href="#">2020-21 Semester 1 shortlisting criteria</a>
+                        <a
+                            href="/pdf/scaicriteria.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            2020-21 Semester 1 shortlisting criteria
+                        </a>
                         . The criteria may change semester to semester, but
                         gives a broad idea of expectations.
                     </p>
@@ -47,20 +53,27 @@ const Data = () => {
                 <div>
                     <h2>Masters</h2>
                     <p>
-                        <span style={{color: 'red'}} >M.Tech. and MSR programmes (approvals awaited) in
-                        Machine Intelligence & Data Science (MINDS) is expected
-                        to start by July 2021 from ScAI.</span> All engineering
-                        students irrespective of their Bachelors discipline will
-                        be welcome to join Masters in MINDS.<span style={{color: 'red'}}> Please check back
-                        this space later for any updates.</span>
+                        <strong>
+                            M.Tech. and MSR programmes (approvals awaited) in
+                            Machine Intelligence & Data Science (MINDS) is
+                            expected to start by July 2021 from ScAI.
+                        </strong>{" "}
+                        All engineering students irrespective of their Bachelors
+                        discipline will be welcome to join Masters in MINDS.
+                        <strong>
+                            {" "}
+                            Please check back this space later for any updates.
+                        </strong>
                     </p>
-                    <p style={{color: 'red'}}>
-                        In the long run, ScAI also envisions starting an
-                        Executive Masters programme taught primarily via evening
-                        and weekend classes. This programme will cater to the
-                        growing global demand by training industry professionals
-                        in modern AI techniques. Please check back this space
-                        later for any updates.
+                    <p>
+                        <strong>
+                            In the long run, ScAI also envisions starting an
+                            Executive Masters programme taught primarily via
+                            evening and weekend classes. This programme will
+                            cater to the growing global demand by training
+                            industry professionals in modern AI techniques.
+                            Please check back this space later for any updates.
+                        </strong>
                     </p>
                 </div>
             </div>

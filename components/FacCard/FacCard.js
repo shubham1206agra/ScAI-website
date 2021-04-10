@@ -1,20 +1,23 @@
 import styles from "./FacCard.module.css";
-import React from 'react'
+import React from "react";
 
 const FacCard = (props) => {
     return (
-        <article style={{zIndex: 1}} className={`${styles.card} ${styles.cardxhsm}`}>
-            <img
-                src={props.data.image}
-                className={styles.cardimgtop}
-            />
+        <article
+            style={{ zIndex: 1 }}
+            className={`${styles.card} ${styles.cardxhsm}`}
+        >
+            <img style={{objectFit: 'cover', objectPosition: props.data.imgPos ? props.data.imgPos : 'center'}} src={props.data.image} className={styles.cardimgtop} />
             <div className={styles.cardbody}>
                 <h5 className={styles.cardtitle}>{props.data.name}</h5>
                 <h6 className={styles.cardsubtitle}>{props.data.position}</h6>
-                <p className={styles.cardtext} style={{ fontSize: ".8rem", textTransform: 'capitalize' }}>
-                    <strong>Research areas</strong>:{" "}
-                    {props.data.research_areas.join(", ")}
-                </p>
+                <div className={styles.cardtext} style={{ fontSize: "1.0rem", paddingLeft: '0.3rem' }}>
+                    <ul>
+                        {props.data.research_areas.map((element, i) => (
+                            <li key={i}>{element}</li>
+                        ))}
+                    </ul>
+                </div>
             </div>
         </article>
     );

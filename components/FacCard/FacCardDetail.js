@@ -20,26 +20,54 @@ class FacCardDetail extends React.Component {
                                 />
                             </div>
                         </div>
-                        <div className={styles.name}>{this.props.data.name}</div>
-                        <div className={styles.group}>
-                            {this.props.data.position} <br />
-                            School of Artificial Intelligence
+                        <div className={styles.name}>
+                            {this.props.data.name}
                         </div>
+                        <div
+                            style={{ textTransform: "none" }}
+                            className={styles.group}
+                        >
+                            {this.props.data.position} <br />
+                            ScAI
+                        </div>
+                        {/* <div
+                            style={{ textTransform: "none" }}
+                            className={styles.group}
+                        >
+                            <p>
+                                {this.props.data.address[0]}
+                                <br /> {this.props.data.address[1]}
+                            </p>
+                            <div>
+                                <FontAwesomeIcon icon={faPhone} />
+                                <a href={`tel:${this.props.data.phone}`}>
+                                    {this.props.data.phone} (O)
+                                </a>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                                <a href={`mailto:${this.props.data.email}`}>
+                                    {this.props.data.email}
+                                </a>
+                            </div>
+                        </div> */}
                     </div>
 
                     <div className={styles.post}>
                         <div className={styles.temp}>
                             <h3>Research Areas</h3>
                             <ul>
-                                {this.props.data.research_areas.map((element, i) => (
-                                    <li key={i}>{element}</li>
-                                ))}
+                                {this.props.data.research_areas.map(
+                                    (element, i) => (
+                                        <li key={i}>{element}</li>
+                                    )
+                                )}
                             </ul>
-                            <h3>Address</h3>
-                            <p>{this.props.data.address[0]}</p>
-                            <p>{this.props.data.address[1]}</p>
+                            <h3>Biography</h3>
                             <div></div>
                             <h3>Contact Info</h3>
+                            <p>{this.props.data.address[0]}</p>
+                            <p>{this.props.data.address[1]}</p>
                             <p>
                                 <FontAwesomeIcon icon={faPhone} />
                                 <a href={`tel:${this.props.data.phone}`}>
@@ -62,7 +90,8 @@ class FacCardDetail extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Personal Web Page <span>{this.props.data.page}</span>
+                            Personal Web Page{" "}
+                            <span>{this.props.data.page}</span>
                         </a>
                         <hr className={styles.bar}></hr>
                     </div>

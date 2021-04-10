@@ -17,7 +17,7 @@ const Donors = () => {
             <Waves r={255} g={255} b={255} />
             <p
                 style={{
-                    paddingTop: '5vh',
+                    paddingTop: "5vh",
                     paddingRight: "10vw",
                     paddingLeft: "10vw",
                     fontSize: "20px",
@@ -41,18 +41,32 @@ const Donors = () => {
                 students to attend global and domestic conferences, setting up
                 chair professorships, and strengthening research.
             </p>
-            <p style={{
+            <p
+                style={{
                     paddingRight: "10vw",
                     paddingLeft: "10vw",
                     fontSize: "20px",
                     textAlign: "center",
-                }}>
+                }}
+            >
                 If you are interested in this endeavour, please write to{" "}
                 <a href="mailto:hodscai@admin.iitd.ac.in">
                     hodscai@admin.iitd.ac.in
                 </a>{" "}
                 for more details.
             </p>
+            <h2 style={{ textAlign: "center", marginTop: "2rem" }}>
+                League of Founding Donors
+            </h2>
+            <div
+                style={{
+                    width: "15vw",
+                    borderTop: "4px solid black",
+                    marginTop: '1rem',
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                }}
+            ></div>
             <DonorCard
                 img="https://media-exp1.licdn.com/dms/image/C5603AQEc2rec9vdnEg/profile-displayphoto-shrink_200_200/0/1591161678504?e=1622073600&v=beta&t=6jGPv4vbG7IYgyVaT4KqY21zdEoLP2BrLBOg-lF0ZpE"
                 name="Arun Duggal"
@@ -60,7 +74,6 @@ const Donors = () => {
                 desc="Chairman at ICRA Limited"
                 linkedin="https://www.linkedin.com/in/arun-duggal-38124331/"
             />
-            
             <ScrollToTop />
             <Footer />
         </>

@@ -187,7 +187,7 @@ const Header = (props) => {
                             className={styles.singlink}
                             href="/media-page"
                         >
-                            Media Page
+                            News
                         </Nav.Link>
                     </Link>
                 </Nav>
