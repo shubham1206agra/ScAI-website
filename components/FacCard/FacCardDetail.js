@@ -20,7 +20,7 @@ class FacCardDetail extends React.Component {
                                 />
                             </div>
                         </div>
-                        <div className={styles.name}>
+                        <div style={{textTransform: 'capitalize'}} className={styles.name}>
                             {this.props.data.name}
                         </div>
                         <div
@@ -84,7 +84,7 @@ class FacCardDetail extends React.Component {
                         </div>
                     </div>
 
-                    <div className={styles.buttons}>
+                    <div style={{textTransform: 'none'}} className={styles.buttons}>
                         <a
                             href={this.props.data.page}
                             target="_blank"
