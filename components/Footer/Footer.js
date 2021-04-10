@@ -8,9 +8,9 @@ import {
     faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <div className={`${styles.mt5} ${styles.py5} ${styles.footer}`}>
+        <div className={`${props.spAlign ? "" : styles.mt5} ${styles.py5} ${styles.footer}`}>
             <div className={styles.container}>
                 <div className={styles.row}>
                     <div

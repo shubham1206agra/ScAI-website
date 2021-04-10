@@ -4,6 +4,7 @@ const StartTop = (props) => {
     return (
         <div className={styles.mainDiv}>
             <img
+                style={{ objectPosition: props.objPos ? props.objPos : "top" }}
                 src={props.image}
                 alt="Top Bg Image"
             />

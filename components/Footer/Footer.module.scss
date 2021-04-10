@@ -1,6 +1,8 @@
 .footer {
     background: #152f4f;
     color: white;
+    position: relative;
+    z-index: 10;
 
     .links {
         ul {

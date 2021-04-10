@@ -13,7 +13,8 @@ const Materials = () => {
             <StartTop
                 text="Materials"
                 // image="/204c420e096e4706ee89dd37031dc33e.jpg"
-                image="/img2.png"
+                image="/dataimg/material-bg.jpg"
+                objPos="center"
             />
             <Waves r={255} g={255} b={255} />
             <Data />
