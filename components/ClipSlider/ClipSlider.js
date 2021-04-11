@@ -142,7 +142,7 @@ const ClipSlider = () => {
                     >
                         <NewsCardPlain
                             // category="Establishment"
-                            category="Announcement"
+                            category=" "
                             title=" "
                             // link="https://home.iitd.ac.in/news-ai.php"
                             description={
@@ -191,7 +191,7 @@ const ClipSlider = () => {
                 <div className="slider__control-line"></div>
                 <div className="slider__control-line"></div>
             </div>
-            <div className="slider__control slider__control--right m--right">
+            <div className="slider__control slider__control--right m--right" id="autoClick">
                 <div className="slider__control-line"></div>
                 <div className="slider__control-line"></div>
             </div>

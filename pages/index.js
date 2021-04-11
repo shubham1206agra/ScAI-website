@@ -6,7 +6,14 @@ import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 // import LandingContent from "../components/LandingContent/LandingContent";
 import ClipSlider from "../components/ClipSlider/ClipSlider";
 import { Container, Row, Col } from "react-bootstrap";
+import SpCard from "../components/NewsCard/SpCard";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faChalkboardTeacher,
+    faUserGraduate,
+    faDonate,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
     return (
@@ -20,39 +27,48 @@ export default function Home() {
             {/* <LandingContent /> */}
             {/* <DonorCard /> */}
             <ScrollToTop />
-            <Container fluid>
-                <Row style={{ fontSize: "1.2rem" }}>
-                    <Link href="/join/faculty">
-                        <Col
-                            style={{
-                                backgroundColor: "#c21717",
-                                textAlign: "center",
-                                zIndex: "10",
-                            }}
+            <Container fluid className="sp-container">
+                <Row className="align-items-center">
+                    <Col>
+                        <SpCard
+                            type="color"
+                            color="red"
+                            title="Faculty"
+                            btnText="We are Hiring!"
+                            link="/join/faculty"
                         >
-                            <a href="/join/faculty" className="spLink">
-                                We are Hiring!
-                            </a>
-                        </Col>
-                    </Link>
-                    <Link href="/join/students">
-                        <Col style={{ textAlign: "center", zIndex: "10" }}>
-                            Interested in a PhD in AI?
-                        </Col>
-                    </Link>
-                    <Link href="/support">
-                        <Col
-                            style={{
-                                backgroundColor: "#55415d",
-                                textAlign: "center",
-                                zIndex: "10",
-                            }}
+                            <FontAwesomeIcon
+                                style={{ fontSize: "7rem", color: 'white' }}
+                                icon={faChalkboardTeacher}
+                            />
+                        </SpCard>
+                    </Col>
+                    <Col>
+                        <SpCard
+                            title="Students"
+                            btnText="Interested in a PhD in AI?"
+                            link="/join/students"
                         >
-                            <a href="/support" className="spLink">
-                                Support Us by becoming a Founding Donor.
-                            </a>
-                        </Col>
-                    </Link>
+                            <FontAwesomeIcon
+                                style={{ fontSize: "7rem" }}
+                                icon={faUserGraduate}
+                            />
+                        </SpCard>
+                    </Col>
+                    <Col>
+                        <SpCard
+                            type="color"
+                            color="purple"
+                            title="Alumini / Well Wisher"
+                            btnText="Support Us by becoming a Founding Donor."
+                            link="/support"
+                        >
+                            <FontAwesomeIcon
+                                style={{ fontSize: "7rem", color: 'white' }}
+                                icon={faDonate}
+                            />
+                        </SpCard>
+                    </Col>
                 </Row>
             </Container>
             <Footer spAlign />

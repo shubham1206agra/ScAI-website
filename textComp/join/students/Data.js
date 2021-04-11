@@ -49,6 +49,15 @@ const Data = () => {
                         </a>{" "}
                         for any clarification.
                     </p>
+                    <p>
+                        <a
+                            href="https://ecampus.iitd.ac.in/PGADM/login"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Link for Admissions
+                        </a>
+                    </p>
                 </div>
                 <div>
                     <h2>Masters</h2>

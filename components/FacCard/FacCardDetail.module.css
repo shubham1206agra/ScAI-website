@@ -9,12 +9,13 @@
 
 .postrow {
     /* --white: rgba(245, 244, 240, 1); F5F4F0 */
-    --white: rgba(235, 234, 230, 1);
+    /* --white: rgba(235, 234, 230, 1); */
+    --white: #C4CFE3;
     --beige: rgba(231, 228, 218, 1); /*E7E4DA*/
-    --gray: #5b5348; /*5B5348*/
-    --mauve: rgba(96, 77, 83, 1); /* 604D53 */
+    --gray: #490909; /*5B5348*/
+    --mauve: rgba(40, 32, 34, 1); /* 604D53 */
     /* --mauve: #C21717; */
-    --mauve50: rgba(96, 77, 83, 0.5);
+    --mauve50: rgba(40, 32, 34, 0.5);
     --sans: "Be Vietnam";
     --bodyfont: 400 11px/18px var(--sans);
     font: var(--bodyfont);

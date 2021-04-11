@@ -5,7 +5,7 @@ import React from "react";
 const NewsCard = (props) => {
     return (
         <div className={`card-box ${styles.card_box}`}>
-            <div className={`card ${styles.card}`}>
+            <div className={`card ${styles.card} ${styles.card_with_border}`}>
                 <div
                     style={{
                         backgroundImage: `url(${

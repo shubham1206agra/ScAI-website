@@ -66,6 +66,15 @@ const Data = () => {
                         hodscai@admin.iitd.ac.in
                     </a>
                 </p>
+                <p>
+                    <a
+                        href="https://home.iitd.ac.in/jobs-iitd/index.php"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Link for Post
+                    </a>
+                </p>
             </div>
         </>
     );

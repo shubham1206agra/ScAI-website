@@ -2,12 +2,13 @@
     var $slides = document.querySelectorAll(".slide");
     var $slideContainer = document.querySelector(".slider__slides");
     var $controls = document.querySelectorAll(".slider__control");
-    var $controlRight = document.querySelector(".slider__control.m--right");
+    // var $controlRight = document.querySelector(".slider__control.m--right");
+    var $controlRight = document.getElementById("autoClick");
     var numOfSlides = $slides.length;
     var slidingAT = 1300; // sync this with scss variable
     var autoSliding = 10000; // sync this with scss variable
     var slidingBlocked = false;
-
+    var $eventAuto = null;
     [].slice.call($slides).forEach(function ($el, index) {
         var i = index + 1;
         $el.classList.add("slide-" + i);
@@ -19,6 +20,9 @@
     });
 
     function controlClickHandler() {
+        if ($curActive == null) {
+            clearInterval($eventAuto);
+        }
         if (slidingBlocked) return;
         slidingBlocked = true;
 
@@ -64,11 +68,16 @@
     }
 
     function autoClick() {
-        $controlRight.click();
+        if ($controlRight) {
+            $controlRight.click();
+        } else {
+            clearInterval($eventAuto);
+        }
     }
-
-    var $eventAuto = setInterval(autoClick, autoSliding);
-    $slideContainer.addEventListener("click", function () {
-        clearInterval($eventAuto);
-    });
+    if ($controlRight) {
+        $eventAuto = window.setInterval(autoClick, autoSliding);
+        $slideContainer.addEventListener("click", function () {
+            clearInterval($eventAuto);
+        });
+    }
 })();

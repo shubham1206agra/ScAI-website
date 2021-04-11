@@ -39,3 +39,9 @@ a {
 .spLink {
     color: white!important;
 }
+
+.sp-container {
+    background-image: url("/bg-extra.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

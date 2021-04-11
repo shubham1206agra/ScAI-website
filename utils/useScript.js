@@ -8,6 +8,8 @@ const useScript = (url) => {
         document.body.appendChild(script);
         return () => {
             document.body.removeChild(script);
+            document.nodeValue = document.body.cloneNode(true);
+            window.clearInterval(1);
         };
     }, [url]);
 };

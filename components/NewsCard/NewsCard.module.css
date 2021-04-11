@@ -203,7 +203,7 @@
     margin-top: 50px;
 }
 
-.btn-center {
+.btn_center {
     text-align: center;
 }
 
@@ -412,64 +412,64 @@ fieldset[disabled] .btn-success.active {
     border-top-color: #05ae0e;
 }
 
-.btn-info {
+.btn_info {
     border-color: #2ca8ff;
     color: #2ca8ff;
 }
-.btn-info:hover,
-.btn-info:focus,
-.btn-info:active,
-.btn-info.active,
-.open > .btn-info.dropdown-toggle {
+.btn_info:hover,
+.btn_info:focus,
+.btn_info:active,
+.btn_info.active,
+.open > .btn_info.dropdown-toggle {
     background-color: transparent;
     color: #109cff;
     border-color: #109cff;
 }
-.btn-info.disabled,
-.btn-info.disabled:hover,
-.btn-info.disabled:focus,
-.btn-info.disabled.focus,
-.btn-info.disabled:active,
-.btn-info.disabled.active,
-.btn-info:disabled,
-.btn-info:disabled:hover,
-.btn-info:disabled:focus,
-.btn-info:disabled.focus,
-.btn-info:disabled:active,
-.btn-info:disabled.active,
-.btn-info[disabled],
-.btn-info[disabled]:hover,
-.btn-info[disabled]:focus,
-.btn-info[disabled].focus,
-.btn-info[disabled]:active,
-.btn-info[disabled].active,
-fieldset[disabled] .btn-info,
-fieldset[disabled] .btn-info:hover,
-fieldset[disabled] .btn-info:focus,
-fieldset[disabled] .btn-info.focus,
-fieldset[disabled] .btn-info:active,
-fieldset[disabled] .btn-info.active {
+.btn_info.disabled,
+.btn_info.disabled:hover,
+.btn_info.disabled:focus,
+.btn_info.disabled.focus,
+.btn_info.disabled:active,
+.btn_info.disabled.active,
+.btn_info:disabled,
+.btn_info:disabled:hover,
+.btn_info:disabled:focus,
+.btn_info:disabled.focus,
+.btn_info:disabled:active,
+.btn_info:disabled.active,
+.btn_info[disabled],
+.btn_info[disabled]:hover,
+.btn_info[disabled]:focus,
+.btn_info[disabled].focus,
+.btn_info[disabled]:active,
+.btn_info[disabled].active,
+fieldset[disabled] .btn_info,
+fieldset[disabled] .btn_info:hover,
+fieldset[disabled] .btn_info:focus,
+fieldset[disabled] .btn_info.focus,
+fieldset[disabled] .btn_info:active,
+fieldset[disabled] .btn_info.active {
     background-color: transparent;
     border-color: #2ca8ff;
 }
-.btn-info.btn_fill {
+.btn_info.btn_fill {
     color: #ffffff;
     background-color: #2ca8ff;
     opacity: 1;
     filter: alpha(opacity=100);
 }
-.btn-info.btn_fill:hover,
-.btn-info.btn_fill:focus,
-.btn-info.btn_fill:active,
-.btn-info.btn_fill.active,
-.open > .btn-info.btn_fill.dropdown-toggle {
+.btn_info.btn_fill:hover,
+.btn_info.btn_fill:focus,
+.btn_info.btn_fill:active,
+.btn_info.btn_fill.active,
+.open > .btn_info.btn_fill.dropdown-toggle {
     background-color: #109cff;
     color: #ffffff;
 }
-.btn-info.btn_fill .caret {
+.btn_info.btn_fill .caret {
     border-top-color: #ffffff;
 }
-.btn-info .caret {
+.btn_info .caret {
     border-top-color: #2ca8ff;
 }
 
@@ -1492,13 +1492,13 @@ fieldset[disabled] .btn_neutral.active {
     font-size: 80px;
     padding: 22px;
 }
-.card.card-with-border .content {
-    padding: 15px 15px 25px 15px;
+.card.card_with_border .content {
+    padding: 15px 15px 15px 15px;
 }
-.card.card-with-border .footer {
+.card.card_with_border .footer {
     padding-bottom: 25px;
 }
-.card.card-with-border:after {
+.card.card_with_border:after {
     position: absolute;
     display: block;
     width: calc(100% - 10px);
@@ -1555,8 +1555,8 @@ fieldset[disabled] .btn_neutral.active {
     color: #ffffff;
     border: 2px solid rgba(255, 255, 255, 0.6);
 }
-.card[data-background="image"].card-with-border:after,
-.card[data-background="color"].card-with-border:after {
+.card[data-background="image"].card_with_border:after,
+.card[data-background="color"].card_with_border:after {
     border: 1px solid rgba(255, 255, 255, 0.45);
 }
 .card[data-background="image"] {
@@ -1611,6 +1611,51 @@ fieldset[disabled] .btn_neutral.active {
     );
     /* IE10+ */
     background: radial-gradient(ellipse at center, #533ce1 0%, #4087ea 100%);
+    /* W3C */
+    background-size: 250% 250%;
+}
+
+.card[data-color="purple"] {
+    background: #977AA2;
+    background: -moz-radial-gradient(
+        center,
+        ellipse cover,
+        #55415D 0%,
+        #977AA2 100%
+    );
+    /* FF3.6+ */
+    background: -webkit-gradient(
+        radial,
+        center center,
+        0px,
+        center center,
+        100%,
+        color-stop(0%, #55415D),
+        color-stop(100%, #977AA2)
+    );
+    /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(
+        center,
+        ellipse cover,
+        #55415D 0%,
+        #977AA2 100%
+    );
+    /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(
+        center,
+        ellipse cover,
+        #55415D 0%,
+        #977AA2 100%
+    );
+    /* Opera 12+ */
+    background: -ms-radial-gradient(
+        center,
+        ellipse cover,
+        #55415D 0%,
+        #977AA2 100%
+    );
+    /* IE10+ */
+    background: radial-gradient(ellipse at center, #55415D 0%, #977AA2 100%);
     /* W3C */
     background-size: 250% 250%;
 }
@@ -1747,12 +1792,12 @@ fieldset[disabled] .btn_neutral.active {
     background-size: 250% 250%;
 }
 .card[data-color="red"] {
-    background: #ff3b30;
+    background: #EB5858;
     background: -moz-radial-gradient(
         center,
         ellipse cover,
-        #bb0502 0%,
-        #ff3b30 100%
+        #C21717 0%,
+        #EB5858 100%
     );
     /* FF3.6+ */
     background: -webkit-gradient(
@@ -1761,32 +1806,32 @@ fieldset[disabled] .btn_neutral.active {
         0px,
         center center,
         100%,
-        color-stop(0%, #bb0502),
-        color-stop(100%, #ff3b30)
+        color-stop(0%, #C21717),
+        color-stop(100%, #EB5858)
     );
     /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(
         center,
         ellipse cover,
-        #bb0502 0%,
-        #ff3b30 100%
+        #C21717 0%,
+        #EB5858 100%
     );
     /* Chrome10+,Safari5.1+ */
     background: -o-radial-gradient(
         center,
         ellipse cover,
-        #bb0502 0%,
-        #ff3b30 100%
+        #C21717 0%,
+        #EB5858 100%
     );
     /* Opera 12+ */
     background: -ms-radial-gradient(
         center,
         ellipse cover,
-        #bb0502 0%,
-        #ff3b30 100%
+        #C21717 0%,
+        #EB5858 100%
     );
     /* IE10+ */
-    background: radial-gradient(ellipse at center, #bb0502 0%, #ff3b30 100%);
+    background: radial-gradient(ellipse at center, #C21717 0%, #EB5858 100%);
     /* W3C */
     background-size: 250% 250%;
 }
