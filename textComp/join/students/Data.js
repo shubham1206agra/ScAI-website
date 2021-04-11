@@ -53,27 +53,20 @@ const Data = () => {
                 <div>
                     <h2>Masters</h2>
                     <p>
-                        <strong>
-                            M.Tech. and MSR programmes (approvals awaited) in
-                            Machine Intelligence & Data Science (MINDS) is
-                            expected to start by July 2021 from ScAI.
-                        </strong>{" "}
-                        All engineering students irrespective of their Bachelors
-                        discipline will be welcome to join Masters in MINDS.
-                        <strong>
-                            {" "}
-                            Please check back this space later for any updates.
-                        </strong>
+                        M.Tech. and MSR programmes (approvals awaited) in
+                        Machine Intelligence & Data Science (MINDS) is expected
+                        to start by July 2021 from ScAI. All engineering
+                        students irrespective of their Bachelors discipline will
+                        be welcome to join Masters in MINDS. Please check back
+                        this space later for any updates.
                     </p>
                     <p>
-                        <strong>
-                            In the long run, ScAI also envisions starting an
-                            Executive Masters programme taught primarily via
-                            evening and weekend classes. This programme will
-                            cater to the growing global demand by training
-                            industry professionals in modern AI techniques.
-                            Please check back this space later for any updates.
-                        </strong>
+                        In the long run, ScAI also envisions starting an
+                        Executive Masters programme taught primarily via evening
+                        and weekend classes. This programme will cater to the
+                        growing global demand by training industry professionals
+                        in modern AI techniques. Please check back this space
+                        later for any updates.
                     </p>
                 </div>
             </div>

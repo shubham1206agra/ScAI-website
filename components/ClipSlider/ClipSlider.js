@@ -13,7 +13,8 @@ const ClipSlider = () => {
                     heading="Welcome!"
                     subText=""
                     // subText="Greetings, AI Enthusiast!"
-                    backImg="/bg-land.jpg"
+                    // backImg="/bg-land.jpg"
+                    backImg="/land-temp.jpg"
                 >
                     <div
                         style={{
@@ -121,7 +122,7 @@ const ClipSlider = () => {
                     >
                         <iframe
                             className="embed-responsive-item hide_iframe"
-                            src="https://www.youtube.com/embed/u_TvoMkk-y0?autoplay=0"
+                            src="https://www.youtube.com/embed/ghV9bi_oPxk?autoplay=0"
                             allowFullScreen
                         />
                     </div>

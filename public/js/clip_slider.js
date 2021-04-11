@@ -25,7 +25,9 @@
         var $control = this;
         var isRight = $control.classList.contains("m--right");
         var $curActive = document.querySelector(".slide.s--active");
-        var $curActiveIframe = document.querySelector(".slide.s--active iframe");
+        var $curActiveIframe = document.querySelector(
+            ".slide.s--active iframe"
+        );
         if ($curActiveIframe) {
             $curActiveIframe.classList.remove("show_iframe");
             $curActiveIframe.classList.add("hide_iframe");
@@ -35,7 +37,9 @@
         if (index < 1) index = numOfSlides;
         if (index > numOfSlides) index = 1;
         var $newActive = document.querySelector(".slide-" + index);
-        var $newActiveIframe = document.querySelector(".slide-" + index + " iframe");
+        var $newActiveIframe = document.querySelector(
+            ".slide-" + index + " iframe"
+        );
         if ($newActiveIframe) {
             $newActiveIframe.classList.remove("hide_iframe");
             $newActiveIframe.classList.add("show_iframe");
@@ -59,12 +63,12 @@
         }, slidingAT * 0.75);
     }
 
-    // function autoClick() {
-    //     $controlRight.click();
-    // }
+    function autoClick() {
+        $controlRight.click();
+    }
 
-    // var $eventAuto = setInterval(autoClick, autoSliding);
-    // $slideContainer.addEventListener("click", function () {
-    //     clearInterval($eventAuto);
-    // })
+    var $eventAuto = setInterval(autoClick, autoSliding);
+    $slideContainer.addEventListener("click", function () {
+        clearInterval($eventAuto);
+    });
 })();

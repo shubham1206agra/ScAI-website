@@ -28,7 +28,7 @@ const NewsCard = (props) => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Read Article
+                                {props.btnText ? props.btnText : "Read Article"}
                             </a>
                         </button>
                     </div>

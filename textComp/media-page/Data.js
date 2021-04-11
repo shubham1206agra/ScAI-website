@@ -42,6 +42,7 @@ const Data = () => {
                         description="November 19, 2020"
                     />
                     <NewsCard
+                        btnText="Watch Video"
                         image="https://img.youtube.com/vi/u_TvoMkk-y0/0.jpg"
                         link="https://www.youtube.com/watch?v=u_TvoMkk-y0"
                         title="Professor Mausam discussing AI and roadmap for a Doordarshan panel"
@@ -49,6 +50,7 @@ const Data = () => {
                         description="October 13, 2020"
                     />
                     <NewsCard
+                        btnText="Watch Video"
                         image="https://img.youtube.com/vi/ghV9bi_oPxk/0.jpg"
                         link="https://www.youtube.com/watch?v=ghV9bi_oPxk"
                         title="Detailed interview on the importance of School of AI in Hindi"
@@ -75,6 +77,7 @@ const Data = () => {
                 </h2>
                 <div className="card-columns">
                     <NewsCard
+                        btnText="Watch Video"
                         image="https://img.youtube.com/vi/NlgCHlA0EQ0/0.jpg"
                         link="https://www.youtube.com/watch?v=NlgCHlA0EQ0"
                         title="YouTube Video English"

@@ -64,6 +64,7 @@ class FacCardDetail extends React.Component {
                                 )}
                             </ul>
                             <h3>Biography</h3>
+                            <p>Coming Soon!</p>
                             <div></div>
                             <h3>Contact Info</h3>
                             <p>{this.props.data.address[0]}</p>
@@ -93,7 +94,7 @@ class FacCardDetail extends React.Component {
                             Personal Web Page{" "}
                             <span>{this.props.data.page}</span>
                         </a>
-                        <hr className={styles.bar}></hr>
+                        {/* <hr className={styles.bar}></hr> */}
                     </div>
                 </div>
             </>
