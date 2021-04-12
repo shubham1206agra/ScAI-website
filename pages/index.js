@@ -59,7 +59,7 @@ export default function Home() {
                         <SpCard
                             type="color"
                             color="purple"
-                            title="Alumini / Well Wisher"
+                            title="Alumni / Well Wisher"
                             btnText="Support Us by becoming a Founding Donor."
                             link="/support"
                         >

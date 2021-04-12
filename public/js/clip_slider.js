@@ -20,9 +20,6 @@
     });
 
     function controlClickHandler() {
-        if ($curActive == null) {
-            clearInterval($eventAuto);
-        }
         if (slidingBlocked) return;
         slidingBlocked = true;
 
@@ -32,6 +29,10 @@
         var $curActiveIframe = document.querySelector(
             ".slide.s--active iframe"
         );
+        if ($curActive == null) {
+            clearInterval($eventAuto);
+            return;
+        }
         if ($curActiveIframe) {
             $curActiveIframe.classList.remove("show_iframe");
             $curActiveIframe.classList.add("hide_iframe");
