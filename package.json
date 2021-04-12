@@ -27,5 +27,8 @@
     "react-measure": "^2.5.2",
     "react-spring": "^8.0.27",
     "swiper": "^6.5.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.5.0"
   }
 }

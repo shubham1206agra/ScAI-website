@@ -14,6 +14,7 @@ import {
     faUserGraduate,
     faDonate,
 } from "@fortawesome/free-solid-svg-icons";
+import Dona from "../public/donation.svg";
 
 export default function Home() {
     return (
@@ -63,10 +64,11 @@ export default function Home() {
                             btnText="Support Us by becoming a Founding Donor."
                             link="/support"
                         >
-                            <FontAwesomeIcon
+                            {/* <FontAwesomeIcon
                                 style={{ fontSize: "7rem", color: 'white' }}
                                 icon={faDonate}
-                            />
+                            /> */}
+                            <Dona />
                         </SpCard>
                     </Col>
                 </Row>
