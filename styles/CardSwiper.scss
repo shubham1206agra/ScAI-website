@@ -27,16 +27,19 @@
     transform: translateY(20px);
     transition: all 0.4s ease;
     transition-delay: 0.2s;
-    overflow: hidden;
+    // overflow: hidden;
     max-width: 100%;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    // white-space: nowrap;
 
     @media screen and (max-width: 520px) {
         & {
             font-size: 16px;
             line-height: 24px;
         }
+    }
+    & a, & a:hover {
+        color: #26384e;
     }
 }
 

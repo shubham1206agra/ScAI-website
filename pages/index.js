@@ -1,32 +1,43 @@
 // import Waves from "../components/Waves2/Waves";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-// import StartTopLanding from "../components/StartTopLanding/StartTopLanding";
+import StartTopLanding from "../components/StartTopLanding/StartTopLanding";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
-// import LandingContent from "../components/LandingContent/LandingContent";
+import LandingContent from "../components/LandingContent/LandingContent";
 import ClipSlider from "../components/ClipSlider/ClipSlider";
 import { Container, Row, Col } from "react-bootstrap";
 import SpCard from "../components/NewsCard/SpCard";
-import Link from "next/link";
+import Waves from "../components/Waves2/Waves";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faChalkboardTeacher,
     faUserGraduate,
-    faDonate,
 } from "@fortawesome/free-solid-svg-icons";
 import Dona from "../public/donation.svg";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+    const [width, updateWidth] = useState(0);
+    const resizeEvent = () => updateWidth(window.innerWidth);
+    useEffect(() => {
+        updateWidth(window.innerWidth);
+        window.addEventListener("resize", (e) => resizeEvent());
+        return () => {
+            window.removeEventListener("resize", (e) => resizeEvent());
+        };
+    });
     return (
         <>
             <Header alwcol />
-            <ClipSlider />
-            {/* <StartTopLanding text="Welcome to School of Artificial Intelligence (ScAI), IIT Delhi" />
-      <Waves r={255} g={255} b={255} /> */}
-            {/* <NewsCard />
-      <NewsCardPlain /> */}
-            {/* <LandingContent /> */}
-            {/* <DonorCard /> */}
+            {width < 1275 ? (
+                <>
+                    <StartTopLanding text="Welcome to School of Artificial Intelligence (ScAI), IIT Delhi" />
+                    <Waves r={255} g={255} b={255} />
+                    <LandingContent />
+                </>
+            ) : (
+                <ClipSlider />
+            )}
             <ScrollToTop />
             <Container fluid className="sp-container">
                 <Row className="align-items-center">
@@ -39,7 +50,7 @@ export default function Home() {
                             link="/join/faculty"
                         >
                             <FontAwesomeIcon
-                                style={{ fontSize: "7rem", color: 'white' }}
+                                style={{ fontSize: "7rem", color: "white" }}
                                 icon={faChalkboardTeacher}
                             />
                         </SpCard>
@@ -64,10 +75,6 @@ export default function Home() {
                             btnText="Support Us by becoming a Founding Donor."
                             link="/support"
                         >
-                            {/* <FontAwesomeIcon
-                                style={{ fontSize: "7rem", color: 'white' }}
-                                icon={faDonate}
-                            /> */}
                             <Dona />
                         </SpCard>
                     </Col>

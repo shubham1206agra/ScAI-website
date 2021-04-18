@@ -42,6 +42,7 @@ const Data = () => {
                     <li>Shaurya Shriyam</li>
                     <li>Chetan Arora</li>
                     <li>Rohan Paul </li>
+                    <li>Arpan Chattopadhay</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>

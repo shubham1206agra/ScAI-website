@@ -10,51 +10,99 @@ import styles from "./cstyle.module.css";
 import FacCard from "../FacCard/FacCard";
 
 class Cell extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { width: 0 };
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    }
+
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener("resize", this.updateWindowDimensions);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updateWindowDimensions);
+    }
+
+    updateWindowDimensions() {
+        this.setState({ width: window.innerWidth });
+    }
     render() {
         const { toggle, data, active } = this.props;
-        return (
-            <div
-                className={styles.cell}
-                style={{
-                    backgroundImage: data.css,
-                    cursor: !active ? "pointer" : "auto",
-                }}
-                onClick={!active ? toggle : undefined}
-            >
-                <Fade show={active} delay={active ? 500 : 0}>
-                    <div className={styles.details}>
-                        <Slug delay={600}>
-                            {/* <div
-                                className={styles.circle}
-                                style={{ background: `css` }}
-                            /> */}
-                            <div className={styles.close}>
-                                <FontAwesomeIcon
-                                    style={{ cursor: "pointer" }}
-                                    icon={faTimes}
-                                    onClick={toggle}
-                                />
-                            </div>
-                            <FacCardDetail data={data} />
-                            {/* <h1>{name}</h1>
-                            <p>{description}</p> */}
-                        </Slug>
-                    </div>
-                </Fade>
-                <Fade
-                    show={!active}
-                    from={{ opacity: 0, transform: "translate3d(0,140px,0)" }}
-                    enter={{ opacity: 1, transform: "translate3d(0,0px,0)" }}
-                    leave={{ opacity: 0, transform: "translate3d(0,-50px,0)" }}
-                    delay={active ? 0 : 400}
+        const { width } = this.state;
+        let comp = (
+            <>
+                <div
+                    className={styles.cell}
+                    style={{
+                        backgroundImage: data.css,
+                        cursor: !active ? "pointer" : "auto",
+                    }}
+                    onClick={!active ? toggle : undefined}
                 >
-                    <div className={styles.default}>
-                        <FacCard data={data} />
-                        {/* <div style={{ zIndex: 1 }}>{name}</div> */}
-                    </div>
-                </Fade>
-            </div>
+                    <Fade show={active} delay={active ? 500 : 0}>
+                        <div className={styles.details}>
+                            <Slug delay={600}>
+                                {/* <div
+                            className={styles.circle}
+                            style={{ background: `css` }}
+                        /> */}
+                                <div className={styles.close}>
+                                    <FontAwesomeIcon
+                                        style={{ cursor: "pointer" }}
+                                        icon={faTimes}
+                                        onClick={toggle}
+                                    />
+                                </div>
+                                <FacCardDetail data={data} />
+                            </Slug>
+                        </div>
+                    </Fade>
+                    <Fade
+                        show={!active}
+                        from={{
+                            opacity: 0,
+                            transform: "translate3d(0,140px,0)",
+                        }}
+                        enter={{
+                            opacity: 1,
+                            transform: "translate3d(0,0px,0)",
+                        }}
+                        leave={{
+                            opacity: 0,
+                            transform: "translate3d(0,-50px,0)",
+                        }}
+                        delay={active ? 0 : 400}
+                    >
+                        <div className={styles.default}>
+                            <FacCard data={data} />
+                            {/* <div style={{ zIndex: 1 }}>{name}</div> */}
+                        </div>
+                    </Fade>
+                </div>
+            </>
         );
+        if (width < 925) {
+            comp = (
+                <>
+                    <div
+                        className={styles.cell}
+                        style={{
+                            backgroundImage: data.css,
+                        }}
+                        onClick={() => window.open(data.page, "_blank")}
+                        // onClick={!active ? toggle : undefined}
+                    >
+                        <div className={styles.default}>
+                            <FacCard data={data} />
+                            {/* <div style={{ zIndex: 1 }}>{name}</div> */}
+                        </div>
+                    </div>
+                </>
+            );
+        }
+        return comp;
     }
 }
 
@@ -77,7 +125,7 @@ export default class App extends Component {
     updateWindowDimensions() {
         this.setState({ data, width: window.innerWidth });
     }
-    state = { data };
+    // state = { data };
     render() {
         return (
             <Grid
@@ -88,9 +136,21 @@ export default class App extends Component {
                 keys={(d) => d.name}
                 // Can be a fixed value or an individual data accessor
                 // heights={(d) => d.height}
-                heights={this.state.width < 575 ? 500 : this.state.width < 800 ? 400 : 300}
+                heights={
+                    this.state.width < 575
+                        ? 500
+                        : this.state.width < 800
+                        ? 400
+                        : 300
+                }
                 // Number of columns
-                columns={this.state.width < 1060 ? this.state.width < 800 ? 1 : 2 : 3}
+                columns={
+                    this.state.width < 1060
+                        ? this.state.width < 800
+                            ? 1
+                            : 2
+                        : 3
+                }
                 // Space between elements
                 margin={30}
                 // Removes the possibility to scroll away from a maximized element

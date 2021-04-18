@@ -5,7 +5,7 @@ import SwiperCore, {
     Navigation,
     Pagination,
     Mousewheel,
-    Autoplay
+    Autoplay,
 } from "swiper";
 
 SwiperCore.use([EffectFade, Navigation, Pagination, Mousewheel, Autoplay]);
@@ -15,7 +15,7 @@ const CardSwiper = (props) => {
         <React.Fragment>
             <Swiper
                 className="swiper-container"
-                autoplay={{delay: 5000, disableOnInteraction: false}}
+                autoplay={{ delay: 5000, disableOnInteraction: false }}
                 spaceBetween={20}
                 slidesPerView={1}
                 effect="fade"
@@ -37,16 +37,26 @@ const CardSwiper = (props) => {
                         <div className="slider-image-wrapper">
                             <img
                                 className="slider-image"
-                                src="https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80"
+                                src="https://home.iitd.ac.in/images/news/ai2.jpg"
                                 alt="SliderImg"
                             />
                         </div>
                         <div className="slider-item-content">
-                            <h1 className="swiper-h1">Postcards From Italy</h1>
+                            <h1 className="swiper-h1">
+                                <a
+                                    href="https://home.iitd.ac.in/news-ai.php"
+                                    target="_blank"
+                                >
+                                    IIT Delhi establishes School of AI
+                                </a>
+                            </h1>
                             <p className="swiper-p">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore
+                                Indian Institute of Technology (IIT) Delhi has
+                                established an independent 'School of Artificial
+                                Intelligence (ScAI)' on its campus. The School
+                                of Artificial Intelligence (ScAI) aims to cement
+                                IIT Delhi’s leadership position in India and
+                                considerably improve its global standing.
                             </p>
                         </div>
                     </SwiperSlide>
@@ -54,16 +64,23 @@ const CardSwiper = (props) => {
                         <div className="slider-image-wrapper">
                             <img
                                 className="slider-image"
-                                src="https://images.unsplash.com/photo-1491900177661-4e1cd2d7cce2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+                                src="https://static.toiimg.com/thumb/msid-77902892,imgsize-201060,width-300,height-200,resizemode-4/77902892.jpg"
                                 alt="SliderImg"
                             />
                         </div>
                         <div className="slider-item-content">
-                            <h1 className="swiper-h1">Bunker</h1>
+                            <h1 className="swiper-h1">
+                                <a
+                                    href="https://timesofindia.indiatimes.com/city/delhi/iit-delhi-launches-ai-school-to-begin-course-from-january/articleshow/77902846.cms"
+                                    target="_blank"
+                                >
+                                    IIT-Delhi launches AI school(TOI)
+                                </a>
+                            </h1>
                             <p className="swiper-p">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore
+                                IIT-Delhi announced the establishment of School
+                                of Artificial Intelligence on its campus. The
+                                school will begin its PhD programme in January.
                             </p>
                         </div>
                     </SwiperSlide>
@@ -71,16 +88,26 @@ const CardSwiper = (props) => {
                         <div className="slider-image-wrapper">
                             <img
                                 className="slider-image"
-                                src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2600&q=80"
+                                src="https://images.financialexpress.com/2020/09/iit660.jpg"
                                 alt="SliderImg"
                             />
                         </div>
                         <div className="slider-item-content">
-                            <h1 className="swiper-h1">Small Mountain</h1>
+                            <h1 className="swiper-h1">
+                                <a
+                                    href="https://www.amarujala.com/education/school-of-artificial-intelligence-starts-at-iit-delhi"
+                                    target="_blank"
+                                >
+                                    आईआईटी दिल्ली में स्कूल ऑफ आर्टिफिशियल
+                                    इंटेलीजेंस शुरू, बहुविषयक विभाग मिलकर करेंगे
+                                    काम
+                                </a>
+                            </h1>
                             <p className="swiper-p">
-                                Lorem ipsum dolor sit amet, consectetur
+                                {/* अमर उजाला */}
+                                {/* Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore
+                                incididunt ut labore */}
                             </p>
                         </div>
                     </SwiperSlide>
@@ -88,16 +115,21 @@ const CardSwiper = (props) => {
                         <div className="slider-image-wrapper">
                             <img
                                 className="slider-image"
-                                src="https://images.unsplash.com/photo-1564604761388-83eafc96f668?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=801.2.1&auto=format&fit=crop&w=2167&q=80"
+                                src="https://img.youtube.com/vi/NlgCHlA0EQ0/0.jpg"
                                 alt="SliderImg"
                             />
                         </div>
                         <div className="slider-item-content">
-                            <h1 className="swiper-h1">Walking On a Dream</h1>
+                            <h1 className="swiper-h1">
+                                <a
+                                    href="https://www.youtube.com/watch?v=TpikDstFkF4"
+                                    target="_blank"
+                                >
+                                    Plans for ScAI (in Hindi)
+                                </a>
+                            </h1>
+                            <div style={{paddingTop: '100px'}}></div>
                             <p className="swiper-p">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore
                             </p>
                         </div>
                     </SwiperSlide>
@@ -105,8 +137,12 @@ const CardSwiper = (props) => {
             </Swiper>
             <div className={`swiper-pagination pag${props.sw}`}></div>
             <div className="slider-buttons">
-                <button className={`swiper-button-prev prev${props.sw}`}>Prev</button>
-                <button className={`swiper-button-next next${props.sw}`}>Next</button>
+                <button className={`swiper-button-prev prev${props.sw}`}>
+                    Prev
+                </button>
+                <button className={`swiper-button-next next${props.sw}`}>
+                    Next
+                </button>
             </div>
         </React.Fragment>
     );

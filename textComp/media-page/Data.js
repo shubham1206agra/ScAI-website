@@ -22,6 +22,13 @@ const Data = () => {
                         description="March 14, 2021"
                     />
                     <NewsCard
+                        image="https://ceramics.org/wp-content/uploads/2021/02/02-23-glass-balls.jpg"
+                        link="https://ceramics.org/ceramic-tech-today/glass-1/glass-discovery-and-design-21-challenges-in-artificial-intelligence-and-machine-learning-for-glass-science"
+                        title="Glass discovery and design: 21 challenges in artificial intelligence and machine learning for glass science"
+                        category="The American Ceramic Society"
+                        description="February 23, 2021"
+                    />
+                    <NewsCard
                         image="https://www.dqindia.com/wp-content/uploads/2021/01/board-1364655_640.jpg"
                         link="https://www.dqindia.com/iit-delhi-invites-applications-graduates-professionals-certificate-online-course-data-science/"
                         title="Professor Hariprasad Kodamana launches online certificate course on Data Science"
@@ -72,7 +79,7 @@ const Data = () => {
                         description="September 2, 2020"
                     />
                 </div>
-                <h2 style={{ marginTop: "2rem", marginBottom: '1.5rem' }}>
+                <h2 style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
                     News reports on the launch of School of AI
                 </h2>
                 <div className="card-columns">

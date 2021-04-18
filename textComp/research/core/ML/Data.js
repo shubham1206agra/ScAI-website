@@ -85,6 +85,7 @@ const Data = () => {
                     <li>Sandeep Kumar</li>
                     <li>Jayadeva</li>
                     <li>Parag Singla</li>
+                    <li>Arpan Chattopadhay</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>

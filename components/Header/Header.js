@@ -31,7 +31,7 @@ const Header = (props) => {
                         <Row lg={6}>
                             <Col style={{ maxWidth: "100%" }}>
                                 <img
-                                    src="https://web.iitd.ac.in/~brejesh/image/iitd_logi.png"
+                                    src="/iitd_logo.png"
                                     alt="logo"
                                     height="100"
                                     width="100"

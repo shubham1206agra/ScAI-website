@@ -76,6 +76,9 @@ const Data = () => {
                     <li>Souvik Chakraborty</li>
                     <li>Shaurya Shriyam</li>
                     <li>Arnob Ghosh</li>
+                    <li>Arpan Chattopadhay</li>
+                    <li>Arpan Kumar Kar</li>
+                    <li>Manojkumar Ramteke</li>
                 </ul>
                 <h4>Key Publications</h4>
                 <ol>
@@ -116,6 +119,14 @@ const Data = () => {
                         Prosumers: How to set prices in the Tiered Electric
                         Market?", in IEEE Transactions on Industrial
                         Informatics, August 2019, vol. 15, no. 8, pp.4469–4480
+                    </li>
+                    <li>
+                        Grover, P., Kar, A.K. & Dwivedi, Y.K. (2020)
+                        Understanding artificial intelligence adoption in
+                        operations management: insights from the review of
+                        academic literature and social media discussions. Annals
+                        of Operations Research.
+                        https://doi.org/10.1007/s10479-020-03683-9
                     </li>
                 </ol>
             </div>
