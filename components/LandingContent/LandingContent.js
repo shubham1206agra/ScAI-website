@@ -8,17 +8,12 @@ const LandingContent = () => {
             <div className={styles.topDiv}>
                 <h2>IIT Delhi establishes School of AI</h2>
                 <div></div>
-                <p>
-                    IIT Delhi celebrated its Diamond Jubilee in the year 2020.
-                    The Institute sees AI as an emerging technology domain where
-                    the Institute has already invested in building core internal
-                    strength. The Institute has established ScAI in September
-                    2020 to strengthen education and research in AI, Machine
-                    Learning and Data Science, and enable societal and
-                    commercial applications. ScAI will provide a single platform
-                    for students, faculty members, industry, non-profit
-                    organisations, and policy makers, who share the common goal
-                    of making India an AI-powerhouse.
+                <p style={{ fontSize: "1.2rem" }}>
+                    Indian Institute of Technology (IIT) Delhi has established
+                    an independent 'School of Artificial Intelligence (ScAI)' on
+                    its campus. The School of Artificial Intelligence (ScAI)
+                    aims to cement IIT Delhi’s leadership position in India and
+                    considerably improve its global standing.
                 </p>
             </div>
             <div className={styles.midDiv}>

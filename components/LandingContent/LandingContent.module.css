@@ -54,7 +54,7 @@
 }
 
 .bottomDiv {
-    background: #ef6603;
+    background: #c21717;
     position: relative;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -67,7 +67,7 @@
     /* position: absolute; */
     top: 10%;
     right: 10%;
-    color: #152f4f;
+    color: #0b1829;
     text-align: center;
 }
 
@@ -76,14 +76,15 @@
     margin-left: auto;
     margin-right: auto;
     width: 10vw;
-    border-top: 5px solid #152f4f;
+    border-top: 5px solid #0b1829;
 }
 
 .bottomDiv p {
     width: 80.7vw;
     margin-left: 9vw;
     text-align: center;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
+    color: #0b1829;
 }
 
 .bottomDiv a, .bottomDiv a:hover {
