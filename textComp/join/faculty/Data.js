@@ -63,7 +63,7 @@ const Data = () => {
                     opportunities for growth/success at ScAI, please feel free
                     to reach out the head of ScAI at{" "}
                     <a href="mailto:hodscai@admin.iitd.ac.in">
-                        hodscai@admin.iitd.ac.in
+                        hodscai[AT]admin.iitd.ac.in
                     </a>
                 </p>
                 <p>

@@ -43,7 +43,7 @@ const LandingContent = () => {
                     positions in the areas of both core AI and applied AI. For
                     details please contact{" "}
                     <a href="mailto:hodscai@admin.iitd.ac.in">
-                        hodscai@admin.iitd.ac.in
+                        hodscai[AT]admin.iitd.ac.in
                     </a>
                     <br />
                     <a

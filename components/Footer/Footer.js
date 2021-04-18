@@ -84,7 +84,7 @@ const Footer = (props) => {
                                 icon={faEnvelope}
                             />
                             <a href="mailto:office@scai.iitd.ac.in">
-                                office@scai.iitd.ac.in
+                                office[AT]scai.iitd.ac.in
                             </a>
                         </p>
                     </div>

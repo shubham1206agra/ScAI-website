@@ -1,6 +1,5 @@
 // import React from "react";
 import styles from "./Waves.module.css";
-import { isMobile } from "react-device-detect";
 
 const Waves = (props) => {
     const red = props.r;
