@@ -4,10 +4,6 @@ const Data = () => {
     return (
         <>
             <div className={styles.main}>
-                <h5>Definition</h5>
-                <p>
-                    AI systems that understand and interact in human language.
-                </p>
                 <p>
                     Understanding human languages has been a cornerstone
                     application of AI. NLP Group at ScAI focuses on two salient

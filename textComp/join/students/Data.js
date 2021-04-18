@@ -45,7 +45,7 @@ const Data = () => {
                         thesis. If a student has any further queries, please
                         write to{" "}
                         <a href="mailto:office@scai.iitd.ac.in">
-                            office@scai.iitd.ac.in
+                            office[AT]scai.iitd.ac.in
                         </a>{" "}
                         for any clarification.
                     </p>
