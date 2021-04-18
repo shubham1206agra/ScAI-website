@@ -6,6 +6,12 @@
     bottom: 51vh;
 }
 
+@media only screen and (max-width: 480px) {
+    .header {
+        display: none;
+    }
+}
+
 .waves {
     position: relative;
     width: 100vw;
@@ -47,7 +53,7 @@
 /*Shrinking for mobile*/
 @media (max-width: 800px) {
     .waves {
-        bottom: 9.8vh;
+        bottom: 9.5vh;
         height: 40px;
         min-height: 40px;
     }

@@ -45,7 +45,7 @@ const Header = (props) => {
                                     color: "white",
                                 }}
                             >
-                                <span>
+                                <span className={styles.xyy}>
                                     School of Artificial Intelligence (ScAI)
                                     <hr
                                         style={{
