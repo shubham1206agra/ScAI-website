@@ -18,11 +18,11 @@ const Data = () => {
                         Bachelors/Masters discipline are welcome to join a Ph.D.
                         in ScAI. For more information, please refer to the{" "}
                         <a
-                            href="/pdf/scaicriteria.pdf"
+                            href="/pdf/ScAI-PhD.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            2020-21 Semester 1 shortlisting criteria
+                            2021-22 Semester 1 shortlisting criteria
                         </a>
                         . The criteria may change semester to semester, but
                         gives a broad idea of expectations.

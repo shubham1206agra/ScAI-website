@@ -310,7 +310,7 @@ const data = [
             // "Nanotribology of Engineering Materials and Industrial Lubricant Additives",
             // "Nanoscale in Situ Methods in Tribology, Surface Science & Engineering",
             "Failure Analysis of Materials",
-            "Development of Novel Scanning Probe Microscopy Technique",
+            // "Development of Novel Scanning Probe Microscopy Technique",
             "Nanoscience and Nanotechnology",
             "Surface Science & Engineering",
         ],
@@ -323,6 +323,27 @@ const data = [
         page: "https://mse.iitd.ac.in/faculty-nitya.php",
         css: col[5],
         image: "/faculty/nitya.jpg",
+    },
+    {
+        name: "Agam Gupta",
+        // imgPos: "top",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Platform Ecosystems",
+            "Organizational Ecology",
+            "Computational Social Science, and Networks",
+            "Sharing Economy",
+        ],
+        address: [
+            "DMS",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "agam[AT]iitd.ac.in",
+        phone: "+91-11-2654-8406",
+        page: "https://dms.iitd.ac.in/faculity_type/prof-agamgupta/",
+        css: col[0],
+        image: "/faculty/agam.jpg",
     },
     {
         name: "Arpan Kumar Kar",
@@ -341,7 +362,7 @@ const data = [
     },
     {
         name: "Hariprasad Kodamana",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Graphs",
@@ -362,7 +383,7 @@ const data = [
     },
     {
         name: "N. M. Anoop Krishnan",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Materials Modelling",

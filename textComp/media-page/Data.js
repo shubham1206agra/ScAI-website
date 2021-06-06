@@ -65,7 +65,7 @@ const Data = () => {
                         description="September 3, 2020"
                     />
                     <NewsCard
-                        image="https://media-exp1.licdn.com/dms/image/C5603AQEc2rec9vdnEg/profile-displayphoto-shrink_200_200/0/1591161678504?e=1622073600&v=beta&t=6jGPv4vbG7IYgyVaT4KqY21zdEoLP2BrLBOg-lF0ZpE"
+                        image="/duggal.jpg"
                         // link="https://www.youtube.com/watch?v=ghV9bi_oPxk"
                         title="Mr. Arun Duggal becomes the first co-founder of School of AI"
                         category="Co-Founder"
