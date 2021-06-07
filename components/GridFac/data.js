@@ -184,7 +184,6 @@ const data = [
         research_areas: [
             "Artificial Intelligence at the Edge",
             "Specialised Hardware for Artificial Intelligence/ Machine Learning (Neuromorphic Computing)",
-            "Nanomagnetism and Spintronics",
             "Computational Neuroscience",
             "Quantum Computing for Artificial Intelligence/ Machine Learning",
         ],
@@ -213,7 +212,7 @@ const data = [
     },
     {
         name: "Souvik Chakraborty",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Deep learning",
@@ -330,8 +329,6 @@ const data = [
         position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
-            "Platform Ecosystems",
-            "Organizational Ecology",
             "Computational Social Science, and Networks",
             "Sharing Economy",
         ],
@@ -510,7 +507,7 @@ const data = [
     },
     {
         name: "Sitikantha Roy",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Biomechanics of tissue damage",
