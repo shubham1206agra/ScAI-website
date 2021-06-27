@@ -343,6 +343,26 @@ const data = [
         image: "/faculty/agam.jpg",
     },
     {
+        name: "Jayadeva",
+        // imgPos: "top",
+        position: "Associate Faculty",
+        // position: "Professor",
+        research_areas: [
+            "Machine Learning",
+            "Neuromorphic Engineering",
+            "Optimization",
+        ],
+        address: [
+            "Room 218, Block II, Dept. of Electrical Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: " jayadeva[AT]ee.iitd.ac.in",
+        phone: "+91-11-2652-6821",
+        page: "https://web.iitd.ac.in/~jayadeva/",
+        css: col[1],
+        image: "/faculty/jayadeva.jpg",
+    },
+    {
         name: "Arpan Kumar Kar",
         position: "Associate Faculty",
         // position: "Associate Professor",
