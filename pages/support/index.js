@@ -67,13 +67,24 @@ const Donors = () => {
                     marginRight: "auto",
                 }}
             ></div>
-            <DonorCard
-                img="/duggal.jpg"
-                name="Arun Duggal"
-                pos="Co-Founder"
-                desc="Chairman at ICRA Limited"
-                linkedin="https://www.linkedin.com/in/arun-duggal-38124331/"
-            />
+            <div style={{display: 'grid'}}>
+                <DonorCard
+                    posi={1} 
+                    img="/duggal.jpg"
+                    name="Arun Duggal"
+                    pos="Co-Founder"
+                    desc="Chairman at ICRA Limited"
+                    linkedin="https://www.linkedin.com/in/arun-duggal-38124331/"
+                />
+                <DonorCard
+                    posi={2}
+                    img="/google.jpg"
+                    name="Google"
+                    pos="Co-Founder"
+                    desc="Company - Internet"
+                    linkedin="https://www.linkedin.com/company/google/"
+                />
+            </div>
             <ScrollToTop />
             <Footer />
         </>

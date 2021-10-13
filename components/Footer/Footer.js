@@ -53,7 +53,10 @@ const Footer = (props) => {
                                 - <Link href="/join/postdocs"><a href="/join/postdocs">Join -&gt; PostDocs</a></Link>
                             </li>
                             <li>
-                                - <Link href="/join/students"><a href="/join/students">Join -&gt; Students</a></Link>
+                                - <Link href="/join/mtech"><a href="/join/mtech">Join -&gt; Masters Students</a></Link>
+                            </li>
+                            <li>
+                                - <Link href="/join/phd"><a href="/join/phd">Join -&gt; PhD Students</a></Link>
                             </li>
                             <li>
                                 - <Link href="/support"><a href="/support">Support Us</a></Link>

@@ -103,6 +103,18 @@ const Data = () => {
                 <h4>Key Publications</h4>
                 <ol>
                     <li>
+                        Kalakoti, Y., Yadav, S. and Sundar, D. (2021). SurvCNN:
+                        a discrete time-to-event cancer survival estimation
+                        framework using image representations of omics data.
+                        Cancers 13: 3106.
+                    </li>
+                    <li>
+                        Malik, V., Kalakoti, Y. and Sundar, D. (2021). Deep
+                        learning assisted multi-omics integration for survival
+                        and drug response prediction in breast cancer. BMC
+                        Genomics 22(1): 214.
+                    </li>
+                    <li>
                         Malik, V., Kalakoti, Y. and Sundar, D. (2021). Deep
                         learning assisted multi-omics integration for survival
                         and drug response prediction in breast cancer. BMC

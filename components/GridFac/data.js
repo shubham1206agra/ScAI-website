@@ -55,7 +55,7 @@ const data = [
     },
     {
         name: "Sumeet Agarwal",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning",
@@ -114,7 +114,7 @@ const data = [
     },
     {
         name: "Chetan Arora",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: ["Computer Vision", "Machine Learning"],
         address: [
@@ -163,7 +163,7 @@ const data = [
     },
     {
         name: "Srikanta Bedathur",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Data Management",
@@ -179,7 +179,7 @@ const data = [
     },
     {
         name: "Debanjan Bhowmik",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Artificial Intelligence at the Edge",
@@ -236,7 +236,7 @@ const data = [
     {
         name: "Niladri Chatterjee",
         imgPos: "top",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Professor",
         research_areas: [
             "Machine Translation",
@@ -279,6 +279,27 @@ const data = [
         image: "/faculty/arpanc.png",
     },
     {
+        name: "Dinesh Garg",
+        position: "Adjunct Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Algorithms and Theory",
+            "Knowledge Discovery and Data Mining",
+            "Operations Research",
+            "Reasoning",
+            "Machine Learning",
+        ],
+        address: [
+            "Senior Researcher, AI Reasoning,",
+            "India Research Laboratory, Bangalore, India",
+        ],
+        email: "garg.dinesh[AT]in.ibm.com",
+        phone: "+91-880-009-6802",
+        page: "https://researcher.watson.ibm.com/researcher/view.php?person=in-garg.dinesh",
+        css: col[4],
+        image: "/faculty/dinesh.jpg",
+    },
+    {
         name: "Arnob Ghosh",
         position: "Associate Faculty",
         // position: "Assistant Professor",
@@ -296,7 +317,7 @@ const data = [
         email: "aghosh[AT]iitd.ac.in",
         phone: "+91-11-2659-8428",
         page: "https://sites.google.com/site/arnob008/",
-        css: col[4],
+        css: col[5],
         image: "/faculty/arnob.jpg",
     },
     {
@@ -320,7 +341,7 @@ const data = [
         email: "ngosvami[AT]iitd.ac.in",
         phone: "+91-11-2659-6414",
         page: "https://mse.iitd.ac.in/faculty-nitya.php",
-        css: col[5],
+        css: col[6],
         image: "/faculty/nitya.jpg",
     },
     {
@@ -332,14 +353,11 @@ const data = [
             "Computational Social Science, and Networks",
             "Sharing Economy",
         ],
-        address: [
-            "DMS",
-            "IIT Delhi, Hauz Khas, New Delhi- 110016",
-        ],
+        address: ["DMS", "IIT Delhi, Hauz Khas, New Delhi- 110016"],
         email: "agam[AT]iitd.ac.in",
         phone: "+91-11-2654-8406",
         page: "https://dms.iitd.ac.in/faculity_type/prof-agamgupta/",
-        css: col[0],
+        css: col[7],
         image: "/faculty/agam.jpg",
     },
     {
@@ -359,14 +377,19 @@ const data = [
         email: " jayadeva[AT]ee.iitd.ac.in",
         phone: "+91-11-2652-6821",
         page: "https://web.iitd.ac.in/~jayadeva/",
-        css: col[1],
+        css: col[8],
         image: "/faculty/jayadeva.jpg",
     },
     {
         name: "Arpan Kumar Kar",
         position: "Associate Faculty",
         // position: "Associate Professor",
-        research_areas: ["Data Science", "Digital Transformation"],
+        research_areas: [
+            "Internet And Social Media",
+            "Machine Learning Applications",
+            "Data Science and Big Data",
+            "Management of AI/ML Technology",
+        ],
         address: [
             "Room 502, Vishwakarma Bhawan,",
             "IIT Delhi, Hauz Khas, New Delhi- 110016",
@@ -374,7 +397,7 @@ const data = [
         email: "arpankar[AT]iitd.ac.in",
         phone: "+91-11-2659-7320",
         page: "https://arpankar.com",
-        css: col[6],
+        css: col[9],
         image: "/faculty/arpan.jpg",
     },
     {
@@ -395,7 +418,7 @@ const data = [
         email: "kodamana[AT]iitd.ac.in",
         phone: "+91-11-2659-1024",
         page: "https://web.iitd.ac.in/~kodamana/",
-        css: col[7],
+        css: col[0],
         image: "/faculty/hariprasad.jpg",
     },
     {
@@ -414,12 +437,12 @@ const data = [
         email: "krishnan[AT]iitd.ac.in",
         phone: "+91-11-2659-1223",
         page: "https://sites.google.com/site/nmakrishnaniitd/home/",
-        css: col[8],
+        css: col[1],
         image: "/faculty/anoop.jpg",
     },
     {
         name: "Sandeep Kumar",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Optimization",
@@ -434,7 +457,7 @@ const data = [
         email: "ksandeep[AT]iitd.ac.in",
         phone: "+91-11-2659-5490",
         page: "https://sites.google.com/view/sandeepkr/home",
-        css: col[9],
+        css: col[2],
         image: "/faculty/sandeep.png",
     },
     {
@@ -449,12 +472,31 @@ const data = [
         email: "apmehra[AT]maths.iitd.ac.in",
         phone: "+91-11-2659-7106",
         page: "https://web.iitd.ac.in/~apmehra/",
-        css: col[0],
+        css: col[3],
         image: "/faculty/aparna.png",
     },
     {
-        name: "Rohan Paul",
+        name: "Amit Mehndiratta",
         position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Medical Imaging (Algorithm Development and Analysis)",
+            "Mobile Healthcare",
+            "Development of Portable Healthcare Devices",
+        ],
+        address: [
+            "Room No. 298, Block III, Centre for Biomedical Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "amehndiratta[AT]cbme.iitd.ac.in",
+        phone: "+91-11-2659-6230",
+        page: "https://web.iitd.ac.in/~amehndiratta/",
+        css: col[4],
+        image: "/faculty/amit.jpg",
+    },
+    {
+        name: "Rohan Paul",
+        position: "Joint Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Robot Intelligence",
@@ -468,7 +510,7 @@ const data = [
         email: "rohan[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-8435",
         page: "https://www.cse.iitd.ac.in/~rohanpaul",
-        css: col[1],
+        css: col[5],
         image: "/faculty/rohan.jpg",
     },
     {
@@ -487,7 +529,7 @@ const data = [
         email: "ramanath[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6022",
         page: "https://www.cse.iitd.ac.in/~ramanath/",
-        css: col[2],
+        css: col[6],
         image: "/faculty/maya.jpg",
     },
     {
@@ -506,12 +548,12 @@ const data = [
         email: "mcramteke[AT]chemical.iitd.ac.in",
         phone: "+91-11-2659-1026",
         page: "https://web.iitd.ac.in/~mcramteke/Home.html",
-        css: col[3],
+        css: col[7],
         image: "/faculty/manoj.jpg",
     },
     {
         name: "Sayan Ranu",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning and Data Mining for Graphs",
@@ -522,7 +564,7 @@ const data = [
         email: "sayanranu[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6383",
         page: "https://www.cse.iitd.ac.in/~sayan/",
-        css: col[4],
+        css: col[8],
         image: "/faculty/sayan.jpg",
     },
     {
@@ -545,7 +587,7 @@ const data = [
         email: "sroy[AT]am.iitd.ac.in",
         phone: "+91-11-2659-1220",
         page: "https://sites.google.com/view/sitilab-iitd/",
-        css: col[5],
+        css: col[9],
         image: "/faculty/sitikantha.png",
     },
     {
@@ -566,7 +608,7 @@ const data = [
         email: "srsarangi[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-7065",
         page: "https://www.cse.iitd.ac.in/~srsarangi/",
-        css: col[6],
+        css: col[0],
         image: "/faculty/smruti.jpg",
     },
     {
@@ -581,8 +623,24 @@ const data = [
         email: "riju[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-7385",
         page: "https://www.cse.iitd.ac.in/~rijurekha/",
-        css: col[7],
+        css: col[1],
         image: "/faculty/rijurekha.jpg",
+    },
+    {
+        name: "Pradeep Shenoy",
+        position: "Adjunct Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Data Mining and Modeling",
+            "Machine Intelligence",
+            "Natural Language Processing",
+        ],
+        address: ["", ""],
+        email: "pshenoy[AT]cs.washington.edu",
+        phone: "",
+        page: "https://research.google/people/106965/",
+        css: col[2],
+        image: "/faculty/pradeep.jpg",
     },
     {
         name: "Shaurya Shriyam",
@@ -600,12 +658,31 @@ const data = [
         email: "shriyam[AT]iitd.ac.in",
         phone: "+91-11-2659-8428",
         page: "https://web.iitd.ac.in/~shriyam/index.html",
-        css: col[8],
+        css: col[3],
         image: "/faculty/shaurya.jpg",
     },
     {
-        name: "Parag Singla",
+        name: "Anup Singh",
         position: "Associate Faculty",
+        // position: "Associate Professor",
+        research_areas: [
+            "Applications of Machine Learning in Healthcare",
+            "Medical Image Processing",
+            "Mathematical Modeling",
+        ],
+        address: [
+            "Room No. 299, Block II, Center for Biomedical Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "anupsm[AT]iitd.ac.in",
+        phone: "+91-11-2659-1055",
+        page: "https://web.iitd.ac.in/~anupsm/",
+        css: col[4],
+        image: "/faculty/anup.jpg",
+    },
+    {
+        name: "Parag Singla",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Machine Learning",
@@ -619,7 +696,7 @@ const data = [
         email: "parags[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6064",
         page: "https://www.cse.iitd.ac.in/~parags/index.html",
-        css: col[9],
+        css: col[5],
         image: "/faculty/parag.jpg",
     },
     {
@@ -631,7 +708,7 @@ const data = [
         email: "sundar[AT]dbeb.iitd.ac.in",
         phone: "+91-11-2659-1066",
         page: "https://web.iitd.ac.in/~sundar/",
-        css: col[0],
+        css: col[6],
         image: "/faculty/sundar.png",
     },
     {
@@ -653,7 +730,7 @@ const data = [
         email: "manansuri[AT]ee.iitd.ac.in",
         phone: "+91-11-2659-1146",
         page: "https://web.iitd.ac.in/~manansuri/",
-        css: col[1],
+        css: col[7],
         image: "/faculty/manan.png",
     },
     {
@@ -668,22 +745,19 @@ const data = [
         email: "avaidya[AT]hss.iitd.ac.in",
         phone: "+91-11-2659-8405",
         page: "https://web.iitd.ac.in/~avaidya",
-        css: col[2],
+        css: col[8],
         image: "/faculty/ashwini.jpg",
     },
     {
         name: "Manik Varma",
-        position: "Associate Faculty",
+        position: "Adjunct Faculty",
         // position: "Adjunct Faculty",
         research_areas: ["Machine Learning", "Computer Vision"],
-        address: [
-            "",
-            "",
-        ],
+        address: ["", ""],
         email: "manik[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-XXXX",
         page: "http://manikvarma.org/",
-        css: col[3],
+        css: col[9],
         image: "/faculty/manik.jpg",
     },
 ];

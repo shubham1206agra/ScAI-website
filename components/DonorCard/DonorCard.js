@@ -67,7 +67,7 @@ const DonorCard = (props) => {
 
     return (
         <>
-            <div className={styles.appWrap} ref={(el) => (app = el)}>
+            <div className={props.posi === 1 ? styles.appWrap: styles.appWrapR} ref={(el) => (app = el)}>
                 <div className={styles.appContainer} ref={(el) => (card = el)}>
                     <Image />
                     <header className={styles.headerContainer}>

@@ -6,7 +6,12 @@
 //     padding: 0;
 // }
 .appWrap {
-    grid-column-start: 2;
+    grid-column: 1 / 2;
+    width: 100%;
+}
+
+.appWrapR {
+    grid-column: 2 / 2;
     width: 100%;
 }
 

@@ -145,9 +145,14 @@ const Header = (props) => {
                         title="Join Us"
                         id="join"
                     >
-                        <Link href="/join/students">
-                            <NavDropdown.Item href="/join/students">
-                                Prospective Students
+                        <Link href="/join/mtech">
+                            <NavDropdown.Item href="/join/mtech">
+                                Prospective Masters Students
+                            </NavDropdown.Item>
+                        </Link>
+                        <Link href="/join/phd">
+                            <NavDropdown.Item href="/join/phd">
+                                Prospective PhD Students
                             </NavDropdown.Item>
                         </Link>
                         <Link href="/join/postdocs">

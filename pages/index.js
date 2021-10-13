@@ -61,7 +61,7 @@ export default function Home() {
                         <SpCard
                             title="Students"
                             btnText="Interested in a PhD in AI?"
-                            link="/join/students"
+                            link="/join/phd"
                         >
                             <FontAwesomeIcon
                                 style={{ fontSize: "7rem" }}
