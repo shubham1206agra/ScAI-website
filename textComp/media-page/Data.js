@@ -8,6 +8,33 @@ const Data = () => {
         <>
             <div className={styles.main}>
                 <div className="card-columns">
+                    <NewsCard
+                        image="/faculty/arpan.jpg"
+                        link=""
+                        title="Prof. Arpan K. Kar, Department of Management Studies, has been selected as one of the recipients of the Clarivate India Research Excellence- Citation Awards 2021 (powered by Web of Science), the 8th edition of this award in the Social Sciences and Interdisciplinary Sciences category for individuals."
+                        category="IIT Delhi"
+                        description="October 9, 2021"
+                    />
+                    <NewsCardPlain
+                        link="https://home.iitd.ac.in/show.php?id=37&in_sections=Press&fbclid=IwAR0dZOcixO8L7mWWoaoZ9COR1kyCZ9t1PvzDbi-xmnhg0BhBSPB0hIG9cXY"
+                        title="IIT Delhi, AIIMS New Delhi and Addverb Co-develop Telerobotic Ultrasound System During COVID Times"
+                        category="IIT Delhi"
+                        description="August 10, 2021"
+                    />
+                    <NewsCard
+                        image="https://home.iitd.ac.in/public/storage/uploads/ai2_1620288707.jpg"
+                        link="https://home.iitd.ac.in/show-research.php?id=7"
+                        title="ScAI's six month review interview is here"
+                        category="IIT Delhi"
+                        description="August 9, 2021"
+                    />
+                    <NewsCard
+                        image="https://images.newindianexpress.com/uploads/user/imagelibrary/2021/8/6/w900X450/A-NEURON.jpg?w=640&dpr=1.0"
+                        link="https://www.newindianexpress.com/lifestyle/tech/2021/aug/06/a-neuron-model-for-efficient-ai-systems-2340796.html"
+                        title="A neuron model for efficient AI systems"
+                        category="The New Indian Express"
+                        description="August 6, 2021"
+                    />
                     <NewsCardPlain
                         link="https://timesofindia.indiatimes.com/business/india-business/nlp-has-become-one-of-the-most-exciting-parts-of-ai/articleshow/81543173.cms"
                         title="Professor Mausam interviewed for recent progress in NLP"
