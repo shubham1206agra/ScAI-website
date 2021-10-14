@@ -80,7 +80,7 @@ const Donors = () => {
                     posi={2}
                     img="/google.jpg"
                     name="Google"
-                    pos="Co-Founder"
+                    pos="Pioneer Founder"
                     desc="Company - Internet"
                     linkedin="https://www.linkedin.com/company/google/"
                 />

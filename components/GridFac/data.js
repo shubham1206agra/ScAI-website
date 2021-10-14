@@ -96,7 +96,7 @@ const data = [
     },
     {
         name: "Prathosh A.P.",
-        position: "Associate Faculty",
+        position: "Adjunct Faculty",
         // position: "Assistant Professor",
         research_areas: [
             "Vision and image processing",
@@ -382,7 +382,7 @@ const data = [
     },
     {
         name: "Arpan Kumar Kar",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Internet And Social Media",
@@ -572,12 +572,11 @@ const data = [
         position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
-            "Biomechanics of tissue damage",
-            "Musculoskeletal Biomechanics",
-            "Soft Robotics",
+            "Soft Robotics (Actuator, sensor, control)",
+            "AI in Healthcare/ digital health",
+            "Scientific Computation/Nonlinear Optimization",
             // "Bioinspired Engineering",
-            "Mechanics of soft active material",
-            "Smart structures and control",
+            "Biomechanics (Musculoskeletal/Brain/Cardiovascular/lung)",
             // "Composite structures",
         ],
         address: [
@@ -631,9 +630,9 @@ const data = [
         position: "Adjunct Faculty",
         // position: "Assistant Professor",
         research_areas: [
-            "Data Mining and Modeling",
-            "Machine Intelligence",
-            "Natural Language Processing",
+            "Cognitive Science",
+            "Machine Learning",
+            "Neuroscience",
         ],
         address: ["", ""],
         email: "pshenoy[AT]cs.washington.edu",
