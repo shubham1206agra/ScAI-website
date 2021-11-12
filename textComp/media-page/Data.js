@@ -11,7 +11,7 @@ const Data = () => {
                     <NewsCard
                         image="/faculty/arpan.jpg"
                         link=""
-                        title="Prof. Arpan K. Kar, Department of Management Studies, has been selected as one of the recipients of the Clarivate India Research Excellence- Citation Awards 2021 (powered by Web of Science), the 8th edition of this award in the Social Sciences and Interdisciplinary Sciences category for individuals."
+                        title="Prof. Arpan K. Kar, has been selected as one of the recipients of the Clarivate India Research Excellence"
                         category="IIT Delhi"
                         description="October 9, 2021"
                     />

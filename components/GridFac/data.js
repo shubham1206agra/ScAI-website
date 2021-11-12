@@ -480,9 +480,8 @@ const data = [
         position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
-            "Medical Imaging (Algorithm Development and Analysis)",
-            "Mobile Healthcare",
-            "Development of Portable Healthcare Devices",
+            "Medical Image Processing (Algorithm Development & Analysis)",
+            "Neuro-Assistive Technologies in Rehabilitation",
         ],
         address: [
             "Room No. 298, Block III, Centre for Biomedical Engineering,",
@@ -493,6 +492,43 @@ const data = [
         page: "https://web.iitd.ac.in/~amehndiratta/",
         css: col[4],
         image: "/faculty/amit.jpg",
+    },
+    {
+        name: "Preeti Ranjan Panda",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Energy-efficient Embedded Systems",
+            "Cache Management and Memory Technologies",
+            "Electronic Design Automation and Design Methodology",
+        ],
+        address: [
+            "Room 202, Khosla School of IT, Department of Computer Science and Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "panda[AT]cse.iitd.ac.in",
+        phone: "+91-11-2659-6030",
+        page: "https://www.cse.iitd.ac.in/~panda/",
+        css: col[5],
+        image: "/faculty/preeti.jpg",
+    },
+    {
+        name: "Kolin Paul",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Affordable HealthCare --- Science to Systems",
+            "Hardware and Embedded Systems",
+        ],
+        address: [
+            "Room 102, Khosla School of IT, Department of Computer Science and Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "kolin[AT]cse.iitd.ac.in",
+        phone: "+91-11-2659-6033",
+        page: "https://www.cse.iitd.ac.in/~kolin/Kolins_Web_Home/My_Home.html",
+        css: col[6],
+        image: "/faculty/kolin.jpg",
     },
     {
         name: "Rohan Paul",
@@ -510,8 +546,27 @@ const data = [
         email: "rohan[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-8435",
         page: "https://www.cse.iitd.ac.in/~rohanpaul",
-        css: col[5],
+        css: col[7],
         image: "/faculty/rohan.jpg",
+    },
+    {
+        name: "Anurag Rathore",
+        position: "Associate Faculty",
+        // position: "Associate Professor",
+        research_areas: [
+            "Continuous Processing",
+            "Analytical & Functional Characterization of Biosimilars",
+            "Data Analytics",
+        ],
+        address: [
+            "Department of Chemical Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "arathore[AT]chemical.iitd.ac.in",
+        phone: "+91-11-2659-1098",
+        page: "http://www.biotechcmz.com/",
+        css: col[8],
+        image: "/faculty/anurag.jpg",
     },
     {
         name: "Maya Ramanath",
@@ -529,7 +584,7 @@ const data = [
         email: "ramanath[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6022",
         page: "https://www.cse.iitd.ac.in/~ramanath/",
-        css: col[6],
+        css: col[9],
         image: "/faculty/maya.jpg",
     },
     {
@@ -548,7 +603,7 @@ const data = [
         email: "mcramteke[AT]chemical.iitd.ac.in",
         phone: "+91-11-2659-1026",
         page: "https://web.iitd.ac.in/~mcramteke/Home.html",
-        css: col[7],
+        css: col[0],
         image: "/faculty/manoj.jpg",
     },
     {
@@ -564,7 +619,7 @@ const data = [
         email: "sayanranu[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6383",
         page: "https://www.cse.iitd.ac.in/~sayan/",
-        css: col[8],
+        css: col[1],
         image: "/faculty/sayan.jpg",
     },
     {
@@ -586,8 +641,27 @@ const data = [
         email: "sroy[AT]am.iitd.ac.in",
         phone: "+91-11-2659-1220",
         page: "https://sites.google.com/view/sitilab-iitd/",
-        css: col[9],
+        css: col[2],
         image: "/faculty/sitikantha.png",
+    },
+    {
+        name: "Manabendra Saharia",
+        position: "Associate Faculty",
+        // position: "Associate Professor",
+        research_areas: [
+            "Statistics and machine Learning, Data Assimilation",
+            "Land surface/hydrologic modeling",
+            "Hydrologic extremes, Flood and drought forecasting",
+        ],
+        address: [
+            "Department of Civil Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "msaharia[AT]iitd.ac.in",
+        phone: "+91-11-2659-1260",
+        page: "https://hydrosenselab.github.io/",
+        css: col[3],
+        image: "/faculty/manabendra.jpg",
     },
     {
         name: "Smruti R. Sarangi",
@@ -607,7 +681,7 @@ const data = [
         email: "srsarangi[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-7065",
         page: "https://www.cse.iitd.ac.in/~srsarangi/",
-        css: col[0],
+        css: col[4],
         image: "/faculty/smruti.jpg",
     },
     {
@@ -622,7 +696,7 @@ const data = [
         email: "riju[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-7385",
         page: "https://www.cse.iitd.ac.in/~rijurekha/",
-        css: col[1],
+        css: col[5],
         image: "/faculty/rijurekha.jpg",
     },
     {
@@ -638,7 +712,7 @@ const data = [
         email: "pshenoy[AT]cs.washington.edu",
         phone: "",
         page: "https://research.google/people/106965/",
-        css: col[2],
+        css: col[6],
         image: "/faculty/pradeep.jpg",
     },
     {
@@ -657,7 +731,7 @@ const data = [
         email: "shriyam[AT]iitd.ac.in",
         phone: "+91-11-2659-8428",
         page: "https://web.iitd.ac.in/~shriyam/index.html",
-        css: col[3],
+        css: col[7],
         image: "/faculty/shaurya.jpg",
     },
     {
@@ -676,7 +750,7 @@ const data = [
         email: "anupsm[AT]iitd.ac.in",
         phone: "+91-11-2659-1055",
         page: "https://web.iitd.ac.in/~anupsm/",
-        css: col[4],
+        css: col[8],
         image: "/faculty/anup.jpg",
     },
     {
@@ -695,7 +769,7 @@ const data = [
         email: "parags[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6064",
         page: "https://www.cse.iitd.ac.in/~parags/index.html",
-        css: col[5],
+        css: col[9],
         image: "/faculty/parag.jpg",
     },
     {
@@ -707,7 +781,7 @@ const data = [
         email: "sundar[AT]dbeb.iitd.ac.in",
         phone: "+91-11-2659-1066",
         page: "https://web.iitd.ac.in/~sundar/",
-        css: col[6],
+        css: col[0],
         image: "/faculty/sundar.png",
     },
     {
@@ -729,7 +803,7 @@ const data = [
         email: "manansuri[AT]ee.iitd.ac.in",
         phone: "+91-11-2659-1146",
         page: "https://web.iitd.ac.in/~manansuri/",
-        css: col[7],
+        css: col[1],
         image: "/faculty/manan.png",
     },
     {
@@ -744,7 +818,7 @@ const data = [
         email: "avaidya[AT]hss.iitd.ac.in",
         phone: "+91-11-2659-8405",
         page: "https://web.iitd.ac.in/~avaidya",
-        css: col[8],
+        css: col[2],
         image: "/faculty/ashwini.jpg",
     },
     {
@@ -756,7 +830,7 @@ const data = [
         email: "manik[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-XXXX",
         page: "http://manikvarma.org/",
-        css: col[9],
+        css: col[3],
         image: "/faculty/manik.jpg",
     },
 ];
