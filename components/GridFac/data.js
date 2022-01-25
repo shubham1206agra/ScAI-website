@@ -31,7 +31,6 @@ const data = [
         email: "mausam[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6076",
         page: "https://www.cse.iitd.ac.in/~mausam/",
-        css: col[0],
         image: "/faculty/mausam.jpg",
     },
     {
@@ -50,7 +49,6 @@ const data = [
         email: "zmanish[AT]cc.iitd.ac.in",
         phone: "+91-11-2659-7170",
         page: "https://web.iitd.ac.in/~zmanish/",
-        css: col[1],
         image: "/faculty/manish.jpg",
     },
     {
@@ -72,7 +70,6 @@ const data = [
         email: "sumeet[AT]iitd.ac.in",
         phone: "+91-11-2659-6159",
         page: "http://web.iitd.ac.in/~sumeet",
-        css: col[2],
         image: "/faculty/sumeet.jpg",
     },
     {
@@ -91,7 +88,6 @@ const data = [
         email: "ankush[AT]hss.iitd.ac.in",
         phone: "+91-11-2659-1371",
         page: "https://hss.iitd.ac.in/faculty/ankush-agrawal",
-        css: col[3],
         image: "/faculty/ankush.jpg",
     },
     {
@@ -109,7 +105,6 @@ const data = [
         email: "prathoshap[AT]ee.iitd.ac.in",
         phone: "+91-11-2659-1151",
         page: "https://sites.google.com/view/prathosh",
-        css: col[4],
         image: "/faculty/prathosh.jpg",
     },
     {
@@ -124,7 +119,6 @@ const data = [
         email: "chetan[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-1279",
         page: "https://www.cse.iitd.ac.in/~chetan/",
-        css: col[5],
         image: "/faculty/chetan.jpg",
     },
     {
@@ -143,7 +137,6 @@ const data = [
         email: "bagchi[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6397",
         page: "https://www.cse.iitd.ac.in/~bagchi/",
-        css: col[6],
         image: "/faculty/amitabha.jpg",
     },
     {
@@ -158,7 +151,6 @@ const data = [
         email: "sbansal[AT]iitd.ac.in",
         phone: "+91-11-2659-6020",
         page: "http://www.cse.iitd.ac.in/~sbansal",
-        css: col[7],
         image: "/faculty/sorav.jpg",
     },
     {
@@ -174,7 +166,6 @@ const data = [
         email: "srikanta[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6010",
         page: "https://www.cse.iitd.ac.in/~srikanta/",
-        css: col[8],
         image: "/faculty/srikanta.png",
     },
     {
@@ -191,7 +182,6 @@ const data = [
         email: "debanjan[AT]ee.iitd.ac.in",
         phone: "+91-11-2659-1043",
         page: "https://web.iitd.ac.in/~debanjan/",
-        css: col[9],
         image: "/faculty/debanjan.png",
     },
     {
@@ -207,7 +197,6 @@ const data = [
         email: "abhijnan[AT]iitd.ac.in",
         phone: "+91-11-2659-XXXX",
         page: "https://www.cse.iitd.ac.in/~abhijnan/index.html",
-        css: col[0],
         image: "/faculty/abhi.jpg",
     },
     {
@@ -230,7 +219,6 @@ const data = [
         email: "souvik[AT]am.iitd.ac.in",
         phone: "+91-11-2659-8483",
         page: "https://www.csccm.in/home",
-        css: col[1],
         image: "/faculty/souvik.png",
     },
     {
@@ -252,7 +240,6 @@ const data = [
         email: "niladri[AT]maths.iitd.ac.in",
         phone: "+91-11-2659-1490",
         page: "https://web.iitd.ac.in/~niladri/",
-        css: col[2],
         image: "/faculty/niladri.png",
     },
     {
@@ -275,7 +262,6 @@ const data = [
         email: "arpanc[AT]ee.iitd.ac.in",
         phone: "+91-11-2659-1137",
         page: "https://sites.google.com/site/arpanchattop/home",
-        css: col[3],
         image: "/faculty/arpanc.png",
     },
     {
@@ -296,7 +282,6 @@ const data = [
         email: "garg.dinesh[AT]in.ibm.com",
         phone: "+91-880-009-6802",
         page: "https://researcher.watson.ibm.com/researcher/view.php?person=in-garg.dinesh",
-        css: col[4],
         image: "/faculty/dinesh.jpg",
     },
     {
@@ -317,7 +302,6 @@ const data = [
         email: "aghosh[AT]iitd.ac.in",
         phone: "+91-11-2659-8428",
         page: "https://sites.google.com/site/arnob008/",
-        css: col[5],
         image: "/faculty/arnob.jpg",
     },
     {
@@ -341,7 +325,6 @@ const data = [
         email: "ngosvami[AT]iitd.ac.in",
         phone: "+91-11-2659-6414",
         page: "https://mse.iitd.ac.in/faculty-nitya.php",
-        css: col[6],
         image: "/faculty/nitya.jpg",
     },
     {
@@ -357,7 +340,6 @@ const data = [
         email: "agam[AT]iitd.ac.in",
         phone: "+91-11-2654-8406",
         page: "https://dms.iitd.ac.in/faculity_type/prof-agamgupta/",
-        css: col[7],
         image: "/faculty/agam.jpg",
     },
     {
@@ -377,7 +359,6 @@ const data = [
         email: " jayadeva[AT]ee.iitd.ac.in",
         phone: "+91-11-2652-6821",
         page: "https://web.iitd.ac.in/~jayadeva/",
-        css: col[8],
         image: "/faculty/jayadeva.jpg",
     },
     {
@@ -397,7 +378,6 @@ const data = [
         email: "arpankar[AT]iitd.ac.in",
         phone: "+91-11-2659-7320",
         page: "https://arpankar.com",
-        css: col[9],
         image: "/faculty/arpan.jpg",
     },
     {
@@ -418,7 +398,6 @@ const data = [
         email: "kodamana[AT]iitd.ac.in",
         phone: "+91-11-2659-1024",
         page: "https://web.iitd.ac.in/~kodamana/",
-        css: col[0],
         image: "/faculty/hariprasad.jpg",
     },
     {
@@ -437,7 +416,6 @@ const data = [
         email: "krishnan[AT]iitd.ac.in",
         phone: "+91-11-2659-1223",
         page: "https://sites.google.com/site/nmakrishnaniitd/home/",
-        css: col[1],
         image: "/faculty/anoop.jpg",
     },
     {
@@ -457,7 +435,6 @@ const data = [
         email: "ksandeep[AT]iitd.ac.in",
         phone: "+91-11-2659-5490",
         page: "https://sites.google.com/view/sandeepkr/home",
-        css: col[2],
         image: "/faculty/sandeep.png",
     },
     {
@@ -472,7 +449,6 @@ const data = [
         email: "apmehra[AT]maths.iitd.ac.in",
         phone: "+91-11-2659-7106",
         page: "https://web.iitd.ac.in/~apmehra/",
-        css: col[3],
         image: "/faculty/aparna.png",
     },
     {
@@ -490,7 +466,6 @@ const data = [
         email: "amehndiratta[AT]cbme.iitd.ac.in",
         phone: "+91-11-2659-6230",
         page: "https://web.iitd.ac.in/~amehndiratta/",
-        css: col[4],
         image: "/faculty/amit.jpg",
     },
     {
@@ -509,7 +484,6 @@ const data = [
         email: "panda[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6030",
         page: "https://www.cse.iitd.ac.in/~panda/",
-        css: col[5],
         image: "/faculty/preeti.jpg",
     },
     {
@@ -527,7 +501,6 @@ const data = [
         email: "kolin[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6033",
         page: "https://www.cse.iitd.ac.in/~kolin/Kolins_Web_Home/My_Home.html",
-        css: col[6],
         image: "/faculty/kolin.jpg",
     },
     {
@@ -546,7 +519,6 @@ const data = [
         email: "rohan[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-8435",
         page: "https://www.cse.iitd.ac.in/~rohanpaul",
-        css: col[7],
         image: "/faculty/rohan.jpg",
     },
     {
@@ -565,7 +537,6 @@ const data = [
         email: "arathore[AT]chemical.iitd.ac.in",
         phone: "+91-11-2659-1098",
         page: "http://www.biotechcmz.com/",
-        css: col[8],
         image: "/faculty/anurag.jpg",
     },
     {
@@ -584,7 +555,6 @@ const data = [
         email: "ramanath[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6022",
         page: "https://www.cse.iitd.ac.in/~ramanath/",
-        css: col[9],
         image: "/faculty/maya.jpg",
     },
     {
@@ -603,7 +573,6 @@ const data = [
         email: "mcramteke[AT]chemical.iitd.ac.in",
         phone: "+91-11-2659-1026",
         page: "https://web.iitd.ac.in/~mcramteke/Home.html",
-        css: col[0],
         image: "/faculty/manoj.jpg",
     },
     {
@@ -619,7 +588,6 @@ const data = [
         email: "sayanranu[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6383",
         page: "https://www.cse.iitd.ac.in/~sayan/",
-        css: col[1],
         image: "/faculty/sayan.jpg",
     },
     {
@@ -641,7 +609,6 @@ const data = [
         email: "sroy[AT]am.iitd.ac.in",
         phone: "+91-11-2659-1220",
         page: "https://sites.google.com/view/sitilab-iitd/",
-        css: col[2],
         image: "/faculty/sitikantha.png",
     },
     {
@@ -660,7 +627,6 @@ const data = [
         email: "msaharia[AT]iitd.ac.in",
         phone: "+91-11-2659-1260",
         page: "https://hydrosenselab.github.io/",
-        css: col[3],
         image: "/faculty/manabendra.jpg",
     },
     {
@@ -681,7 +647,6 @@ const data = [
         email: "srsarangi[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-7065",
         page: "https://www.cse.iitd.ac.in/~srsarangi/",
-        css: col[4],
         image: "/faculty/smruti.jpg",
     },
     {
@@ -696,7 +661,6 @@ const data = [
         email: "riju[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-7385",
         page: "https://www.cse.iitd.ac.in/~rijurekha/",
-        css: col[5],
         image: "/faculty/rijurekha.jpg",
     },
     {
@@ -712,7 +676,6 @@ const data = [
         email: "pshenoy[AT]cs.washington.edu",
         phone: "",
         page: "https://research.google/people/106965/",
-        css: col[6],
         image: "/faculty/pradeep.jpg",
     },
     {
@@ -731,7 +694,6 @@ const data = [
         email: "shriyam[AT]iitd.ac.in",
         phone: "+91-11-2659-8428",
         page: "https://web.iitd.ac.in/~shriyam/index.html",
-        css: col[7],
         image: "/faculty/shaurya.jpg",
     },
     {
@@ -750,7 +712,6 @@ const data = [
         email: "anupsm[AT]iitd.ac.in",
         phone: "+91-11-2659-1055",
         page: "https://web.iitd.ac.in/~anupsm/",
-        css: col[8],
         image: "/faculty/anup.jpg",
     },
     {
@@ -769,7 +730,6 @@ const data = [
         email: "parags[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-6064",
         page: "https://www.cse.iitd.ac.in/~parags/index.html",
-        css: col[9],
         image: "/faculty/parag.jpg",
     },
     {
@@ -781,7 +741,6 @@ const data = [
         email: "sundar[AT]dbeb.iitd.ac.in",
         phone: "+91-11-2659-1066",
         page: "https://web.iitd.ac.in/~sundar/",
-        css: col[0],
         image: "/faculty/sundar.png",
     },
     {
@@ -803,7 +762,6 @@ const data = [
         email: "manansuri[AT]ee.iitd.ac.in",
         phone: "+91-11-2659-1146",
         page: "https://web.iitd.ac.in/~manansuri/",
-        css: col[1],
         image: "/faculty/manan.png",
     },
     {
@@ -818,7 +776,6 @@ const data = [
         email: "avaidya[AT]hss.iitd.ac.in",
         phone: "+91-11-2659-8405",
         page: "https://web.iitd.ac.in/~avaidya",
-        css: col[2],
         image: "/faculty/ashwini.jpg",
     },
     {
@@ -830,9 +787,22 @@ const data = [
         email: "manik[AT]cse.iitd.ac.in",
         phone: "+91-11-2659-XXXX",
         page: "http://manikvarma.org/",
-        css: col[3],
         image: "/faculty/manik.jpg",
     },
 ];
 
-export default data;
+const mapdata = (data) => {
+    return data.map((a, b) => {a.css = col[b % col.length]; return a;});
+}
+
+export default mapdata(data.sort((a, b) => {
+    if (a.name === "Mausam") {
+        return -1;
+    } else if (b.name === "Mausam") {
+        return 1;
+    } else {
+        let o1 = a.name.split(' ');
+        let o2 = b.name.split(' ');
+        return o1[o1.length - 1].localeCompare(o2[o2.length - 1]);
+    }
+}));
