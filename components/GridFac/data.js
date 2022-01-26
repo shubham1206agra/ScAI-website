@@ -169,22 +169,6 @@ const data = [
         image: "/faculty/srikanta.png",
     },
     {
-        name: "Debanjan Bhowmik",
-        position: "Joint Faculty",
-        // position: "Assistant Professor",
-        research_areas: [
-            "Artificial Intelligence at the Edge",
-            "Specialised Hardware for Artificial Intelligence/ Machine Learning (Neuromorphic Computing)",
-            "Computational Neuroscience",
-            "Quantum Computing for Artificial Intelligence/ Machine Learning",
-        ],
-        address: ["XXXX,", "IIT Delhi, Hauz Khas, New Delhi- 110016"],
-        email: "debanjan[AT]ee.iitd.ac.in",
-        phone: "+91-11-2659-1043",
-        page: "https://web.iitd.ac.in/~debanjan/",
-        image: "/faculty/debanjan.png",
-    },
-    {
         name: "Abhijnan Chakraborty",
         position: "Associate Faculty",
         // position: "Assistant Professor",
@@ -789,20 +773,43 @@ const data = [
         page: "http://manikvarma.org/",
         image: "/faculty/manik.jpg",
     },
+    {
+        name: "Ishaan Gupta",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Bio informatics",
+            "Functional Genomics",
+            "Genetics and AI",
+        ],
+        address: [
+            "Room 325, Block I,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "ishaan[AT]iitd.ac.in",
+        phone: "+91-11-2659-1008",
+        page: "http://web.iitd.ac.in/~ishaan",
+        image: "/faculty/ishaan.png",
+    },
 ];
 
 const mapdata = (data) => {
-    return data.map((a, b) => {a.css = col[b % col.length]; return a;});
-}
+    return data.map((a, b) => {
+        a.css = col[b % col.length];
+        return a;
+    });
+};
 
-export default mapdata(data.sort((a, b) => {
-    if (a.name === "Mausam") {
-        return -1;
-    } else if (b.name === "Mausam") {
-        return 1;
-    } else {
-        let o1 = a.name.split(' ');
-        let o2 = b.name.split(' ');
-        return o1[o1.length - 1].localeCompare(o2[o2.length - 1]);
-    }
-}));
+export default mapdata(
+    data.sort((a, b) => {
+        if (a.name === "Mausam") {
+            return -1;
+        } else if (b.name === "Mausam") {
+            return 1;
+        } else {
+            let o1 = a.name.split(" ");
+            let o2 = b.name.split(" ");
+            return o1[o1.length - 1].localeCompare(o2[o2.length - 1]);
+        }
+    })
+);

@@ -6,13 +6,13 @@ const Data = () => {
             <div className={styles.main}>
                 <p>
                     Understanding human languages has been a cornerstone
-                    application of AI. NLP Group at ScAI focuses on two salient
+                    application of AI. NLP Group at Yardi ScAI focuses on two salient
                     research agendas. First, it builds AI systems that process
                     information expressed in text via information extraction,
                     and share this information to users through question
                     answering and dialog systems. The group is known for its
                     influential work in open information extraction, where
-                    information is extracted in open schema. Second, ScAI has
+                    information is extracted in open schema. Second, Yardi ScAI has
                     initiated a massive effort in building multilingual NLP
                     systems for machine translation, information extraction and
                     knowledge base completion. One focus of the group is on

@@ -28,7 +28,7 @@ class FacCardDetail extends React.Component {
                             className={styles.group}
                         >
                             {this.props.data.position} <br />
-                            ScAI
+                            Yardi ScAI
                         </div>
                         {/* <div
                             style={{ textTransform: "none" }}

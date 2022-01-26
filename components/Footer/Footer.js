@@ -16,7 +16,7 @@ const Footer = (props) => {
                     <div
                         className={`${styles.collg5} ${styles.colxs12} ${styles.aboutcompany}`}
                     >
-                        <h2>School of Artificial Intelligence (ScAI), IIT Delhi</h2>
+                        <h2>Yardi School of Artificial Intelligence (ScAI), IIT Delhi</h2>
                         {/* <p className={`${styles.pr5} ${styles.textwhite50}`}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nullam ac ante mollis quam tristique convallis{" "}

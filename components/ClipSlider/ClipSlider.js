@@ -26,8 +26,8 @@ const ClipSlider = () => {
                         <NewsCardPlain
                             // category="Establishment"
                             category=" "
-                            title="IIT Delhi establishes School of AI"
-                            link="https://home.iitd.ac.in/news-ai.php"
+                            title="IITD alumnus Anant Yardi donates US$ 10 Milllion to ScAI"
+                            link="https://home.iitd.ac.in/show.php?id=66&in_sections=Press"
                             description={
                                 <span
                                     style={{
@@ -35,13 +35,14 @@ const ClipSlider = () => {
                                         fontSize: "1.05rem",
                                     }}
                                 >
-                                    Indian Institute of Technology (IIT) Delhi
-                                    has established an independent 'School of
-                                    Artificial Intelligence (ScAI)' on its
-                                    campus. The School of Artificial
-                                    Intelligence (ScAI) aims to cement IIT
-                                    Delhi’s leadership position in India and
-                                    considerably improve its global standing.
+                                    Mr Anant Yardi, President and Founder of
+                                    Yardi Systems, and an alumnus of IIT Delhi,
+                                    has agreed to gift USD 10 million (Rs ~75
+                                    Cr) to IIT Delhi. Mr Yardi’s gift would
+                                    enable IIT Delhi to create state-of-the art
+                                    laboratories and attract talented students
+                                    and researchers to its newly established
+                                    Yardi School of Artificial Intelligence (ScAI).
                                 </span>
                             }
                         />
@@ -191,7 +192,10 @@ const ClipSlider = () => {
                 <div className="slider__control-line"></div>
                 <div className="slider__control-line"></div>
             </div>
-            <div className="slider__control slider__control--right m--right" id="autoClick">
+            <div
+                className="slider__control slider__control--right m--right"
+                id="autoClick"
+            >
                 <div className="slider__control-line"></div>
                 <div className="slider__control-line"></div>
             </div>

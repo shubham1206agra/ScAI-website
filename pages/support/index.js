@@ -28,14 +28,14 @@ const Donors = () => {
                 a critical role in the progress of the Institute. Alumni have
                 contributed to the growth of the Institute through their
                 financial and non-financial resources. The Institute sees the
-                establishment of ScAI as a bold step which will not only
+                establishment of Yardi ScAI as a bold step which will not only
                 strengthen IIT Delhi's academic and research credentials but
                 also enable the nation in its journey in scientific and
                 technological advancements. IIT Delhi is inviting its alumni to
                 be a part of the "League of Founding Donors" to the School of
                 Artificial Intelligence. The League will remain "Founders
                 Forever". The League of Founding Donors will be a privileged
-                group who will help ScAI start its journey, awarding
+                group who will help Yardi ScAI start its journey, awarding
                 scholarships to ambitious students, enabling the school to
                 attract the best faculty in AI, enabling the faculty and
                 students to attend global and domestic conferences, setting up
@@ -55,6 +55,28 @@ const Donors = () => {
                 </a>{" "}
                 for more details.
             </p>
+            <h2 style={{ textAlign: "center", marginTop: "2rem" }}>
+                Title Donor
+            </h2>
+            <div
+                style={{
+                    width: "15vw",
+                    borderTop: "4px solid black",
+                    marginTop: '1rem',
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                }}
+            ></div>
+            <div style={{display: 'grid'}}>
+                <DonorCard
+                    posi={1} 
+                    img="/yardi.png"
+                    name="Anant Yardi"
+                    pos="Title Donor"
+                    desc="President and Founder of Yardi Systems"
+                    webpage="https://www.yardi.com/about-us/management-team/"
+                />
+            </div>
             <h2 style={{ textAlign: "center", marginTop: "2rem" }}>
                 League of Founding Donors
             </h2>

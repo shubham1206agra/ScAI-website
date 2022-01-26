@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 606px) {
+@media (max-width: 655px) {
     #header img {
         height: 80px;
         width: 80px;
@@ -40,13 +40,13 @@
     }
 }
 
-@media (max-width: 516px) {
+@media (max-width: 555px) {
     #header img {
         height: 70px;
         width: 70px;
     }
     #header span {
-        font-size: .9rem;
+        font-size: .85rem;
     }
 }
 

@@ -3,6 +3,7 @@ import styles from "./DonorCard.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import gsap, { TweenMax, TimelineLite, Power3, Quad, TimelineMax } from "gsap";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Image = () => (
     <>
@@ -85,9 +86,16 @@ const DonorCard = (props) => {
                         <h2>{props.name}</h2>
                         <h3>{props.pos}</h3>
                         <p>{props.desc}</p>
-                        <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
+                        {props.linkedin ? (
+                            <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        ): null}
+                        {props.webpage ? (
+                            <a href={props.webpage} target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faExternalLinkAlt} />
+                            </a>
+                        ): null}
                     </div>
                 </div>
             </div>

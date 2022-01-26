@@ -46,7 +46,7 @@ const Header = (props) => {
                                 }}
                             >
                                 <span className={styles.xyy}>
-                                    School of Artificial Intelligence (ScAI)
+                                    Yardi School of Artificial Intelligence (ScAI)
                                     <hr
                                         style={{
                                             margin: "0",

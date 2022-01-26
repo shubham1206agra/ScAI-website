@@ -37,26 +37,24 @@ const CardSwiper = (props) => {
                         <div className="slider-image-wrapper">
                             <img
                                 className="slider-image"
-                                src="https://home.iitd.ac.in/images/news/ai2.jpg"
-                                alt="SliderImg"
+                                src="https://home.iitd.ac.in/public/storage/uploads/daan_1636712123.png"
+                                alt="Yardi"
                             />
                         </div>
                         <div className="slider-item-content">
                             <h1 className="swiper-h1">
                                 <a
-                                    href="https://home.iitd.ac.in/news-ai.php"
+                                    href="https://home.iitd.ac.in/show.php?id=66&in_sections=Press"
                                     target="_blank"
                                 >
-                                    IIT Delhi establishes School of AI
+                                    IITD alumnus Anant Yardi donates USD 10
+                                    Milllion to ScAI
                                 </a>
                             </h1>
                             <p className="swiper-p">
-                                Indian Institute of Technology (IIT) Delhi has
-                                established an independent 'School of Artificial
-                                Intelligence (ScAI)' on its campus. The School
-                                of Artificial Intelligence (ScAI) aims to cement
-                                IIT Delhi’s leadership position in India and
-                                considerably improve its global standing.
+                                Mr Anant Yardi, President and Founder of Yardi
+                                Systems, and an alumnus of IIT Delhi, has agreed
+                                to gift USD 10 million (Rs ~75 Cr) to IIT Delhi.
                             </p>
                         </div>
                     </SwiperSlide>
@@ -128,9 +126,8 @@ const CardSwiper = (props) => {
                                     Plans for ScAI (in Hindi)
                                 </a>
                             </h1>
-                            <div style={{paddingTop: '100px'}}></div>
-                            <p className="swiper-p">
-                            </p>
+                            <div style={{ paddingTop: "100px" }}></div>
+                            <p className="swiper-p"></p>
                         </div>
                     </SwiperSlide>
                 </div>

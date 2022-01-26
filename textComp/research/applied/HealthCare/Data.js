@@ -103,6 +103,12 @@ const Data = () => {
                 <h4>Key Publications</h4>
                 <ol>
                     <li>
+                        Kalakoti, Y., Yadav, S. and Sundar, D.* (2022).
+                        TransDTI: Transfomer-based language models for
+                        estimating DTIs and building a drug-recommendation
+                        workflow. ACS Omega
+                    </li>
+                    <li>
                         Kalakoti, Y., Yadav, S. and Sundar, D. (2021). SurvCNN:
                         a discrete time-to-event cancer survival estimation
                         framework using image representations of omics data.

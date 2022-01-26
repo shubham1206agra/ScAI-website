@@ -10,8 +10,8 @@ const LandingContent = () => {
                 <div></div>
                 <p style={{ fontSize: "1.2rem" }}>
                     Indian Institute of Technology (IIT) Delhi has established
-                    an independent 'School of Artificial Intelligence (ScAI)' on
-                    its campus. The School of Artificial Intelligence (ScAI)
+                    an independent 'Yardi School of Artificial Intelligence (ScAI)' on
+                    its campus. The Yardi School of Artificial Intelligence (ScAI)
                     aims to cement IIT Delhi’s leadership position in India and
                     considerably improve its global standing.
                 </p>
@@ -26,7 +26,7 @@ const LandingContent = () => {
                 <h2>Announcements</h2>
                 <div></div>
                 <p>
-                    ScAI welcomes applications from strongly motivated students
+                    Yardi ScAI welcomes applications from strongly motivated students
                     who want to pursue their Ph.D. in the areas of both core AI
                     and applied AI.
                     <br />
@@ -39,7 +39,7 @@ const LandingContent = () => {
                     </a>
                 </p>
                 <p>
-                    ScAI welcomes applications for post doctoral and faculty
+                    Yardi ScAI welcomes applications for post doctoral and faculty
                     positions in the areas of both core AI and applied AI. For
                     details please contact{" "}
                     <a href="mailto:hodscai@admin.iitd.ac.in">
