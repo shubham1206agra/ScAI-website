@@ -791,6 +791,94 @@ const data = [
         page: "http://web.iitd.ac.in/~ishaan",
         image: "/faculty/ishaan.png",
     },
+    {
+        name: "Mani Mehra",
+        position: "Associate Faculty",
+        // position: "Associate Professor",
+        research_areas: [
+            "Wavelets methods for Partial Differential Equations",
+            "Numerical Methods",
+        ],
+        address: [
+            "Room: MZ161, Department of Mathematics,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "mmehra[AT]maths.iitd.ac.in",
+        phone: "+91-11-2659-1487",
+        page: "https://web.iitd.ac.in/~mmehra/",
+        image: "/faculty/mani.jpg",
+    },
+    {
+        name: "Tarak Karmakar",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Machine Learning (Artificial Intelligence in Chemistry)",
+            "Development of Advanced Simulations Methods",
+            "Molecular Dynamics & Enhanced Sampling Simulations",
+        ],
+        address: [
+            "Department of Chemistry,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "tkarmakar[AT]chemistry.iitd.ac.in",
+        phone: "+91-11-2659-8549",
+        page: "https://chemistry.iitd.ac.in/faculty/karmakart.html",
+        image: "/faculty/tarak.jpeg",
+    },
+    {
+        name: "M. Ali Haider",
+        position: "Associate Faculty",
+        // position: "Associate Professor",
+        research_areas: [
+            "Machine Learning (Artificial Intelligence in Chemistry)",
+            "Development of Advanced Simulations Methods",
+        ],
+        address: [
+            "Room No. 112, Block-I, Department of Chemical Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "haider[AT]iitd.ac.in",
+        phone: "+91-11-2659-1016",
+        page: "https://www.reclab.in/home",
+        image: "/faculty/ali.png",
+    },
+    {
+        name: "Lalan Kumar",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "EEG Source Localization",
+            "Brain Computer Interface (BCI)",
+            "Microphone Array Processing",
+        ],
+        address: [
+            "Room No. 413C, Block II, Department of Electrical Engineering,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "lkumar[AT]ee.iitd.ac.in",
+        phone: "+91-11-2659-7253",
+        page: "https://web.iitd.ac.in/~lalank/",
+        image: "/faculty/lalan.jpeg",
+    },
+    {
+        name: "Gourab Ghatak",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Stochastic Geometry",
+            "Millimeter-wave Communications",
+            "5G Network Planning and Positioning in 5G",
+        ],
+        address: [
+            "B-610 (R&D Block),",
+            "IIIT Delhi, Okhla Industrial Estate, New Delhi- 110020",
+        ],
+        email: "gourab.ghatak[AT]iiitd.ac.in",
+        phone: "+91-11-2690-7539",
+        page: "https://www.gghatak.com/",
+        image: "/faculty/gourab.jpg",
+    },
 ];
 
 const mapdata = (data) => {
