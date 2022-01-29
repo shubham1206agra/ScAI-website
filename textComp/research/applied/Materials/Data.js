@@ -18,7 +18,7 @@ const Data = () => {
                     limited number of components. To address the ever-increasing
                     demands for novel materials, a disruptive paradigm, reducing
                     the design-to-deploy period to approximately five years,
-                    needs to be developed. At Yardi ScAI, we employ an artificial
+                    needs to be developed. At ScAI, we employ an artificial
                     intelligence (AI)-driven materials discovery paradigm that
                     can accelerate materials discovery and allow knowledge
                     dissemination. The proposed framework is highly

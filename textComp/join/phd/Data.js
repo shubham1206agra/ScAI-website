@@ -6,16 +6,16 @@ const Data = () => {
             <div className={styles.main}>
                 <div>
                     <p>
-                        Yardi ScAI welcomes applications from strongly motivated
+                        ScAI welcomes applications from strongly motivated
                         students who want to pursue their Ph.D. in the areas of
                         both core AI and applied AI. Please check our research
                         and faculty pages for understanding various ongoing
-                        research at Yardi ScAI.
+                        research at ScAI.
                     </p>
                     <p>
                         All engineering students irrespective of their
                         Bachelors/Masters discipline are welcome to join a Ph.D.
-                        in Yardi ScAI. For more information, please refer to the{" "}
+                        in ScAI. For more information, please refer to the{" "}
                         <a
                             href="/pdf/ScAI-PhD.pdf"
                             target="_blank"
@@ -27,17 +27,17 @@ const Data = () => {
                         gives a broad idea of expectations.
                     </p>
                     <p>
-                        Once shortlisted, Yardi ScAI will assess a student’s
+                        Once shortlisted, ScAI will assess a student’s
                         preparedness for a PhD by a test that will include
                         probability, statistics, optimisation, linear algebra,
                         data structures, basics of AI, ML and data science, and
                         programming skills. These areas are the pre-requisites
-                        for being a successful student at Yardi ScAI. If selected in
+                        for being a successful student at ScAI. If selected in
                         the test, an interview will be conducted to assess this
                         further and also fit with current advisors.
                     </p>
                     <p>
-                        After being admitted to Yardi ScAI, the PhD coursework will
+                        After being admitted to ScAI, the PhD coursework will
                         include courses in AI, Machine Learning, Data Science,
                         and mathematical foundations. The students may also be
                         asked to take specific courses needed for a student’s

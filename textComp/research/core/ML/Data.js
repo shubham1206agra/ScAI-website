@@ -5,7 +5,7 @@ const Data = () => {
         <>
             <div className={styles.main}>
                 <p>
-                    Yardi ScAI has a strong presence of researchers working in core
+                    ScAI has a strong presence of researchers working in core
                     Machine Learning. The research focuses on a number of areas,
                     including Neuro-symbolic reasoning, Deep Generative Models,
                     Graph Neural Networks and Fairness in Machine Learning.
@@ -28,7 +28,7 @@ const Data = () => {
                         <strong>Deep Generative Models</strong>
                     </li>
                     <p>
-                        This is another important area of ML research at Yardi ScAI.
+                        This is another important area of ML research at ScAI.
                         The goal in these models is to be able to effectively
                         generate data from an underlying distribution implicitly
                         specified in terms of representative samples. We are
@@ -48,7 +48,7 @@ const Data = () => {
                         current research frontiers. This decade has witnessed an
                         unprecedented research interest in developing and using
                         graph-based methods for a variety of applications. At
-                        Yardi ScAI we have a strong presence in this area. We are
+                        ScAI we have a strong presence in this area. We are
                         progressing in this area further, some topics of current
                         exploration are network enhancement by spectral
                         approaches, investigating graph properties for geometric

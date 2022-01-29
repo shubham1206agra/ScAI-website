@@ -8,8 +8,8 @@ const Data = () => {
                     <p>
                         IIT Delhi senate has recently approved the MTech
                         programme in Machine Intelligence & Data Science (MINDS)
-                        offered by Yardi ScAI. The MTech in MINDS will be a flagship
-                        educational programme for the Yardi ScAI at IIT Delhi, and is
+                        offered by ScAI. The MTech in MINDS will be a flagship
+                        educational programme for the ScAI at IIT Delhi, and is
                         expected to begin in July 2022.
                     </p>
                     <p>
@@ -31,7 +31,7 @@ const Data = () => {
                         back this space later for any updates.
                     </p>
                     <p>
-                        In the long run, Yardi ScAI also envisions starting an
+                        In the long run, ScAI also envisions starting an
                         Executive Masters programme taught primarily via evening
                         and weekend classes. This programme will cater to the
                         growing global demand by training industry professionals

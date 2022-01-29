@@ -9,9 +9,16 @@ const Data = () => {
             <div className={styles.main}>
                 <div className="card-columns">
                     <NewsCard
+                        image="/yardi.png"
+                        link="https://www.thehindu.com/news/cities/Delhi/iit-delhi-alumnus-gifts-10-million-to-alma-mater/article37465934.ece/amp/"
+                        title="IIT Delhi alumnus gifts $10 million to alma mater"
+                        category="The Hindu"
+                        description="November 13, 2021"
+                    />
+                    <NewsCard
                         image="/faculty/arpan.jpg"
                         link=""
-                        title="Prof. Arpan K. Kar, has been selected as one of the recipients of the Clarivate India Research Excellence"
+                        title="Prof. Arpan K. Kar has been selected as one of the recipients of the Clarivate India Research Excellence"
                         category="IIT Delhi"
                         description="October 9, 2021"
                     />

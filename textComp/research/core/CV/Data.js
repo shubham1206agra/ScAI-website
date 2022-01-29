@@ -16,7 +16,7 @@ const Data = () => {
                     to security & surveillance, as well as defense.
                 </p>
                 <p>
-                    Computer vision group at School of AI (Yardi ScAI) is involved in
+                    Computer vision group at School of AI (ScAI) is involved in
                     following research topics:
                 </p>
                 <ol type="a">
@@ -32,7 +32,7 @@ const Data = () => {
                         becoming increasingly important to use automated tools
                         for efficient management of traffic using AI driven
                         signals on the traffic intersections Computer vision
-                        group at Yardi ScAI is working on multiple problems in the
+                        group at ScAI is working on multiple problems in the
                         area of advanced driver assistance for Indian roads.
                     </p>
                     <li>
@@ -42,7 +42,7 @@ const Data = () => {
                         With the number of doctors, we produce every year, it is
                         extremely difficult, if not impossible, to provide
                         adequate healthcare facilties to the billion plus
-                        population of India. Computer vision group at Yardi ScAI is
+                        population of India. Computer vision group at ScAI is
                         involved with many such problems involving automated
                         diagnosis of various diseases and cancers from the
                         radiological images such as gall bladder cancer

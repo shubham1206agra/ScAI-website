@@ -42,7 +42,46 @@ const ClipSlider = () => {
                                     enable IIT Delhi to create state-of-the art
                                     laboratories and attract talented students
                                     and researchers to its newly established
-                                    Yardi School of Artificial Intelligence (ScAI).
+                                    Yardi School of Artificial Intelligence
+                                    (ScAI).
+                                </span>
+                            }
+                        />
+                    </div>
+                </Slide>
+                <Slide
+                    heading="M.Tech in MINDS"
+                    subText=""
+                    // subText="Greetings, AI Enthusiast!"
+                    // backImg="/bg-land.jpg"
+                    backImg="/mtech_bg.jpg"
+                >
+                    <div
+                        style={{
+                            position: "absolute",
+                            top: "30vh",
+                            right: "10vw",
+                        }}
+                    >
+                        <NewsCardPlain
+                            // category="Establishment"
+                            category=" "
+                            title="ScAI to Start 'M.Tech in Machine Intelligence & Data Science (MINDS)'"
+                            link="https://home.iitd.ac.in/show.php?id=62&in_sections=Press"
+                            description={
+                                <span
+                                    style={{
+                                        color: "#303030",
+                                        fontSize: "1.05rem",
+                                    }}
+                                >
+                                    The Yardi School of Artificial Intelligence
+                                    (ScAI) at IIT Delhi will start a new post
+                                    graduate programme focused on artificial
+                                    intelligence. M.Tech in MINDS will be a
+                                    flagship educational programme for the
+                                    school and is expected to begin in July
+                                    2022.
                                 </span>
                             }
                         />

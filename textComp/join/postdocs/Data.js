@@ -5,7 +5,7 @@ const Data = () => {
         <>
             <div className={styles.main}>
                 <p>
-                    Yardi ScAI invites postdocs applications in all areas of
+                    ScAI invites postdocs applications in all areas of
                     artificial intelligence, where AI is interpreted broadly to
                     include all of traditional AI, machine learning and data
                     science. Subareas of interest include (but are not limited
@@ -53,12 +53,12 @@ const Data = () => {
                     </li>
                 </ul>
                 <p>
-                    Yardi ScAI strongly encourages applicants with demonstrated
+                    ScAI strongly encourages applicants with demonstrated
                     track-record of working at the intersection of an
                     application area and the AI fields.
                 </p>
                 <p>
-                    Yardi ScAI post-doctoral fellows may have done a PhD in any
+                    ScAI post-doctoral fellows may have done a PhD in any
                     relevant area such as computer science, electrical
                     engineering or mathematics, or also any application area
                     such as civil engineering, mechanical engineering,
