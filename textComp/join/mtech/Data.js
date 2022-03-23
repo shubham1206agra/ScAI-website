@@ -30,14 +30,7 @@ const Data = () => {
                         learning, data science, and applications. Please check
                         back this space later for any updates.
                     </p>
-                    <p>
-                        In the long run, ScAI also envisions starting an
-                        Executive Masters programme taught primarily via evening
-                        and weekend classes. This programme will cater to the
-                        growing global demand by training industry professionals
-                        in modern AI techniques. Please check back this space
-                        later for any updates.
-                    </p>
+                    
                     <p>
                         If a student has any further queries, please write to{" "}
                         <a href="mailto:office@scai.iitd.ac.in">
