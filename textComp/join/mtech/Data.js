@@ -30,7 +30,12 @@ const Data = () => {
                         learning, data science, and applications. Please check
                         back this space later for any updates.
                     </p>
-                    
+                    <p>Four Year B.Tech. / B.E. Degree (first class) or any equivalent
+                    degree (e.g., B.S. from a foreign university, and  M.Sc., MCA, or 
+                    other Master’s degrees done as part of a 3+2 model) from any Engineering or Science discipline. 
+                    A valid GATE score would be needed where such a requirement is not waived, such as students from 
+                    an IIT with a CGPA exceeding a threshold. Strong interest and background in computational mathematics and programming are preferred.
+                    </p>
                     <p>
                         If a student has any further queries, please write to{" "}
                         <a href="mailto:office@scai.iitd.ac.in">
