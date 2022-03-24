@@ -62,10 +62,10 @@ const Footer = (props) => {
                                 - <Link href="/support"><a href="/support">Support Us</a></Link>
                             </li>
                             <li>
-                                - <a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">Prospectus</a></Link>
+                                - <a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">Prospectus</a>
                             </li>
                             <li>
-                                - <a href="https://ecampus.iitd.ac.in/PGADM/login">Application Portal</a></Link>
+                                - <a href="https://ecampus.iitd.ac.in/PGADM/login">Application Portal</a>
                             </li>
                         </ul>
                     </div>
