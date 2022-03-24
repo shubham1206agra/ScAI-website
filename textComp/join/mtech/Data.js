@@ -27,16 +27,25 @@ const Data = () => {
                         will have to complete a set of core courses, bridge core
                         courses, program electives, and a project. These courses
                         could be from course buckets such as mathematics,
-                        learning, data science, and applications. Please check
-                        back this space later for any updates.
+                        learning, data science, and applications.
                     </p>
-                    <p>
-                        In the long run, ScAI also envisions starting an
-                        Executive Masters programme taught primarily via evening
-                        and weekend classes. This programme will cater to the
-                        growing global demand by training industry professionals
-                        in modern AI techniques. Please check back this space
-                        later for any updates.
+                    <p>In the long run, ScAI also envisions starting an Executive 
+                        Masters programme taught primarily via evening and weekend classes. 
+                        This programme will cater to the growing global demand by training 
+                        industry professionals in modern AI techniques. Please check back 
+                        this space later for any updates.
+                    </p>
+                    <h2>Eligibility</h2>
+                    <p>Four Year B.Tech. / B.E. Degree (first class) or any equivalent
+                        degree (e.g., B.S. from a foreign university, and  M.Sc., MCA, or 
+                        other Master’s degrees done as part of a 3+2 model) from any Engineering or Science discipline. 
+                        A valid GATE score would be needed where such a requirement is not waived, such as students from 
+                        an IIT with a CGPA exceeding a threshold. Strong interest and background in computational mathematics and programming are preferred.
+                    </p>
+                    <h2>Admission</h2>
+                    <p>Candidates shortlisted based on Gate score will be called for an aptitude test, 
+                        and if selected then they will be called for an interview. 
+                        The final selection will be based on the GATE score, aptitude test, and interview.
                     </p>
                     <p>
                         If a student has any further queries, please write to{" "}
