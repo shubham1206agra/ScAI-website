@@ -47,7 +47,7 @@ const Data = () => {
                         and if selected then they will be called for an interview. 
                         The final selection will be based on the GATE score, aptitude test, and interview.
                     </p>
-                    <p>For the information broucher, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
+                    <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
                     <p>To visit the application portal, please <a href = "https://ecampus.iitd.ac.in/PGADM/login">click here</a>.
                     </p>
