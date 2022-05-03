@@ -53,7 +53,7 @@ const Data = () => {
                         </a>{" "}
                         for any clarification.
                     </p>
-                     <h2>Admission</h2>
+                     <h2>Admission New Update</h2>
                     <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. 
                     Please keep checking the website and your email.
                     </p>
