@@ -53,6 +53,19 @@ const Data = () => {
                         </a>{" "}
                         for any clarification.
                     </p>
+                     <h2>Admission</h2>
+                    <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. 
+                    Please keep checking the website and your email.
+                    </p>
+
+                     <p>The syllabus of the test:
+                         <ul>
+                            <li>Basic maths (Linear Algebra, Probability, and Statistics)</li>
+                            <li>Aptitude</li>
+                            <li>Basics of AI/ML</li>
+                            <li>Programming and Data structure.</li>
+                          </ul>
+                    </p>
                     <p>
                         <a
                             href="https://ecampus.iitd.ac.in/PGADM/login"
