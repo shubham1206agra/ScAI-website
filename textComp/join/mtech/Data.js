@@ -43,9 +43,13 @@ const Data = () => {
                         an IIT with a CGPA exceeding a threshold. Strong interest and background in computational mathematics and programming are preferred.
                     </p>
                     <h2>Admission</h2>
-                    <p>Candidates shortlisted based on Gate score (waived for high GPA CFTI students) will be called for an aptitude test
-                    (syllabus Maths, Basics of AI+ML, Programming and Data Structure), and if selected then they will be called for an interview. 
-                    The final selection will be based on the GATE score, aptitude test, and interview.
+                    <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. Please keep checking the website and your email.
+
+                        The syllabus of the test:
+                            Basic maths (Linear Algebra, Probability, and Statistics)
+                            Aptitude
+                            Basics of AI/ML
+                            Programming and Data structure.
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
