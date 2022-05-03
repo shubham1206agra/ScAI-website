@@ -49,11 +49,11 @@ const Data = () => {
 
                      <p>The syllabus of the test:
                          <ul>
-                            <li>Basic maths (Linear Algebra, Probability, and Statistics)<\li>
-                            <li>Aptitude<\li>
-                            <li>Basics of AI/ML<\li>
-                            <li>Programming and Data structure.<\li>
-                          <\ul>
+                            <li>Basic maths (Linear Algebra, Probability, and Statistics)</li>
+                            <li>Aptitude</li>
+                            <li>Basics of AI/ML</li>
+                            <li>Programming and Data structure.</li>
+                          </ul>
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
