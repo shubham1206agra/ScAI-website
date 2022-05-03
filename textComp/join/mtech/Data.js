@@ -42,7 +42,7 @@ const Data = () => {
                         A valid GATE score would be needed where such a requirement is not waived, such as students from 
                         an IIT with a CGPA exceeding a threshold. Strong interest and background in computational mathematics and programming are preferred.
                     </p>
-                    <h2>Admission</h2>
+                    <h2>Admission New Update</h2>
                     <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. 
                     Please keep checking the website and your email.
                     </p>
