@@ -55,6 +55,9 @@ const Data = () => {
                             <li>Programming and Data structure.</li>
                           </ul>
                     </p>
+                    </p>
+                    <p><b>New</b> To view the shortlisting criteria, please {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
                     <p>For the courses list, please {" "}<a href="/pdf/Course_List_Masters.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
