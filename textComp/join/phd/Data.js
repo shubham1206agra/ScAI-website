@@ -66,6 +66,10 @@ const Data = () => {
                             <li>Programming and Data structure.</li>
                           </ul>
                     </p>
+                    <p><strong>New Ph.D. Shortlisting Criteria : {" "}<a href="/pdf/PhD_Shortlisting_Criteria_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a></strong>
+                    </p>
+                    <p><strong>New M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a></strong>
+                    </p>
                     <p>
                         <a
                             href="https://ecampus.iitd.ac.in/PGADM/login"
