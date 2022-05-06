@@ -56,7 +56,7 @@ const Data = () => {
                           </ul>
                     </p>
                   
-                    <p><strong>M.Tech/MSR Shortlisting Criteria: {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here </strong></a>
+                    <p><strong>M.Tech/MSR Shortlisting Criteria: {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a></strong>
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
