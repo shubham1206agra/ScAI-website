@@ -56,7 +56,7 @@ const Data = () => {
                           </ul>
                     </p>
                   
-                    <p><strong>New M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a></strong>
+                    <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
@@ -70,6 +70,8 @@ const Data = () => {
                             office[AT]scai.iitd.ac.in
                         </a>{" "}
                         for any clarification.
+                    </p>
+                    <p><strong>New: Provisional list of selected candidatess for MSR and PhD program in Summer 2022-23 : {" "}<a href="/pdf/Final_list_MSR_PhD_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a></strong>
                     </p>
                 </div>
             </div>
