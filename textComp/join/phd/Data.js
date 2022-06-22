@@ -53,6 +53,23 @@ const Data = () => {
                         </a>{" "}
                         for any clarification.
                     </p>
+                     <h2>Admissions New Update</h2>
+                    <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. 
+                    Please keep checking the website and your email.
+                    </p>
+
+                     <p>The syllabus of the test:
+                         <ul>
+                            <li>Basic maths (Linear Algebra, Probability, and Statistics)</li>
+                            <li>Aptitude</li>
+                            <li>Basics of AI/ML</li>
+                            <li>Programming and Data structure.</li>
+                          </ul>
+                    </p>
+                    <p>Ph.D. Shortlisting Criteria : {" "}<a href="/pdf/PhD_Shortlisting_Criteria_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    </p>
+                    <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    </p>
                     <p>
                         <a
                             href="https://ecampus.iitd.ac.in/PGADM/login"
@@ -61,6 +78,8 @@ const Data = () => {
                         >
                             Link for Admissions
                         </a>
+                    </p>
+                    <p><strong>New: Provisional list of selected candidates for MSR and PhD program in Summer 2022-23 : {" "}<a href="/pdf/Final_list_MSR_PhD_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a></strong>
                     </p>
                 </div>
             </div>

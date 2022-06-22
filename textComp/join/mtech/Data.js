@@ -42,10 +42,27 @@ const Data = () => {
                         A valid GATE score would be needed where such a requirement is not waived, such as students from 
                         an IIT with a CGPA exceeding a threshold. Strong interest and background in computational mathematics and programming are preferred.
                     </p>
-                    <h2>Admission</h2>
-                    <p>Candidates shortlisted based on Gate score will be called for an aptitude test, 
-                        and if selected then they will be called for an interview. 
-                        The final selection will be based on the GATE score, aptitude test, and interview.
+                    <h2>Admissions New Update</h2>
+                    <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. 
+                    Please keep checking the website and your email.
+                    </p>
+
+                     <p>The syllabus of the test:
+                         <ul>
+                            <li>Basic maths (Linear Algebra, Probability, and Statistics)</li>
+                            <li>Aptitude</li>
+                            <li>Basics of AI/ML</li>
+                            <li>Programming and Data structure.</li>
+                          </ul>
+                    </p>
+                  
+                    <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    </p>
+                    <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
+                    </p>
+                    <p>For the courses list, please {" "}<a href="/pdf/Course_List_Masters.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    </p>
+                    <p>To visit the application portal, please <a href = "https://ecampus.iitd.ac.in/PGADM/login">click here</a>.
                     </p>
                     <p>
                         If a student has any further queries, please write to{" "}
@@ -53,6 +70,8 @@ const Data = () => {
                             office[AT]scai.iitd.ac.in
                         </a>{" "}
                         for any clarification.
+                    </p>
+                    <p><strong>New: Provisional list of selected candidates for MSR and PhD program in Summer 2022-23 : {" "}<a href="/pdf/Final_list_MSR_PhD_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a></strong>
                     </p>
                 </div>
             </div>
