@@ -79,7 +79,7 @@ const Footer = (props) => {
                                 className={styles.mr3}
                                 icon={faPhone}
                             />
-                            <a href="tel:+91-11-2659-6076">+91-11-2659-6076 (O)</a>
+                            <a href="tel:+91-11-2654-8728">+91-11-2654-8728 (O)</a>
                         </p>
                         <p>
                             <FontAwesomeIcon
