@@ -507,7 +507,7 @@ const data = [
     },
     {
         name: "Anurag Rathore",
-        position: "Associate Faculty",
+        position: "Joint Faculty",
         // position: "Associate Professor",
         research_areas: [
             "Continuous Processing",
@@ -878,6 +878,82 @@ const data = [
         phone: "+91-11-2690-7539",
         page: "https://www.gghatak.com/",
         image: "/faculty/gourab.jpg",
+    },
+    {
+        name: "Tapan K Gandhi",
+        position: "Associate Faculty",
+        // position: "Associate Professor",
+        research_areas: [
+            "Computational Neuroscience",
+            "Neuro-Inspired Engineering",
+            "Biomedical Signal and Image Processing",
+            "Machine Learning",
+            "Assistive Technology"
+        ],
+        address: [
+            "Room no: Block II/413(A),",
+            "IIIT Delhi, Okhla Industrial Estate, New Delhi- 110020",
+        ],
+        email: "tgandhi@iitd.ac.in",
+        phone: "+91 (011) 2659-1153",
+        page: "https://tapankgandhi.com/",
+        image: "/faculty/tapan.jpg",
+    },
+    {
+        name: "Sandeep Sukumaran",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Climate modelling", 
+            "Indian summer monsoon", 
+            "climate change",
+        ],
+        address: [
+            "Block VI, Room No. 312, Centre for Atmospheric Sciences,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "sandeep.sukumaran@cas.iitd.ac.in",
+        phone: "(91)-11-2659-1387",
+        page: "https://web.iitd.ac.in/~san81/",
+        image: "/faculty/sandeep_sukumaran.jpg",
+    },
+    {
+        name: "Prabhu Bahu",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Signal processing and communications",
+            "Machine learning",
+            "Nonlinear optimization",
+            "Sparse parameter estimation aka compressed sensing",
+            "Bioinformatics",
+            "Big Data analysis",
+            "Financial data modeling",
+        ],
+        address: [
+            "Centre for Applied Research in Electronics,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "prabhubabu@care.iitd.ernet.in",
+        phone: "+91-11-26597324",
+        page: "https://care.iitd.ac.in/People/Faculty/Prabhubabu.html",
+        image: "/faculty/prabhu_bahu.jpg",
+    },
+    {
+        name: "Rohit Vaish",
+        position: "Associate Faculty",
+        // position: "Assistant Professor",
+        research_areas: [
+            "Computational social choice",
+        ],
+        address: [
+            "Room 415, Department of Computer Science and Engineering, Bharti Building,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "rvaish@iitd.ac.in",
+        phone: "+91 (11) 2659 1295",
+        page: "https://rohitvaish.in/",
+        image: "/faculty/rohit_vaish.jpg",
     },
 ];
 
