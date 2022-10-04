@@ -269,26 +269,6 @@ const data = [
         image: "/faculty/dinesh.jpg",
     },
     {
-        name: "Arnob Ghosh",
-        position: "Associate Faculty",
-        // position: "Assistant Professor",
-        research_areas: [
-            "Reinforcement Learning",
-            "Game Theory",
-            "Smart Grid",
-            "Dynamical System",
-            "Intelligent Control",
-        ],
-        address: [
-            "Room No. 258, Block III, Mechanical Engineering Building,",
-            "IIT Delhi, Hauz Khas, New Delhi- 110016",
-        ],
-        email: "aghosh[AT]iitd.ac.in",
-        phone: "+91-11-2659-8428",
-        page: "https://sites.google.com/site/arnob008/",
-        image: "/faculty/arnob.jpg",
-    },
-    {
         name: "Nitya Nand Gosvami",
         imgPos: "top",
         position: "Associate Faculty",
@@ -918,7 +898,7 @@ const data = [
         image: "/faculty/sandeep_sukumaran.jpg",
     },
     {
-        name: "Prabhu Bahu",
+        name: "Prabhu Babu",
         position: "Associate Faculty",
         // position: "Assistant Professor",
         research_areas: [
@@ -945,6 +925,7 @@ const data = [
         // position: "Assistant Professor",
         research_areas: [
             "Computational social choice",
+            "Game Theory",
         ],
         address: [
             "Room 415, Department of Computer Science and Engineering, Bharti Building,",
