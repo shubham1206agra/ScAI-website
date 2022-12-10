@@ -928,11 +928,11 @@ const data = [
             "Game Theory",
         ],
         address: [
-            "Room 415, Department of Computer Science and Engineering, Bharti Building,",
+            "Room 428, Department of Computer Science and Engineering, Bharti Building,",
             "IIT Delhi, Hauz Khas, New Delhi- 110016",
         ],
         email: "rvaish@iitd.ac.in",
-        phone: "+91 (11) 2659 1295",
+        phone: "+91 (11) 2659 1293",
         page: "https://rohitvaish.in/",
         image: "/faculty/rohit_vaish.jpg",
     },
