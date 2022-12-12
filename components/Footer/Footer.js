@@ -70,9 +70,10 @@ const Footer = (props) => {
                             Location
                         </h4>
                         <div style={{paddingBottom: '20px'}}>
-                        <p>Room 402, School of IT Building</p>
+                        <p>Room 236, MS Building</p>
                         <p>Indian Institute of Technology Delhi</p>
-                        <p>Hauz Khas, New Delhi, 110016, India</p>
+                        <p>Hauz Khas</p>
+                        <p>New Delhi, 110016, India</p>
                         </div>
                         <p className={styles.mb0}>
                             <FontAwesomeIcon
