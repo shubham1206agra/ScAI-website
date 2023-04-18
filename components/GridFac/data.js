@@ -973,7 +973,7 @@ const data = [
         email: "tanchak@iitd.ac.in",
         //phone: "+91 (11) 2659 1293",
         page: "http://tanmoychak.com/",
-        image: "/faculty/tanmoy.jpg",
+        image: "/faculty/tanmoy.png",
     },
 ];
 
