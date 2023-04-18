@@ -936,6 +936,45 @@ const data = [
         page: "https://rohitvaish.in/",
         image: "/faculty/rohit_vaish.jpg",
     },
+    {
+        name: "Sudipan Saha",
+        //position: "Associate Faculty",
+        position: "Assistant Professor",
+        research_areas: [
+            "Earth Observation",
+            "Computer Vision",
+            "Climate AI",
+            "Learning with Limited Data",
+        ],
+        address: [
+            "3B-8, Block III,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "sudipan.saha@scai.iitd.ac.in",
+        //phone: "+91 (11) 2659 1293",
+        page: "http://web.iitd.ac.in/~sahasudipan",
+        image: "/faculty/sudipan.jpg",
+    },
+    {
+        name: "Tanmoy Chakraborty",
+        position: "Associate Faculty",
+        //position: "Assistant Professor",
+        research_areas: [
+            "Natural Language Processing",
+            "Computational Social Science",
+            "Graph Neural Networks",
+            "Machine Learning",
+            "Network Science",
+        ],
+        address: [
+            "3B-7, Block III,",
+            "IIT Delhi, Hauz Khas, New Delhi- 110016",
+        ],
+        email: "tanchak@iitd.ac.in",
+        //phone: "+91 (11) 2659 1293",
+        page: "http://tanmoychak.com/",
+        image: "/faculty/tanmoy.jpg",
+    },
 ];
 
 const mapdata = (data) => {
