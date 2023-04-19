@@ -939,7 +939,7 @@ const data = [
     {
         name: "Sudipan Saha",
         //position: "Associate Faculty",
-        position: "Assistant Professor",
+        position: "Core Faculty",
         research_areas: [
             "Earth Observation",
             "Computer Vision",
@@ -958,7 +958,6 @@ const data = [
     {
         name: "Tanmoy Chakraborty",
         position: "Associate Faculty",
-        //position: "Assistant Professor",
         research_areas: [
             "Natural Language Processing",
             "Computational Social Science",
