@@ -40,14 +40,6 @@ const Data = () => {
                     Please keep checking the website and your email.
                     </p>
 
-                     <p>The syllabus of the test:
-                         <ul>
-                            <li>Basic maths (Linear Algebra, Probability, and Statistics)</li>
-                            <li>Aptitude</li>
-                            <li>Basics of AI/ML</li>
-                            <li>Programming and Data structure.</li>
-                          </ul>
-                    </p>
                     <p>Ph.D. Shortlisting Criteria : {" "}<a href="/pdf/PhD_Shortlisting_Criteria_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
                     </p>
                     <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
