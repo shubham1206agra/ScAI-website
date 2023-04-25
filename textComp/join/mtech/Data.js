@@ -6,28 +6,15 @@ const Data = () => {
             <div className={styles.main}>
                 <div>
                     <p>
-                        IIT Delhi senate has recently approved the MTech
-                        programme in Machine Intelligence & Data Science (MINDS)
-                        offered by ScAI. The MTech in MINDS will be a flagship
-                        educational programme for the ScAI at IIT Delhi, and is
-                        expected to begin in July 2022.
-                    </p>
-                    <p>
-                        MTech in MINDS is planned as an industry-sponsored
-                        programme. The students will be expected to work on
-                        industry-relevant AI problems, since they will be
-                        co-advised by an IIT Delhi faculty member and a
-                        researcher from the sponsoring company. The MINDS
-                        curriculum will include graduate-level courses in core
-                        AI technologies like deep learning and data science,
-                        application-oriented courses like computer vision and
-                        natural language processing, and also fundamental
-                        courses on mathematics underlying modern AI
-                        technologies. The students who join the MINDS program
-                        will have to complete a set of core courses, bridge core
-                        courses, program electives, and a project. These courses
-                        could be from course buckets such as mathematics,
-                        learning, data science, and applications.
+                        The MTech in Machine Intelligence & Data Science (MINDS)
+                        is a flagship educational programme for the Yardi ScAI at IIT Delhi,
+                        and started in July 2022. The MINDS curriculum includes graduate-level
+                        courses in core AI technologies like deep learning and data science,
+                        application-oriented courses like computer vision and natural language processing,
+                        and also fundamental courses on mathematics underlying modern AI technologies.
+                        The students who join the MINDS program will have to complete a set of core courses,
+                        bridge core courses, program electives, and a project. These courses could be from
+                        course buckets such as mathematics, learning, data science, and applications.
                     </p>
                     <h2>Admission process:</h2>
                     <p>The admission process for M.Tech consist of two stages:
