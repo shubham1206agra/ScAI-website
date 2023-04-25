@@ -5,8 +5,7 @@ const Data = () => {
         <>
             <div className={styles.main}>
                 <div>
-                    <h2>Syllabus:</h2>
-                    <h4>Linear algebra:</h4>
+                    <h2>Linear algebra:</h2>
                     <p>Vectors, System of Linear equations, Vector Spaces and Subspaces,
                     Orthogonality, Determinants, Projections, Eigenvalues and Eigenvectors, Singular Value Decomposition</p>
                     <p>Reading material:
@@ -15,7 +14,7 @@ const Data = () => {
                               <li>Linear Algebra Done Right, Sheldon Axler, 3rd edition (2015).</li>
                          </ul>
                     </p>
-                    <h4>Probability and Statistics:</h4>
+                    <h2>Probability and Statistics:</h2>
                     <p>Basic probability, Random variables, Sampling, Parameter estimation, Regression, Moments,
                     distance measures, Probability Distributions, etc.</p>
                     <p>Reading material:
@@ -23,21 +22,21 @@ const Data = () => {
                               <li>A First Course in Probability, Sheldon M Ross, 9th edition (2013).</li>
                          </ul>
                     </p>
-                    <h4>Optimization:</h4>
+                    <h2>Optimization:</h2>
                     <p>Convex Sets, Convex Functions, Convex Optimization Problems, Optimality Conditions, first order methods.</p>
                     <p>Reading material:
                          <ul>
                               <li>Convex optimization, Stephen Boyd and Lieven and Vandenberghe, Cambridge University press, 2004, Chapters 1 to 4.</li>
                          </ul>
                     </p>
-                    <h4>Data Structure and Algorithms:</h4>
+                    <h2>Data Structure and Algorithms:</h2>
                     <p>Algorithms, Asymptotic notation, Divide and conquer, Sorting, Searching.</p>
                     <p>Reading material:
                          <ul>
                               <li>Introduction to Algorithms, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, 3rd edition (2009).</li>
                          </ul>
                     </p>
-                    <h4>Machine Learning:</h4>
+                    <h2>Machine Learning:</h2>
                     <p>Machine learning tasks, Types of learning, Bias Variance Trade-off, Overfitting, Underfitting, etc.</p>
                     <p>Reading material:
                          <ul>
@@ -46,8 +45,8 @@ const Data = () => {
                               <li>Pattern Recognition and Machine Learning, Christopher Bishop.</li>
                          </ul>
                     </p>
-                    <h4>Programming</h4>
-                    <h4>Aptitude</h4>
+                    <h2>Programming</h2>
+                    <h2>Aptitude</h2>
                     <p>As GATE Syllabus</p>
                 </div>
             </div>
