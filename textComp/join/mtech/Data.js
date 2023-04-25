@@ -55,7 +55,7 @@ const Data = () => {
                             Some sample questions are also provided. The final offers will be made based on GATE
                             SCORE/CGPA and the written performance having 70:30 weightage ratio.</li>
                         </ul>
-                    See <a href="put_link" target="_blank" rel="noopener noreferrer" >admission link</a> for further details.
+                    See {" "}<a href="https://home.iitd.ac.in/pg-admissions.php" target="_blank" rel="noopener noreferrer" >admission link</a>{" "} for further details.
                     </p>
                     <h2>Course Structure:</h2>
                     <p>Every MINDS candidate at Yardi ScAI has to complete minimum 50 credits of coursework while touching at least three buckets.
