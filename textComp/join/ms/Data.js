@@ -29,7 +29,7 @@ const Data = () => {
                             Note that the marks in 3 best sections are considered for calculating the marks.
                             Also, programming section has more weightage as compared to the other section.
                             The syllabus and reference materials for the written exam can be 
-                            {" "}<a href="put_link" target="_blank" rel="noopener noreferrer" >found here</a>.
+                            {" "}<a href="/join/syllabus/" target="_blank" rel="noopener noreferrer" >found here</a>.
                             Some sample questions are also provided.</li>
                             <li>The candidates who qualifies the second stage will be called for the interview (third stage).
                             The final offers are made based on the performance in the interview only.</li>
