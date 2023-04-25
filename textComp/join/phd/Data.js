@@ -40,8 +40,6 @@ const Data = () => {
                     <h2>Admissions New Update</h2>
                     <p>Ph.D. Shortlisting Criteria : {" "}<a href="/pdf/PhD_Shortlisting_Criteria_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
                     </p>
-                    <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
-                    </p>
                 </div>
             </div>
         </>
