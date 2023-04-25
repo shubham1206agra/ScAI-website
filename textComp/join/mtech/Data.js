@@ -50,7 +50,7 @@ const Data = () => {
                             (b) Maths and Stats, (c) Data Structure and Algorithm, (d) Machine Learning, and
                             (e) Programming. Note that the marks in 3 best sections are considered for calculating
                             the marks. Also, programming section has more weightage as compared to the other section.
-                            The syllabus and reference materials for the written exam can be 
+                            The syllabus and reference materials for the written exam can be  
                             <a href="put_link" target="_blank" rel="noopener noreferrer" >found here</a>.
                             Some sample questions are also provided. The final offers will be made based on GATE
                             SCORE/CGPA and the written performance having 70:30 weightage ratio.</li>
@@ -59,7 +59,7 @@ const Data = () => {
                     </p>
                     <h2>Course Structure:</h2>
                     <p>Every MINDS candidate at Yardi ScAI has to complete minimum 50 credits of coursework while touching at least three buckets.
-                    Please check course <a href="put_link" target="_blank" rel="noopener noreferrer" >bucket list</a>
+                    Please check <a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >course bucket list</a> 
                     for further details. Note that the bucket list gets updated periodically.
                     </p>
                     <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
