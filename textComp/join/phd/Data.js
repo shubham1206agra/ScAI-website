@@ -24,16 +24,18 @@ const Data = () => {
                             The written test has five sections: (a) General Aptitude, (b) Maths and Stats, (c) Data Structure and Algorithm,
                             (d) Machine Learning, and (e) Programming. Note that the marks in 3 best sections are considered for calculating the marks.
                             Also, programming section has more weightage as compared to the other section. The syllabus and reading materials
-                            for the written exam can be found here. Some sample questions are also provided.</li>
+                            for the written exam can be {" "}<a href="put_link" target="_blank" rel="noopener noreferrer" >found here</a>. Some sample questions are also provided.</li>
                             <li>The candidates who qualifies the second stage will be called for the interview (third stage).
                             The final offers are made based on the performance in the interview only.
                             </li>
                         </ul>
-                    The admission portal for PhD admission opens two times in a year (summer admission and winter admission). See admission link for further details.
+                    The admission portal for PhD admission opens two times in a year (summer admission and winter admission). 
+                    See {" "}<a href="https://home.iitd.ac.in/pg-admissions.php" target="_blank" rel="noopener noreferrer" >admission link</a>{" "} for further details.
                     </p>
                     <h2>Course Structure:</h2>
                     <p>Every PhD candidate at Yardi ScAI has to complete minimum 9 credits of coursework while touching at least three buckets.
-                    Please check course bucket list for further details. Note that the bucket list gets updated periodically.
+                    Please check {" "}<a href="/pdf/Course_List_Masters.pdf" target="_blank" rel="noopener noreferrer" >course bucket list</a>{" "}
+                    for further details. Note that the bucket list gets updated periodically.
                     </p>
                     <h2>Admissions New Update</h2>
                     <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. 
