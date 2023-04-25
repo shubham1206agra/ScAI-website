@@ -61,7 +61,7 @@ const Data = () => {
                     If you are interested in applying to Yardi ScAI but have specific
                     questions about life at IITD, work-life balance in India,
                     opportunities for growth/success at Yardi ScAI, please feel free
-                    to reach out the head of ScAI at{" "}
+                    to reach out the head of Yardi ScAI at{" "}
                     <a href="mailto:hodscai@admin.iitd.ac.in">
                         hodscai[AT]admin.iitd.ac.in
                     </a>
