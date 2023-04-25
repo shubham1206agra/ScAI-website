@@ -12,48 +12,30 @@ const Data = () => {
                         and faculty pages for understanding various ongoing
                         research at ScAI.
                     </p>
-                    <p>
-                        All engineering students irrespective of their
-                        Bachelors/Masters discipline are welcome to join a Ph.D.
-                        in ScAI. For more information, please refer to the{" "}
-                        <a
-                            href="/pdf/ScAI-PhD.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            2021-22 Semester 1 shortlisting criteria
-                        </a>
-                        . The criteria may change semester to semester, but
-                        gives a broad idea of expectations.
+                    <h2>Admission process:</h2>
+                    <p>The admission process for MS(R) consist of three stages:
+                         <ul>
+                            <li>In the first stage, the candidates are short listed based on pre-approved shortlisting criteria
+                            set by the School. Note that shortlisting criteria of the school is more stringent that the minimum
+                            shortlisting criteria set by the institute. For more information, please refer to the previous year
+                            shortlisting criteria. The criteria may change semester to semester but can give you a broad idea
+                            about the expectations.</li>
+                            <li>In the second stage, the shortlisted candidates are invited to appear for an online written test.
+                            The written test has five sections: (a) General Aptitude, (b) Maths and Stats, (c) Data Structure and Algorithm,
+                            (d) Machine Learning, and (e) Programming. Note that the marks in 3 best sections are considered for calculating the marks.
+                            Also, programming section has more weightage as compared to the other section. The syllabus and reading materials
+                            for the written exam can be found here. Some sample questions are also provided.</li>
+                            <li>The candidates who qualifies the second stage will be called for the interview (third stage).
+                            The final offers are made based on the performance in the interview only.
+                            </li>
+                        </ul>
+                    The admission portal for PhD admission opens two times in a year (summer admission and winter admission). See admission link for further details.
                     </p>
-                    <p>
-                        Once shortlisted, ScAI will assess a student’s
-                        preparedness for a PhD by a test that will include
-                        probability, statistics, optimisation, linear algebra,
-                        data structures, basics of AI, ML and data science, and
-                        programming skills. These areas are the pre-requisites
-                        for being a successful student at ScAI. If selected in
-                        the test, an interview will be conducted to assess this
-                        further and also fit with current advisors.
+                    <h2>Course Structure:</h2>
+                    <p>Every PhD candidate at Yardi ScAI has to complete minimum 9 credits of coursework while touching at least three buckets.
+                    Please check course bucket list for further details. Note that the bucket list gets updated periodically.
                     </p>
-                    <p>
-                        After being admitted to ScAI, the PhD coursework will
-                        include courses in AI, Machine Learning, Data Science,
-                        and mathematical foundations. The students may also be
-                        asked to take specific courses needed for a student’s
-                        thesis. Students who join the Ph.D. program with a
-                        master's degree will have to complete a minimum of 6
-                        credits, and students who join the Ph.D. program without
-                        a master's degree will have to complete 20 credits.
-                        These courses could be from course buckets such as
-                        mathematics, learning, data science, and applications.
-                        If a student has any further queries, please write to{" "}
-                        <a href="mailto:office@scai.iitd.ac.in">
-                            office[AT]scai.iitd.ac.in
-                        </a>{" "}
-                        for any clarification.
-                    </p>
-                     <h2>Admissions New Update</h2>
+                    <h2>Admissions New Update</h2>
                     <p>The test and interviews for M.Tech/MSR/Ph.D. admissions will be conducted online. The exact date will be announced on very short notice. 
                     Please keep checking the website and your email.
                     </p>
