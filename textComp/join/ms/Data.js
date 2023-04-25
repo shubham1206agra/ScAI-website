@@ -6,7 +6,8 @@ const Data = () => {
             <div className={styles.main}>
                 <div>
                     <p>
-                        The MS(R) program at Yardi ScAI is an alternative to the MINDS program at IIT Delhi.
+                        The MS(R) program at Yardi ScAI is an alternative to the 
+                        {" "}<a href="/join/mtech/" target="_blank" rel="noopener noreferrer" >MINDS program</a>{" "} at IIT Delhi.
                         While MINDS is an industry-oriented masters program, the MS(R) program is more research oriented.
                         Accordingly, the coursework requirement is significantly relaxed in the MS(R) program.
                         This program is particularly suited for candidates interested in pursuing a PhD in future.
@@ -27,12 +28,14 @@ const Data = () => {
                             (c) Data Structure and Algorithm, (d) Machine Learning, and (e) Programming.
                             Note that the marks in 3 best sections are considered for calculating the marks.
                             Also, programming section has more weightage as compared to the other section.
-                            The syllabus and reference materials for the written exam can be found here.
+                            The syllabus and reference materials for the written exam can be 
+                            {" "}<a href="put_link" target="_blank" rel="noopener noreferrer" >found here</a>.
                             Some sample questions are also provided.</li>
                             <li>The candidates who qualifies the second stage will be called for the interview (third stage).
                             The final offers are made based on the performance in the interview only.</li>
                         </ul>
-                    The admission portal for PhD admission opens two times in a year (summer admission and winter admission). See admission link for further details.
+                    The admission portal for PhD admission opens two times in a year (summer admission and winter admission). See 
+                    {" "}<a href="https://home.iitd.ac.in/pg-admissions.php" target="_blank" rel="noopener noreferrer" >admission link</a>{" "} for further details.
                     </p>
                     <h2>Course Structure:</h2>
                     <p>Every MS(R) candidate at Yardi ScAI has to complete minimum 15 credits of coursework.
