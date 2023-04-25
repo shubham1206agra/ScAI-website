@@ -150,7 +150,7 @@ const Header = (props) => {
                                 Prospective Masters Students
                             </NavDropdown.Item>
                         </Link>
-                        <Link href="/join/mtech">
+                        <Link href="/join/ms">
                             <NavDropdown.Item href="/join/ms">
                                 Prospective MS Students
                             </NavDropdown.Item>
