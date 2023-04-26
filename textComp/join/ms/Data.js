@@ -34,7 +34,7 @@ const Data = () => {
                             <li>The candidates who qualifies the second stage will be called for the interview (third stage).
                             The final offers are made based on the performance in the interview only.</li>
                         </ul>
-                    The admission portal for PhD admission opens two times in a year (summer admission and winter admission). See 
+                    The admission portal for MS(R) admission opens two times in a year (summer admission and winter admission). See 
                     {" "}<a href="https://home.iitd.ac.in/pg-admissions.php" target="_blank" rel="noopener noreferrer" >admission link</a>{" "} for further details.
                     </p>
                     <h2>Course Structure:</h2>
