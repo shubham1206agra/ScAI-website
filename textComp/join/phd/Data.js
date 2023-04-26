@@ -13,7 +13,7 @@ const Data = () => {
                         research at ScAI.
                     </p>
                     <h2>Admission process:</h2>
-                    <p>The admission process for MS(R) consist of three stages:
+                    <p>The admission process for PhD consist of three stages:
                          <ul>
                             <li>In the first stage, the candidates are short listed based on pre-approved shortlisting criteria
                             set by the School. Note that shortlisting criteria of the school is more stringent that the minimum
