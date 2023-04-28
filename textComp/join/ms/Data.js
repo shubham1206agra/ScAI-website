@@ -21,7 +21,7 @@ const Data = () => {
                             <li>In the first stage, the candidates are short listed based on pre-approved
                             shortlisting criteria set by the School. Note that shortlisting criteria of
                             the school is more stringent that the minimum shortlisting criteria set by the institute.
-                            For more information, please refer to the previous year shortlisting criteria.
+                            For more information, please refer to the please refer to the {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" > previous year shortlisting criteria</a>{" "}.
                             The criteria may change semester to semester, but can give you a broad idea about the expectations.</li>
                             <li>In the second stage, the shortlisted candidates are invited to appear for an online written test.
                             The written test has five sections: (a) General Aptitude, (b) Maths and Stats,
