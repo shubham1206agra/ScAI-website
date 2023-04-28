@@ -23,7 +23,7 @@ const Data = () => {
                             listed based on pre-approved shortlisting criteria set by the School.
                             Note that shortlisting criteria of the school is more stringent
                             that the minimum shortlisting criteria set by the institute. For more information,
-                            please refer to the previous year shortlisting criteria. 
+                            please refer to the {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" > previous year shortlisting criteria</a>{" "}. 
                             The criteria may change semester to semester but can give
                             you a broad idea about the expectations. Four Year B.Tech. / B.E. Degree (first class)
                             or any equivalent degree (e.g., B.S. from a foreign university,
