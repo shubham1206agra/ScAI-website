@@ -38,7 +38,7 @@ const Data = () => {
                             (e) Programming. Note that the marks in 3 best sections are considered for calculating
                             the marks. Also, programming section has more weightage as compared to the other section.
                             The syllabus and reference materials for the written exam can be 
-                            {" "}<a href="/join/syllabus/" target="_blank" rel="noopener noreferrer" >found here</a>.
+                            {" "}<a href="/pdf/syllabusAdmissionExam.pdf" target="_blank" rel="noopener noreferrer" >found here</a>.
                             Some sample questions are also provided. The final offers will be made based on GATE
                             SCORE/CGPA and the written performance having 70:30 weightage ratio.</li>
                         </ul>
