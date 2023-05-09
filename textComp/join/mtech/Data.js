@@ -50,11 +50,11 @@ const Data = () => {
                     <h2>Admissions(2023-24) New Update</h2>
                     <p>Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2023.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
                     </p>
-                    <p>The mails to all the candidates have been sent.
+                    <p>The emails to all the applicants have been sent.
+                    The shortlisted candidates are invited to appear for the next stage of the written test which will be conducted in a physical mode at
+                    designated centers across India. Exam details: Date 20/05/23  and Time: 1:00 pm to 4:00 pm.
                     </p>
-                    <p>The candidates who have been shortlisted must show up for the written exam, which will be given physically at designated centers around India. Check this page for more details.
-                    </p>
-                    <p>Written Exam details, Date: 20 May 2023, Time: 01:00pm to 04:00pm.
+                    <p>Check this page for more details.
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
