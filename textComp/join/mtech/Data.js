@@ -42,20 +42,6 @@ const Data = () => {
                         </ul>
                     See {" "}<a href="https://home.iitd.ac.in/pg-admissions.php" target="_blank" rel="noopener noreferrer" >admission link</a>{" "} for further details.
                     </p>
-                    <h2>Course Structure:</h2>
-                    <p>Every MINDS candidate at Yardi ScAI has to complete minimum 50 credits of coursework while touching at least three buckets.
-                    Please check {" "}<a href="/pdf/Course_List_Masters.pdf" target="_blank" rel="noopener noreferrer" >course bucket list</a>{" "}
-                    for further details. Note that the bucket list gets updated periodically.
-                    </p>
-                    <h2>Admissions(2023-24) New Update</h2>
-                    <p>Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2023.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
-                    </p>
-                    <p>The emails to all the applicants have been sent.
-                    The shortlisted candidates are invited to appear for the next stage of the written test which will be conducted in a physical mode at
-                    designated centers across India. Exam details: Date 20/05/23  and Time: 1:00 pm to 4:00 pm.
-                    </p>
-                    <p>Keep checking this page for more updates.
-                    </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
                     <p>To visit the application portal, please <a href = "https://ecampus.iitd.ac.in/PGADM/login">click here</a>.
@@ -66,6 +52,20 @@ const Data = () => {
                             office[AT]scai.iitd.ac.in
                         </a>{" "}
                         for any clarification.
+                    </p>
+                    <h2>Course Structure:</h2>
+                    <p>Every MINDS candidate at Yardi ScAI has to complete minimum 50 credits of coursework while touching at least three buckets.
+                    Please check {" "}<a href="/pdf/Course_List_Masters.pdf" target="_blank" rel="noopener noreferrer" >course bucket list</a>{" "}
+                    for further details. Note that the bucket list gets updated periodically.
+                    </p>
+                    <h2>New Updates for Admissions(2023-24)</h2>
+                    <p>Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2023.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    </p>
+                    <p>The emails to all the applicants have been sent.
+                    The shortlisted candidates are invited to appear for the next stage of the written test which will be conducted in a physical mode at
+                    designated centers across India. <b>Exam details: Date 20/05/23  and Time: 1:00 pm to 4:00 pm.</b>
+                    </p>
+                    <p>Keep checking this page for more updates.
                     </p>
                 </div>
             </div>
