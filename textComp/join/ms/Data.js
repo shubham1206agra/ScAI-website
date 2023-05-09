@@ -41,7 +41,7 @@ const Data = () => {
                     <p>Every MS(R) candidate at Yardi ScAI has to complete minimum 15 credits of coursework.
                     </p>
                     <h2>Admissions New Update</h2>
-                    <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2023.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
