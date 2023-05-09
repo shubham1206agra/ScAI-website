@@ -38,7 +38,7 @@ const Data = () => {
                     for further details. Note that the bucket list gets updated periodically.
                     </p>
                     <h2>Admissions New Update</h2>
-                    <p>Ph.D. Shortlisting Criteria : {" "}<a href="/pdf/PhD_Shortlisting_Criteria_Summer_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    <p>Ph.D. Shortlisting Criteria : {" "}<a href="/pdf/PhD_Shortlisting_Criteria_2023.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
                     </p>
                 </div>
             </div>
