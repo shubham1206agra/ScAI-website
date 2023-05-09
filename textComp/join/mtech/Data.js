@@ -54,7 +54,7 @@ const Data = () => {
                     The shortlisted candidates are invited to appear for the next stage of the written test which will be conducted in a physical mode at
                     designated centers across India. Exam details: Date 20/05/23  and Time: 1:00 pm to 4:00 pm.
                     </p>
-                    <p>Check this page for more details.
+                    <p>Keep checking this page for more updates.
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
