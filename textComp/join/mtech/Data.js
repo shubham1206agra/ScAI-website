@@ -33,11 +33,9 @@ const Data = () => {
                             IIT with a CGPA exceeding a threshold. Strong interest and background in
                             computational mathematics and programming are preferred.</li>
                             <li>In the second stage, the shortlisted candidates are invited to appear
-                            for an online written test. The written test has five sections: (a) General Aptitude,
+                            for an written test. The written test has five sections: (a) General Aptitude,
                             (b) Maths and Stats, (c) Data Structure and Algorithm, (d) Machine Learning, and
-                            (e) Programming. Note that the marks in 3 best sections are considered for calculating
-                            the marks. Also, programming section has more weightage as compared to the other section.
-                            The syllabus and reference materials for the written exam can be 
+                            (e) Programming. The syllabus and reference materials for the written exam can be 
                             {" "}<a href="/pdf/syllabusAdmissionExam.pdf" target="_blank" rel="noopener noreferrer" >found here</a>.
                             Some sample questions are also provided. The final offers will be made based on GATE
                             SCORE/CGPA and the written performance having 70:30 weightage ratio.</li>
@@ -49,8 +47,14 @@ const Data = () => {
                     Please check {" "}<a href="/pdf/Course_List_Masters.pdf" target="_blank" rel="noopener noreferrer" >course bucket list</a>{" "}
                     for further details. Note that the bucket list gets updated periodically.
                     </p>
-                    <h2>Admissions New Update</h2>
-                    <p>M.Tech/MSR Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2022.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    <h2>Admissions(2023-24) New Update</h2>
+                    <p>Shortlisting Criteria : {" "}<a href="/pdf/MSR_MTech_Shortlisting_Criteria_2023.pdf" target="_blank" rel="noopener noreferrer" >click here</a>
+                    </p>
+                    <p>The mails to all the candidates have been sent.
+                    </p>
+                    <p>The candidates who have been shortlisted must show up for the written exam, which will be given physically at designated centers around India. Check this page for more details.
+                    </p>
+                    <p>Written Exam details, Date: 20 May 2023, Time: 01:00pm to 04:00pm.
                     </p>
                     <p>If you want to view the information brochure, please <a href = "https://owncloud.iitd.ac.in/nextcloud/index.php/s/D9ymD3jboaD5JBt">click here</a>.
                     </p>
