@@ -67,7 +67,7 @@ const Data = () => {
                     </p>
                     <p>Practice Questions: {" "}<a href="/pdf/ScAI_Sample_Question_Paper_for_Aptitude_Test.pdf" target="_blank" rel="noopener noreferrer" >pdf</a>
                     </p>
-                    <p>Istructions and centers : {" "}<a href="https://docs.google.com/document/d/1QBnvWLV2gHelEtKgcUytUzm-DpdFuvWy0OQba9bZjWs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >info</a>
+                    <p>Instructions and Centers : {" "}<a href="https://docs.google.com/document/d/1QBnvWLV2gHelEtKgcUytUzm-DpdFuvWy0OQba9bZjWs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >info</a>
                     </p>
                     <p>Keep checking this page for more updates.
                     </p>
