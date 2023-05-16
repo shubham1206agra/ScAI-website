@@ -65,9 +65,9 @@ const Data = () => {
                     The shortlisted candidates are invited to appear for the next stage of the written test which will be conducted in a physical mode at
                     designated centers across India. <b>Exam details: Date 20/05/23  and Time: 1:00 pm to 4:00 pm.</b>
                     </p>
-                    <p>Practice Questions: {" "}<a href="/pdf/ScAI_Sample_Question_Paper_for_Aptitude_Test.pdf" target="_blank" rel="noopener noreferrer" >pdf</a>
+                    <p>Sample Questions: {" "}<a href="/pdf/ScAI_Sample_Question_Paper_for_Aptitude_Test.pdf" target="_blank" rel="noopener noreferrer" >pdf</a>
                     </p>
-                    <p>Instructions and Centers : {" "}<a href="https://docs.google.com/document/d/1QBnvWLV2gHelEtKgcUytUzm-DpdFuvWy0OQba9bZjWs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >info</a>
+                    <p>Instructions and Center Details for Written Test: {" "}<a href="https://docs.google.com/document/d/1QBnvWLV2gHelEtKgcUytUzm-DpdFuvWy0OQba9bZjWs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >info</a>
                     </p>
                     <p>Keep checking this page for more updates.
                     </p>
