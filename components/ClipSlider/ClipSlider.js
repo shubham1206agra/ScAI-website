@@ -58,7 +58,7 @@ const ClipSlider = () => {
                             // category="Establishment"
                             category=" "
                             title="Yardi-ScAI Brochure"
-                            link=""/pdf/ScAIBrochureOld.pptx""
+                            link="/pdf/ScAIBrochureOld.pptx"
                             description={
                                 <span
                                     style={{
@@ -66,7 +66,7 @@ const ClipSlider = () => {
                                         fontSize: "1.05rem",
                                     }}
                                 >
-                                    Yardi School of Artificial Intelligence
+                                    Yardi School of Artificial Intelligence 
                                     (ScAI).
                                 </span>
                             }
