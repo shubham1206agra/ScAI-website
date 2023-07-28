@@ -46,7 +46,8 @@ const ClipSlider = () => {
                                     (ScAI).
                                 </span>
                             }
-                        />  
+                        />
+                    </div>
                     <div
                         style={{
                             position: "absolute",
