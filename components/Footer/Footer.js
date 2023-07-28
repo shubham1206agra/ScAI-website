@@ -62,7 +62,7 @@ const Footer = (props) => {
                                 - <Link href="/support"><a href="/support">Support Us</a></Link>
                             </li>
                             <li>
-                                - <Link href="/"><a href="/pdf/ScAIBrochureOld.pdf">Brochure</a></Link>
+                                - <Link href="/"><a href="/pdf/ScAIBrochureOld.pdf" target="_blank" rel="noopener noreferrer">Brochure</a></Link>
                             </li>
                         </ul>
                     </div>
