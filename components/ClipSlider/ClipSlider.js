@@ -11,7 +11,7 @@ const ClipSlider = () => {
                 <Slide
                     active
                     heading="Welcome!"
-                    subText="{" "}<a href="/pdf/ScAIBrochureOld.pptx" target="_blank" rel="noopener noreferrer" > Yardi-ScAI Brochure </a>{" "}"
+                    subText=""
                     // subText="Greetings, AI Enthusiast!"
                     // backImg="/bg-land.jpg"
                     backImg="/land-temp.jpg"
@@ -42,6 +42,30 @@ const ClipSlider = () => {
                                     enable IIT Delhi to create state-of-the art
                                     laboratories and attract talented students
                                     and researchers to its newly established
+                                    Yardi School of Artificial Intelligence
+                                    (ScAI).
+                                </span>
+                            }
+                        />  
+                    <div
+                        style={{
+                            position: "absolute",
+                            top: "50vh",
+                            right: "10vw",
+                        }}
+                    >
+                        <NewsCardPlain
+                            // category="Establishment"
+                            category=" "
+                            title="Yardi-ScAI Brochure"
+                            link=""/pdf/ScAIBrochureOld.pptx""
+                            description={
+                                <span
+                                    style={{
+                                        color: "#303030",
+                                        fontSize: "1.05rem",
+                                    }}
+                                >
                                     Yardi School of Artificial Intelligence
                                     (ScAI).
                                 </span>
