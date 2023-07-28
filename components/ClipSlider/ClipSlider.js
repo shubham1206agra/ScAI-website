@@ -48,6 +48,7 @@ const ClipSlider = () => {
                             }
                         />
                     </div>
+                            <! –– 
                     <div
                         style={{
                             position: "absolute",
@@ -71,6 +72,7 @@ const ClipSlider = () => {
                             }
                         />
                     </div>
+                            -->
                 </Slide>
                 <Slide
                     heading="M.Tech in MINDS"
