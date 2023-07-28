@@ -67,8 +67,6 @@ const ClipSlider = () => {
                                         fontSize: "1.05rem",
                                     }}
                                 >
-                                    Yardi School of Artificial Intelligence 
-                                    (ScAI).
                                 </span>
                             }
                         />
