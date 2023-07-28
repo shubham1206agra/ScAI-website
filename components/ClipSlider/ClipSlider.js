@@ -51,8 +51,8 @@ const ClipSlider = () => {
                     <div
                         style={{
                             position: "absolute",
-                            top: "50vh",
-                            right: "10vw",
+                            top: "30vh",
+                            right: "35vw",
                         }}
                     >
                         <NewsCardPlain
