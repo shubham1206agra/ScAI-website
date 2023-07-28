@@ -59,7 +59,7 @@ const ClipSlider = () => {
                             // category="Establishment"
                             category=" "
                             title="Yardi-ScAI Brochure"
-                            link="/pdf/ScAIBrochureOld.pptx"
+                            link="/pdf/ScAIBrochureOld.pdf"
                             description={
                                 <span
                                     style={{
