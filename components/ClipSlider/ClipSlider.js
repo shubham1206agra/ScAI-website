@@ -48,31 +48,6 @@ const ClipSlider = () => {
                             }
                         />
                     </div>
-                            <! –– 
-                    <div
-                        style={{
-                            position: "absolute",
-                            top: "30vh",
-                            right: "35vw",
-                        }}
-                    >
-                        <NewsCardPlain
-                            // category="Establishment"
-                            category=" "
-                            title="Yardi-ScAI Brochure"
-                            link="/pdf/ScAIBrochureOld.pdf"
-                            description={
-                                <span
-                                    style={{
-                                        color: "#303030",
-                                        fontSize: "1.05rem",
-                                    }}
-                                >
-                                </span>
-                            }
-                        />
-                    </div>
-                            -->
                 </Slide>
                 <Slide
                     heading="M.Tech in MINDS"
