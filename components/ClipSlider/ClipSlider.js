@@ -11,7 +11,7 @@ const ClipSlider = () => {
                 <Slide
                     active
                     heading="Welcome!"
-                    subText=""
+                    subText="{" "}<a href="/pdf/ScAIBrochureOld.pptx" target="_blank" rel="noopener noreferrer" > Yardi-ScAI Brochure </a>{" "}"
                     // subText="Greetings, AI Enthusiast!"
                     // backImg="/bg-land.jpg"
                     backImg="/land-temp.jpg"
