@@ -61,6 +61,9 @@ const Footer = (props) => {
                             <li>
                                 - <Link href="/support"><a href="/support">Support Us</a></Link>
                             </li>
+                            <li>
+                                - <Link href="/"><a href="/pdf/ScAIBrochureOld.pdf">Brochure</a></Link>
+                            </li>
                         </ul>
                     </div>
                     <div
