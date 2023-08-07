@@ -39,7 +39,7 @@ const Data = () => {
                             {" "}<a href="/pdf/syllabusAdmissionExam.pdf" target="_blank" rel="noopener noreferrer" >found here</a>.
                             Some sample questions are also provided. The final offers for admission via GATE exam mode will be based on 
                             the  GATE Score and performance in the written test having a 70:30 weightage ratio. Whereas the offers
-                            for the direct admission mode, e.g., IIT Graduates will be made on the marks obtained in the written tes</li>
+                            for the direct admission mode, e.g., IIT Graduates will be made on the marks obtained in the written test.</li>
                         </ul>
                     See {" "}<a href="https://home.iitd.ac.in/pg-admissions.php" target="_blank" rel="noopener noreferrer" >admission link</a>{" "} for further details.
                     </p>
