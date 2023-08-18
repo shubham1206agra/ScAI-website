@@ -4,7 +4,8 @@ const Data = () => {
     return (
         <>
             <div className={styles.main}>
-                <p> Data Science is about using computational methods to enable government, 
+                <p> 
+                    Data Science is about using computational methods to enable government, 
                     public and private organizations to generate actionable, valuable data-driven insights.
                     The use of predictive, prescriptive, and causal analysis techniques on massive volumes of data
                     is shown to help in making better decisions, accurate prognosis, and in general, to develop novel strategies
@@ -61,7 +62,8 @@ const Data = () => {
                 <h4>Key Publications</h4>
                 <ol>
                     <li>
-                        Shubham Gupta, Sahil Manchanda, Sayan Ranu, Srikanta Bedathur. GRAFENNE: Continual learning on Graphs with Heterogeneous and Dynamic Feature Sets. Proc. of the 40th International Conference on Machine Learning (ICML), 2023.
+                        Shubham Gupta, Sahil Manchanda, Sayan Ranu, Srikanta Bedathur. GRAFENNE: Continual learning on Graphs 
+                        with Heterogeneous and Dynamic Feature Sets. Proc. of the 40th International Conference on Machine Learning (ICML), 2023.
                     </li>
                     <li>
                        Nishtha Madaan, Diptikalyan Saha, Srikanta Bedathur. Counterfactual Sentence Generation with Plug-and-Play Perturbation. Proc. of the 1st IEEE Conference on Secure and Trustworthy Machine Learning (IEEE SaTML), 2023.
