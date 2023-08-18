@@ -46,32 +46,6 @@ const Data = () => {
                     <li>Maya Ramanath</li>
                 </ul>
                 <h4>Key Publications</h4>
-                <ol>
-                    <li>
-                        Shubham Gupta, Sahil Manchanda, Sayan Ranu, Srikanta Bedathur. GRAFENNE: Continual learning on Graphs with Heterogeneous and Dynamic Feature Sets. Proc. of the 40th International Conference on Machine Learning (ICML), 2023.
-                    </li>
-                    <li>
-                       Nishtha Madaan, Diptikalyan Saha, Srikanta Bedathur. Counterfactual Sentence Generation with Plug-and-Play Perturbation. Proc. of the 1st IEEE Conference on Secure and Trustworthy Machine Learning (IEEE SaTML), 2023.
-                    </li>
-                    <li>
-                        Ashish R Nair, Rahul Yadav, Anjali Gupta, Abhijnan Chakraborty, Sayan Ranu, Amitabha Bagchi. Gigs with guarantees: Achieving Fair Wage for Food Delivery Workers In Proceedings of the 31st Intl Joint Conference on AI (IJCAI 2022). pp 5122-5128, July 2022.
-                    </li>
-                    <li>
-                        Anjali Gupta, Rahul Yadav, Ashish Nair, Abhijnan Chakraborty, Sayan Ranu, and Amitabha Bagchi. "Fairfoody: Bringing in fairness in food delivery." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 36, no. 11, pp. 11900-11907. 2022.
-                    </li>
-                    <li>
-                       Ashish Nair, Rahul Yadav, Anjali Gupta, Abhijnan Chakraborty, Sayan Ranu and Amitabha Bagchi, "Gigs with Guarantees: Achieving Fair Wage for Food Delivery Workers", in IJCAI, 2022.
-                    </li>
-                    <li>
-                       Pritish Chakraborty, Sayan Ranu, Ipsit Mantri, Abir de, "Learning and Maximizing Influence in Social Networks Under Capacity Constraints", in WSDM, 2023.
-                    </li>
-                    <li>
-                        Garima Chhikara, Kripabandhu Ghosh, Saptarshi Ghosh and Abhijnan Chakraborty.  Fairness for both Readers and Authors: Evaluating Summaries of User Generated Content. In 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Taipei, Taiwan, July 2023.    
-                    </li>
-                    <li>
-                        Anjali Gupta, Shreyans Nagori, Abhijnan Chakraborty, Rohit Vaish, Sayan Ranu, Prajit Nadkarni, Narendra Varma and Muthusamy Chelliah. Towards Fair Allocation in Social Commerce Platforms. In 32nd ACM Web Conference (WWW), Austin, USA, April 2023.  
-                    </li>
-                </ol>
             </div>
         </>
     );
