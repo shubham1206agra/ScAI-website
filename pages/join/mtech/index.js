@@ -11,7 +11,7 @@ const StudentsJoin = () => {
         <React.Fragment>
             <Header />
             <StartTop
-                text="Prospective Master Students"
+                text="Prospective MTech Students"
                 // image="/204c420e096e4706ee89dd37031dc33e.jpg"
                 image="/img2.png"
             />
